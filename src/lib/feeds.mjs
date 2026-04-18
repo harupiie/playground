@@ -120,11 +120,10 @@ export async function fetchAllFeeds() {
     return new Date(b.date) - new Date(a.date);
   });
 
-  const translated = await translateTitles(unique);
-  return { updatedAt: new Date().toISOString(), articles: translated };
+  return { updatedAt: new Date().toISOString(), articles: unique };
 }
 
-async function translateTitles(articles) {
+export async function translateTitles(articles) {
   const apiKey = process.env.DEEPL_API_KEY;
   if (!apiKey) {
     console.warn('DEEPL_API_KEY not set, skipping translation.');
