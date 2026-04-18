@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 毎日 UTC 0:00 (JST 9:00)
+    - cron: '0 8 * * *'  # 毎日 UTC 8:00 (JST 17:00 / US Pacific 0:00)
   push:
     branches: [feature/ai-tech-feeds]
   workflow_dispatch:
