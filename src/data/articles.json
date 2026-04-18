@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-18T18:33:48.718Z",
+  "updatedAt": "2026-04-18T18:41:06.472Z",
   "articles": [
     {
       "title": "Codex for (almost) everything",
@@ -114,6 +114,14 @@
       "titleJa": "Composer 2の導入強力なCursorBenchの結果、より高いトークン効率、より高速なデフォルトバリアントを備えたフロンティアレベルのコーディング。"
     },
     {
+      "title": "Money Forward brings Cursor’s coding agents to product, design, and QA",
+      "link": "https://cursor.com/blog/money-forward",
+      "date": "2026-03-18T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "マネーフォワード、カーソルのコーディング・エージェントを製品、デザイン、QAに導入"
+    },
+    {
       "title": "Training Composer for longer horizonsFederico & Sasha",
       "link": "https://cursor.com/blog/self-summarization",
       "date": "2026-03-17T12:00:00.000Z",
@@ -128,6 +136,14 @@
       "source": "OpenAI",
       "category": "Codex",
       "titleJa": "コーデックスのセキュリティにSASTレポートが含まれない理由"
+    },
+    {
+      "title": "Securing our codebase with autonomous agents",
+      "link": "https://cursor.com/blog/security-agents",
+      "date": "2026-03-16T00:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "自律エージェントによるコードベースの保護"
     },
     {
       "title": "How we compare model quality in CursorWe use a hybrid online-offline eval process to keep our understanding of model quality aligned with what developers actually do.Naman Jain ·",
@@ -146,12 +162,52 @@
       "titleJa": "楽天、コーデックスで問題を2倍の速さで修正"
     },
     {
+      "title": "Over 30 new plugins join the Cursor Marketplace",
+      "link": "https://cursor.com/blog/new-plugins",
+      "date": "2026-03-11T00:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "30以上の新しいプラグインがCursor Marketplaceに加わる"
+    },
+    {
       "title": "Codex Security: now in research preview ",
       "link": "https://openai.com/index/codex-security-now-in-research-preview",
       "date": "Fri, 06 Mar 2026 10:00:00 GMT",
       "source": "OpenAI",
       "category": "Codex",
       "titleJa": "コーデックス・セキュリティ：現在リサーチプレビュー中"
+    },
+    {
+      "title": "Build agents that run automatically",
+      "link": "https://cursor.com/blog/automations",
+      "date": "2026-03-05T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "自動的に実行されるエージェントの構築"
+    },
+    {
+      "title": "Cursor is now available in JetBrains IDEs",
+      "link": "https://cursor.com/blog/jetbrains-acp",
+      "date": "2026-03-04T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "JetBrainsのIDEでカーソルが使えるようになった"
+    },
+    {
+      "title": "How technical support at Cursor uses Cursor",
+      "link": "https://cursor.com/blog/cursor-support",
+      "date": "2026-03-03T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "カーソルのテクニカルサポートはどのようにカーソルを使用しているか"
+    },
+    {
+      "title": "PlanetScale protects production reliability with Bugbot",
+      "link": "https://cursor.com/blog/planetscale",
+      "date": "2026-03-02T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "PlanetScale、Bugbotで生産の信頼性を保護"
     },
     {
       "title": "The third era of AI software developmentA third era of AI software development is emerging as autonomous cloud agents take on larger tasks over longer timescales.Michael Truell ·",
@@ -162,12 +218,60 @@
       "titleJa": "AIソフトウェア開発の第3の時代自律型クラウドエージェントがより長い時間スケールでより大きなタスクを担うようになり、AIソフトウェア開発の第3の時代が到来しつつある。"
     },
     {
+      "title": "Closing the code review loop with Bugbot Autofix",
+      "link": "https://cursor.com/blog/bugbot-autofix",
+      "date": "2026-02-26T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "Bugbot Autofixでコードレビューのループを閉じる"
+    },
+    {
       "title": "OpenAI Codex and Figma launch seamless code-to-design experience",
       "link": "https://openai.com/index/figma-partnership",
       "date": "Thu, 26 Feb 2026 06:00:00 GMT",
       "source": "OpenAI",
       "category": "Codex",
       "titleJa": "OpenAI CodexとFigmaがシームレスなコード・トゥ・デザイン体験を発表"
+    },
+    {
+      "title": "Cursor agents can now control their own computers",
+      "link": "https://cursor.com/blog/agent-computer-use",
+      "date": "2026-02-24T00:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "カーソルエージェントが自分のコンピュータをコントロールできるようになった"
+    },
+    {
+      "title": "Implementing a secure sandbox for local agents",
+      "link": "https://cursor.com/blog/agent-sandboxing",
+      "date": "2026-02-18T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "ローカルエージェントのためのセキュアなサンドボックスの実装"
+    },
+    {
+      "title": "How Stripe rolled out a consistent Cursor experience for 3,000 engineers",
+      "link": "https://cursor.com/blog/stripe",
+      "date": "2026-02-17T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "Stripeが3,000人のエンジニアに一貫したCursorエクスペリエンスを提供するまで"
+    },
+    {
+      "title": "Extend Cursor with plugins",
+      "link": "https://cursor.com/blog/marketplace",
+      "date": "2026-02-17T00:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "プラグインでカーソルを拡張する"
+    },
+    {
+      "title": "Box chooses Cursor for enterprise-grade quality, security, and control",
+      "link": "https://cursor.com/blog/box",
+      "date": "2026-02-13T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "Box社、エンタープライズ・グレードの品質、セキュリティ、管理のためにCursorを選択"
     },
     {
       "title": "Beyond rate limits: scaling access to Codex and Sora",
@@ -186,12 +290,52 @@
       "titleJa": "GPT-5.3-コーデックスパークの紹介"
     },
     {
+      "title": "Expanding our long-running agents research preview",
+      "link": "https://cursor.com/blog/long-running-agents",
+      "date": "2026-02-12T00:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "長期にわたるエージェント・リサーチ・プレビューの拡大"
+    },
+    {
       "title": "Harness engineering: leveraging Codex in an agent-first world",
       "link": "https://openai.com/index/harness-engineering",
       "date": "Wed, 11 Feb 2026 09:00:00 GMT",
       "source": "OpenAI",
       "category": "Codex",
       "titleJa": "ハーネス・エンジニアリング：エージェント・ファーストの世界でCodexを活用する"
+    },
+    {
+      "title": "Increased usage for agents",
+      "link": "https://cursor.com/blog/increased-agent-usage",
+      "date": "2026-02-11T00:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "代理店の利用増加"
+    },
+    {
+      "title": "Introducing Composer 1.5",
+      "link": "https://cursor.com/blog/composer-1-5",
+      "date": "2026-02-09T00:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "コンポーザー1.5のご紹介"
+    },
+    {
+      "title": "NVIDIA commits 3x more code across 30,000 developers with Cursor",
+      "link": "https://cursor.com/blog/nvidia",
+      "date": "2026-02-06T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "NVIDIA、Cursorで3万人の開発者に3倍のコードをコミット"
+    },
+    {
+      "title": "Towards self-driving codebases",
+      "link": "https://cursor.com/blog/self-driving-codebases",
+      "date": "2026-02-05T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "自動運転コードベースに向けて"
     },
     {
       "title": "GPT-5.3-Codex System Card",
@@ -226,6 +370,22 @@
       "titleJa": "コーデックス・アプリの紹介"
     },
     {
+      "title": "Securely indexing large codebases",
+      "link": "https://cursor.com/blog/secure-codebase-indexing",
+      "date": "2026-01-27T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "大規模コードベースを安全にインデックス化"
+    },
+    {
+      "title": "Dropbox uses Cursor to index over 550,000 files and build an AI-native SDLC",
+      "link": "https://cursor.com/blog/dropbox",
+      "date": "2026-01-26T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "DropboxがCursorを使用して55万以上のファイルにインデックスを付け、AIネイティブのSDLCを構築"
+    },
+    {
       "title": "Unrolling the Codex agent loop",
       "link": "https://openai.com/index/unrolling-the-codex-agent-loop",
       "date": "Fri, 23 Jan 2026 12:00:00 GMT",
@@ -234,12 +394,68 @@
       "titleJa": "コーデックス・エージェントのループを解く"
     },
     {
+      "title": "Salesforce accelerates velocity by over 30% and ships higher-quality code with Cursor",
+      "link": "https://cursor.com/blog/salesforce",
+      "date": "2026-01-21T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "Salesforce、Cursorでベロシティを30%以上加速し、より高品質なコードを出荷"
+    },
+    {
+      "title": "Building a better Bugbot",
+      "link": "https://cursor.com/blog/building-bugbot",
+      "date": "2026-01-15T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "より良いバグボットを作る"
+    },
+    {
+      "title": "Scaling long-running autonomous coding",
+      "link": "https://cursor.com/blog/scaling-agents",
+      "date": "2026-01-14T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "長時間稼働する自律コーディングのスケーリング"
+    },
+    {
+      "title": "Best practices for coding with agents",
+      "link": "https://cursor.com/blog/agent-best-practices",
+      "date": "2026-01-09T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "エージェントを使ったコーディングのベストプラクティス"
+    },
+    {
       "title": "Datadog uses Codex for system-level code review",
       "link": "https://openai.com/index/datadog",
       "date": "Fri, 09 Jan 2026 00:00:00 GMT",
       "source": "OpenAI",
       "category": "Codex",
       "titleJa": "Datadog、システムレベルのコードレビューにCodexを採用"
+    },
+    {
+      "title": "Dynamic context discovery",
+      "link": "https://cursor.com/blog/dynamic-context-discovery",
+      "date": "2026-01-06T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "動的コンテキスト発見"
+    },
+    {
+      "title": "Hooks for security and platform teams",
+      "link": "https://cursor.com/blog/hooks-partners",
+      "date": "2025-12-22T00:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "セキュリティ・チームとプラットフォーム・チームのためのフック"
+    },
+    {
+      "title": "Graphite is joining Cursor",
+      "link": "https://cursor.com/blog/graphite",
+      "date": "2025-12-19T00:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "グラファイトがカーソルに加入"
     },
     {
       "title": "Introducing GPT-5.2-Codex",
@@ -274,6 +490,30 @@
       "titleJa": "Android版Soraを28日で出荷するためにCodexをどのように利用したか"
     },
     {
+      "title": "A visual editor for the Cursor Browser",
+      "link": "https://cursor.com/blog/browser-visual-editor",
+      "date": "2025-12-11T00:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "カーソルブラウザ用のビジュアルエディタ"
+    },
+    {
+      "title": "Introducing Debug Mode: Agents with runtime logs",
+      "link": "https://cursor.com/blog/debug-mode",
+      "date": "2025-12-10T00:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "デバッグモードの導入ランタイムログを持つエージェント"
+    },
+    {
+      "title": "Improving Cursor’s agent for OpenAI Codex models",
+      "link": "https://cursor.com/blog/codex-model-harness",
+      "date": "2025-12-04T16:02:50.287Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "OpenAI Codexモデル用Cursorエージェントの改善"
+    },
+    {
       "title": "Building more with GPT-5.1-Codex-Max",
       "link": "https://openai.com/index/gpt-5-1-codex-max",
       "date": "Wed, 19 Nov 2025 00:00:00 GMT",
@@ -290,12 +530,84 @@
       "titleJa": "GPT-5.1-Codex-Maxシステムカード"
     },
     {
+      "title": "Past, Present, and Future",
+      "link": "https://cursor.com/blog/series-d",
+      "date": "2025-11-13T11:27:11.894Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "過去、現在、そして未来"
+    },
+    {
+      "title": "The productivity impact of coding agents",
+      "link": "https://cursor.com/blog/productivity",
+      "date": "2025-11-11T17:37:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "コーディング・エージェントの生産性への影響"
+    },
+    {
+      "title": "Improving agent with semantic search",
+      "link": "https://cursor.com/blog/semsearch",
+      "date": "2025-11-06T03:10:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "セマンティック検索によるエージェントの改善"
+    },
+    {
+      "title": "Introducing Cursor for Enterprise",
+      "link": "https://cursor.com/blog/enterprise",
+      "date": "2025-10-31T19:23:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "エンタープライズ向けカーソルのご紹介"
+    },
+    {
+      "title": "Cloud Agents",
+      "link": "https://cursor.com/blog/cloud-agents",
+      "date": "2025-10-30T15:09:14.822Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "クラウドエージェント"
+    },
+    {
+      "title": "Composer: Building a fast frontier model with RL",
+      "link": "https://cursor.com/blog/composer",
+      "date": "2025-10-29T06:49:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "コンポーザーRLによる高速フロンティアモデルの構築"
+    },
+    {
+      "title": "Introducing Cursor 2.0 and Composer",
+      "link": "https://cursor.com/blog/2-0",
+      "date": "2025-10-29T04:54:48.600Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "カーソル2.0とコンポーザーの紹介"
+    },
+    {
+      "title": "Introducing Plan Mode",
+      "link": "https://cursor.com/blog/plan-mode",
+      "date": "2025-10-07T17:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "プラン・モードの導入"
+    },
+    {
       "title": "Codex is now generally available",
       "link": "https://openai.com/index/codex-now-generally-available",
       "date": "Mon, 06 Oct 2025 10:50:00 GMT",
       "source": "OpenAI",
       "category": "Codex",
       "titleJa": "コーデックスの一般販売が開始"
+    },
+    {
+      "title": "Improving Java support in Cursor",
+      "link": "https://cursor.com/blog/java",
+      "date": "2025-10-01T17:20:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "カーソルにおけるJavaサポートの改善"
     },
     {
       "title": "Introducing upgrades to Codex",
@@ -314,6 +626,94 @@
       "titleJa": "GPT-5システムカードの補遺：GPT-5-コーデックス"
     },
     {
+      "title": "Improving Cursor Tab with online RL",
+      "link": "https://cursor.com/blog/tab-rl",
+      "date": "2025-09-12T01:16:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "オンラインRLによるカーソルタブの改善"
+    },
+    {
+      "title": "1.5x faster MoE training with custom MXFP8 kernels",
+      "link": "https://cursor.com/blog/kernels",
+      "date": "2025-08-29T02:55:25.007Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "カスタムMXFP8カーネルでMoEトレーニングを1.5倍高速化"
+    },
+    {
+      "title": "Bringing the Cursor Agent to Linear",
+      "link": "https://cursor.com/blog/linear",
+      "date": "2025-08-21T07:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "カーソルエージェントをリニアへ"
+    },
+    {
+      "title": "Updates to Teams and Auto",
+      "link": "https://cursor.com/blog/aug-2025-pricing",
+      "date": "2025-08-12T07:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "チームとオートのアップデート"
+    },
+    {
+      "title": "Cursor Agent CLI",
+      "link": "https://cursor.com/blog/cli",
+      "date": "2025-08-07T07:10:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "カーソルエージェントCLI"
+    },
+    {
+      "title": "GPT-5 is now available in Cursor",
+      "link": "https://cursor.com/blog/gpt-5",
+      "date": "2025-08-07T07:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "カーソルにGPT-5が登場"
+    },
+    {
+      "title": "Bugbot is out of beta",
+      "link": "https://cursor.com/blog/bugbot-out-of-beta",
+      "date": "2025-07-24T07:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "バグボット、ベータ版終了"
+    },
+    {
+      "title": "Clarifying our pricing",
+      "link": "https://cursor.com/blog/june-2025-pricing",
+      "date": "2025-07-04T20:08:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "価格設定の明確化"
+    },
+    {
+      "title": "Cursor on web and mobile",
+      "link": "https://cursor.com/blog/agent-web",
+      "date": "2025-06-30T23:09:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "ウェブとモバイルのカーソル"
+    },
+    {
+      "title": "Updates to Ultra and Pro",
+      "link": "https://cursor.com/blog/new-tier",
+      "date": "2025-06-16T20:08:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "ウルトラとプロへのアップデート"
+    },
+    {
+      "title": "Series C and Scale",
+      "link": "https://cursor.com/blog/series-c",
+      "date": "2025-06-06T20:08:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "シリーズCとスケール"
+    },
+    {
       "title": "Addendum to o3 and o4-mini system card: Codex",
       "link": "https://openai.com/index/o3-o4-mini-codex-system-card-addendum",
       "date": "Fri, 16 May 2025 08:00:00 GMT",
@@ -328,6 +728,14 @@
       "source": "OpenAI",
       "category": "Codex",
       "titleJa": "コーデックスの紹介"
+    },
+    {
+      "title": "Early team",
+      "link": "https://cursor.com/blog/team",
+      "date": "2025-04-26T20:08:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "初期チーム"
     },
     {
       "title": "Best practices for using Claude Opus 4.7 with Claude Code",
