@@ -1,0 +1,127 @@
+---
+import { fetchAllFeeds } from '../lib/feeds.mjs';
+
+const { updatedAt, articles } = await fetchAllFeeds();
+
+const sources = ['All', 'OpenAI', 'Claude', 'Cursor'];
+
+const formatDate = (dateStr) => {
+  if (!dateStr) return '';
+  try {
+    return new Date(dateStr).toLocaleDateString('en-US', {
+      year: 'numeric', month: 'short', day: 'numeric',
+    });
+  } catch {
+    return dateStr;
+  }
+};
+
+const sourceColor = {
+  OpenAI: 'bg-emerald-100 text-emerald-800',
+  Claude: 'bg-purple-100 text-purple-800',
+  Cursor: 'bg-blue-100 text-blue-800',
+};
+
+const categoryColor = {
+  'Codex': 'bg-emerald-50 text-emerald-600',
+  'Claude Code': 'bg-purple-50 text-purple-600',
+  'Agents': 'bg-violet-50 text-violet-600',
+  'Product Announcements': 'bg-orange-50 text-orange-600',
+  'Enterprise AI': 'bg-sky-50 text-sky-600',
+  'Blog': 'bg-blue-50 text-blue-600',
+};
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Tech Feeds</title>
+  </head>
+  <body class="bg-gray-50 min-h-screen">
+    <header class="bg-white border-b border-gray-200 sticky top-0 z-10">
+      <div class="max-w-4xl mx-auto px-4 py-4 flex items-center justify-between">
+        <div>
+          <h1 class="text-xl font-bold text-gray-900">AI Tech Feeds</h1>
+          <p class="text-xs text-gray-400 mt-0.5">
+            Updated: {formatDate(updatedAt)} · {articles.length} articles
+          </p>
+        </div>
+        <div class="flex gap-2" id="filter-buttons">
+          {sources.map(s => (
+            <button
+              class={`filter-btn px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${s === 'All' ? 'bg-gray-900 text-white' : 'bg-white text-gray-600 border border-gray-200 hover:bg-gray-50'}`}
+              data-source={s}
+            >
+              {s}
+            </button>
+          ))}
+        </div>
+      </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-4 py-6">
+      <div id="articles" class="space-y-3">
+        {articles.map(article => (
+          <article
+            class="article-item bg-white rounded-lg border border-gray-200 p-4 hover:border-gray-300 hover:shadow-sm transition-all"
+            data-source={article.source}
+          >
+            <div class="flex items-start justify-between gap-3">
+              <div class="flex-1 min-w-0">
+                <div class="flex items-center gap-2 mb-1.5 flex-wrap">
+                  <span class={`text-xs font-semibold px-2 py-0.5 rounded-full ${sourceColor[article.source] ?? 'bg-gray-100 text-gray-600'}`}>
+                    {article.source}
+                  </span>
+                  <span class={`text-xs px-2 py-0.5 rounded-full ${categoryColor[article.category] ?? 'bg-gray-50 text-gray-500'}`}>
+                    {article.category}
+                  </span>
+                </div>
+                <a
+                  href={article.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-gray-900 font-medium hover:text-blue-600 transition-colors line-clamp-2"
+                >
+                  {article.title}
+                </a>
+              </div>
+              {article.date && (
+                <time class="text-xs text-gray-400 shrink-0 mt-1">
+                  {formatDate(article.date)}
+                </time>
+              )}
+            </div>
+          </article>
+        ))}
+      </div>
+    </main>
+
+    <script>
+      const buttons = document.querySelectorAll('.filter-btn');
+      const items = document.querySelectorAll('.article-item');
+
+      buttons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const source = btn.dataset.source;
+
+          buttons.forEach(b => {
+            b.className = b.className
+              .replace('bg-gray-900 text-white', '')
+              .replace('bg-white text-gray-600 border border-gray-200 hover:bg-gray-50', '')
+              .trim();
+            b.classList.add('bg-white', 'text-gray-600', 'border', 'border-gray-200', 'hover:bg-gray-50');
+          });
+          btn.classList.remove('bg-white', 'text-gray-600', 'border', 'border-gray-200', 'hover:bg-gray-50');
+          btn.classList.add('bg-gray-900', 'text-white');
+
+          items.forEach(item => {
+            const show = source === 'All' || item.dataset.source === source;
+            item.style.display = show ? '' : 'none';
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
