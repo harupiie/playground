@@ -1,1 +1,813 @@
-{"updatedAt": "", "articles": []}
+{
+  "updatedAt": "2026-04-18T17:03:16.620Z",
+  "articles": [
+    {
+      "title": "Codex for (almost) everything",
+      "link": "https://openai.com/index/codex-for-almost-everything",
+      "date": "Thu, 16 Apr 2026 10:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Codex",
+      "titleJa": "ほぼ）すべてのコーデックス"
+    },
+    {
+      "title": "Apr 15, 2026·researchBetter AI models enable more ambitious workLuke Melas-Kyriazi4mLuke Melas-Kyriazi·4m",
+      "link": "https://cursor.com/blog/better-models-ambitious-work",
+      "date": "2026-04-15T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "2026年4月15日-研究優れたAIモデルがより野心的な仕事を可能にするルーク・メラス＝キリアージ4mLuke Melas-Kyriazi-4m"
+    },
+    {
+      "title": "Amplitude ships 3x more production code with CursorApr 15, 2026",
+      "link": "https://cursor.com/blog/amplitude",
+      "date": "2026-04-15T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "Amplitude、Cursorで3倍の量産コードを出荷2026年4月15日"
+    },
+    {
+      "title": "Customer stories",
+      "link": "https://cursor.com/blog/topic/customers",
+      "date": "2026-04-15T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "お客様の声"
+    },
+    {
+      "title": "Apr 15, 2026·productInteract with agent-created visualizations in canvasesAlex Vandak Maloney6mAlex Vandak Maloney·6m",
+      "link": "https://cursor.com/blog/canvas",
+      "date": "2026-04-15T00:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "2026年04月15日-製品キャンバスでエージェントが作成したビジュアライゼーションとインタラクトするアレックス・ヴァンダック・マローニー6mAlex Vandak Maloney-6m"
+    },
+    {
+      "title": "Apr 14, 2026·researchSpeeding up GPU kernels by 38% with a multi-agent systemWilson, Sahil, Yuan & Edward10mWilson, Sahil, Yuan & Edward·10m",
+      "link": "https://cursor.com/blog/multi-agent-kernels",
+      "date": "2026-04-14T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "2026年4月14日-研究マルチエージェントシステムでGPUカーネルを38％高速化Wilson, Sahil, Yuan & Edward10mWilson, Sahil, Yuan & Edward-10m"
+    },
+    {
+      "title": "CyberAgent moves faster with ChatGPT Enterprise and Codex",
+      "link": "https://openai.com/index/cyberagent",
+      "date": "Thu, 09 Apr 2026 00:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Codex",
+      "titleJa": "ChatGPTエンタープライズとCodexでサイバーエージェントはより速く動く"
+    },
+    {
+      "title": "Apr 8, 2026·productBugbot now self-improves with learned rulesMichael Zhao3mMichael Zhao·3m",
+      "link": "https://cursor.com/blog/bugbot-learning",
+      "date": "2026-04-08T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "2026年4月8日-製品学習したルールで自己改善するようになったバグボットMichael Zhao 3mMichael Zhao 3m"
+    },
+    {
+      "title": "Apr 6, 2026·researchBetter MoE model inference with warp decodeLess, Federico & Zhiyuan10mLess, Federico & Zhiyuan·10m",
+      "link": "https://cursor.com/blog/warp-decode",
+      "date": "2026-04-06T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "2026年4月6日-研究ワープデコードによるMoEモデル推論の改善Less, Federico & Zhiyuan10mLess,Federico&Zhiyuan10m"
+    },
+    {
+      "title": "Codex now offers more flexible pricing for teams",
+      "link": "https://openai.com/index/codex-flexible-pricing-for-teams",
+      "date": "Thu, 02 Apr 2026 10:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Codex",
+      "titleJa": "Codexがチームにより柔軟な価格設定を提供"
+    },
+    {
+      "title": "Apr 2, 2026·ProductMeet the new CursorCursor 3 is a unified workspace for building software with agents.Michael & Sualeh · 10m10 min read",
+      "link": "https://cursor.com/blog/cursor-3",
+      "date": "2026-04-02T00:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "2026年4月2日-製品紹介新しいCursorCursor 3は、エージェントを使ってソフトウェアを構築するための統一されたワークスペースです。"
+    },
+    {
+      "title": "Mar 27, 2026·researchA technical report on Composer 2Sasha Rush3mSasha Rush·3m",
+      "link": "https://cursor.com/blog/composer-2-technical-report",
+      "date": "2026-03-27T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "2026年3月27日-研究コンポーザー2に関するテクニカル・レポート サーシャ・ラッシュ 3mSasha Rush 3m"
+    },
+    {
+      "title": "Mar 26, 2026·researchImproving Composer through real-time RLJacob, Ben, Nathan & Wanqi7mJacob, Ben, Nathan & Wanqi·7m",
+      "link": "https://cursor.com/blog/real-time-rl-for-composer",
+      "date": "2026-03-26T00:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "2026年3月26日-研究リアルタイムRLによるコンポーザーの改善ジェイコブ、ベン、ネイサン、ワンチー7mジェイコブ、ベン、ネイサン、ワンチー7m"
+    },
+    {
+      "title": "Mar 25, 2026·productRun cloud agents in your own infrastructureKatia Bazzi4mKatia Bazzi·4m",
+      "link": "https://cursor.com/blog/self-hosted-cloud-agents",
+      "date": "2026-03-25T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "2026年03月25日-Product自社インフラでクラウドエージェントを運用Katia Bazzi 4mKatia Bazzi-4m"
+    },
+    {
+      "title": "Mar 23, 2026·researchFast regex search: indexing text for agent toolsVicent Marti21mVicent Marti·21m",
+      "link": "https://cursor.com/blog/fast-regex-search",
+      "date": "2026-03-23T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "2026年03月23日-研究正規表現による高速検索：エージェント・ツールのためのテキスト・インデックス作成Vicent Marti 21mVicent Marti-21m"
+    },
+    {
+      "title": "Mar 19, 2026·ResearchIntroducing Composer 2Frontier-level coding with strong CursorBench results, higher token efficiency, and a faster default variant.Cursor Team · 3m3 min read",
+      "link": "https://cursor.com/blog/composer-2",
+      "date": "2026-03-19T00:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "2026年3月19日-研究Composer 2の紹介強力なCursorBenchの結果、より高いトークン効率、より高速なデフォルトのバリアントを備えたフロンティアレベルのコーディングCursor Team - 3m3 min read"
+    },
+    {
+      "title": "Mar 17, 2026·researchTraining Composer for longer horizonsFederico & Sasha7mFederico & Sasha·7m",
+      "link": "https://cursor.com/blog/self-summarization",
+      "date": "2026-03-17T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "2026年3月17日-研究長い視野のためのコンポーザーのトレーニングフェデリコ＆サーシャ7mFederico & Sasha-7m"
+    },
+    {
+      "title": "Why Codex Security Doesn’t Include a SAST Report",
+      "link": "https://openai.com/index/why-codex-security-doesnt-include-sast",
+      "date": "Mon, 16 Mar 2026 00:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Codex",
+      "titleJa": "コーデックスのセキュリティにSASTレポートが含まれない理由"
+    },
+    {
+      "title": "Press",
+      "link": "https://cursor.com/blog/topic/press",
+      "date": "2026-03-16T00:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "プレス"
+    },
+    {
+      "title": "Mar 11, 2026·ResearchHow we compare model quality in CursorWe use a hybrid online-offline eval process to keep our understanding of model quality aligned with what developers actually do.Naman Jain · 7m7 min read",
+      "link": "https://cursor.com/blog/cursorbench",
+      "date": "2026-03-11T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "2026年3月11日-研究Cursorにおけるモデル品質の比較方法オンラインとオフラインのハイブリッド評価プロセスを使用することで、モデル品質の理解を開発者が実際に行っていることと一致させている。"
+    },
+    {
+      "title": "Rakuten fixes issues twice as fast with Codex",
+      "link": "https://openai.com/index/rakuten",
+      "date": "Wed, 11 Mar 2026 00:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Codex",
+      "titleJa": "楽天、コーデックスで問題を2倍の速さで修正"
+    },
+    {
+      "title": "Codex Security: now in research preview ",
+      "link": "https://openai.com/index/codex-security-now-in-research-preview",
+      "date": "Fri, 06 Mar 2026 10:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Codex",
+      "titleJa": "コーデックス・セキュリティ：現在リサーチプレビュー中"
+    },
+    {
+      "title": "PlanetScale protects production reliability with BugbotMar 2, 2026",
+      "link": "https://cursor.com/blog/planetscale",
+      "date": "2026-03-02T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "PlanetScale、Bugbotで生産の信頼性を保護2026年3月2日"
+    },
+    {
+      "title": "Feb 26, 2026·IdeasThe third era of AI software developmentA third era of AI software development is emerging as autonomous cloud agents take on larger tasks over longer timescales.Michael Truell · 4m4 min read",
+      "link": "https://cursor.com/blog/third-era",
+      "date": "2026-02-26T19:35:24.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "2026年2月26日-アイデアAIソフトウェア開発の第3の時代自律型クラウドエージェントがより長い時間スケールでより大きなタスクを担うようになり、AIソフトウェア開発の第3の時代が到来しつつある。"
+    },
+    {
+      "title": "OpenAI Codex and Figma launch seamless code-to-design experience",
+      "link": "https://openai.com/index/figma-partnership",
+      "date": "Thu, 26 Feb 2026 06:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Codex",
+      "titleJa": "OpenAI CodexとFigmaがシームレスなコード・トゥ・デザイン体験を発表"
+    },
+    {
+      "title": "Box chooses Cursor for enterprise-grade quality, security, and controlFeb 13, 2026",
+      "link": "https://cursor.com/blog/box",
+      "date": "2026-02-13T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "Box社、エンタープライズ・グレードの品質、セキュリティ、管理のためにCursorを選択2026年2月13日"
+    },
+    {
+      "title": "Beyond rate limits: scaling access to Codex and Sora",
+      "link": "https://openai.com/index/beyond-rate-limits",
+      "date": "Fri, 13 Feb 2026 09:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Codex",
+      "titleJa": "レートの限界を超えて：コーデックスとソラへのアクセス拡大"
+    },
+    {
+      "title": "Introducing GPT-5.3-Codex-Spark",
+      "link": "https://openai.com/index/introducing-gpt-5-3-codex-spark",
+      "date": "Thu, 12 Feb 2026 10:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Codex",
+      "titleJa": "GPT-5.3-コーデックスパークの紹介"
+    },
+    {
+      "title": "Harness engineering: leveraging Codex in an agent-first world",
+      "link": "https://openai.com/index/harness-engineering",
+      "date": "Wed, 11 Feb 2026 09:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Codex",
+      "titleJa": "ハーネス・エンジニアリング：エージェント・ファーストの世界でCodexを活用する"
+    },
+    {
+      "title": "NVIDIA commits 3x more code across 30,000 developers with CursorFeb 6, 2026",
+      "link": "https://cursor.com/blog/nvidia",
+      "date": "2026-02-06T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "NVIDIA、Cursorで3万人の開発者に3倍のコードをコミット2026年2月6日"
+    },
+    {
+      "title": "GPT-5.3-Codex System Card",
+      "link": "https://openai.com/index/gpt-5-3-codex-system-card",
+      "date": "Thu, 05 Feb 2026 00:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Codex",
+      "titleJa": "GPT-5.3-コーデックス・システム・カード"
+    },
+    {
+      "title": "Introducing GPT-5.3-Codex",
+      "link": "https://openai.com/index/introducing-gpt-5-3-codex",
+      "date": "Thu, 05 Feb 2026 00:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Codex",
+      "titleJa": "GPT-5.3-コーデックスのご紹介"
+    },
+    {
+      "title": "Unlocking the Codex harness: how we built the App Server",
+      "link": "https://openai.com/index/unlocking-the-codex-harness",
+      "date": "Wed, 04 Feb 2026 13:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Codex",
+      "titleJa": "コーデックス・ハーネスを解き明かす：アプリ・サーバーの構築方法"
+    },
+    {
+      "title": "Introducing the Codex app",
+      "link": "https://openai.com/index/introducing-the-codex-app",
+      "date": "Mon, 02 Feb 2026 00:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Codex",
+      "titleJa": "コーデックス・アプリの紹介"
+    },
+    {
+      "title": "Unrolling the Codex agent loop",
+      "link": "https://openai.com/index/unrolling-the-codex-agent-loop",
+      "date": "Fri, 23 Jan 2026 12:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Codex",
+      "titleJa": "コーデックス・エージェントのループを解く"
+    },
+    {
+      "title": "Datadog uses Codex for system-level code review",
+      "link": "https://openai.com/index/datadog",
+      "date": "Fri, 09 Jan 2026 00:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Codex",
+      "titleJa": "Datadog、システムレベルのコードレビューにCodexを採用"
+    },
+    {
+      "title": "Introducing GPT-5.2-Codex",
+      "link": "https://openai.com/index/gpt-5-2-codex",
+      "date": "Thu, 18 Dec 2025 00:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Codex",
+      "titleJa": "GPT-5.2-コーデックスのご紹介"
+    },
+    {
+      "title": "Introducing GPT-5.2-Codex",
+      "link": "https://openai.com/index/introducing-gpt-5-2-codex",
+      "date": "Thu, 18 Dec 2025 00:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Codex",
+      "titleJa": "GPT-5.2-コーデックスのご紹介"
+    },
+    {
+      "title": "Addendum to GPT-5.2 System Card: GPT-5.2-Codex",
+      "link": "https://openai.com/index/gpt-5-2-codex-system-card",
+      "date": "Thu, 18 Dec 2025 00:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Codex",
+      "titleJa": "GPT-5.2システムカードの補遺：GPT-5.2-コーデックス"
+    },
+    {
+      "title": "How We Used Codex to Ship Sora for Android in 28 Days",
+      "link": "https://openai.com/index/shipping-sora-for-android-with-codex",
+      "date": "Fri, 12 Dec 2025 00:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Codex",
+      "titleJa": "Android版Soraを28日で出荷するためにCodexをどのように利用したか"
+    },
+    {
+      "title": "Building more with GPT-5.1-Codex-Max",
+      "link": "https://openai.com/index/gpt-5-1-codex-max",
+      "date": "Wed, 19 Nov 2025 00:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Codex",
+      "titleJa": "GPT-5.1-Codex-Maxでより多くのものを作る"
+    },
+    {
+      "title": "GPT-5.1-Codex-Max System Card",
+      "link": "https://openai.com/index/gpt-5-1-codex-max-system-card",
+      "date": "Wed, 19 Nov 2025 00:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Codex",
+      "titleJa": "GPT-5.1-Codex-Maxシステムカード"
+    },
+    {
+      "title": "Codex is now generally available",
+      "link": "https://openai.com/index/codex-now-generally-available",
+      "date": "Mon, 06 Oct 2025 10:50:00 GMT",
+      "source": "OpenAI",
+      "category": "Codex",
+      "titleJa": "コーデックスの一般販売が開始"
+    },
+    {
+      "title": "Introducing upgrades to Codex",
+      "link": "https://openai.com/index/introducing-upgrades-to-codex",
+      "date": "Mon, 15 Sep 2025 10:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Codex",
+      "titleJa": "コーデックスのアップグレードを紹介"
+    },
+    {
+      "title": "Addendum to GPT-5 system card: GPT-5-Codex",
+      "link": "https://openai.com/index/gpt-5-system-card-addendum-gpt-5-codex",
+      "date": "Mon, 15 Sep 2025 00:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Codex",
+      "titleJa": "GPT-5システムカードの補遺：GPT-5-コーデックス"
+    },
+    {
+      "title": "Addendum to o3 and o4-mini system card: Codex",
+      "link": "https://openai.com/index/o3-o4-mini-codex-system-card-addendum",
+      "date": "Fri, 16 May 2025 08:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Codex",
+      "titleJa": "o3およびo4-miniシステムカードの補遺：コーデックス"
+    },
+    {
+      "title": "Introducing Codex",
+      "link": "https://openai.com/index/introducing-codex",
+      "date": "Fri, 16 May 2025 08:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Codex",
+      "titleJa": "コーデックスの紹介"
+    },
+    {
+      "title": "Best practices for using Claude Opus 4.7 with Claude Code",
+      "link": "https://claude.com/blog/best-practices-for-using-claude-opus-4-7-with-claude-code",
+      "date": null,
+      "source": "Claude",
+      "category": "Claude Code",
+      "titleJa": "クロード・コードでクロード・オーパス4.7を使用するためのベストプラクティス"
+    },
+    {
+      "title": "Using Claude Code: session management and 1M context",
+      "link": "https://claude.com/blog/using-claude-code-session-management-and-1m-context",
+      "date": null,
+      "source": "Claude",
+      "category": "Claude Code",
+      "titleJa": "クロード・コードの使用：セッション管理と1Mコンテキスト"
+    },
+    {
+      "title": "Redesigning Claude Code on desktop for parallel agents",
+      "link": "https://claude.com/blog/claude-code-desktop-redesign",
+      "date": null,
+      "source": "Claude",
+      "category": "Claude Code",
+      "titleJa": "並列エージェントのためのデスクトップ上のクロード・コードの再設計"
+    },
+    {
+      "title": "Seeing like an agent: how we design tools in Claude Code",
+      "link": "https://claude.com/blog/seeing-like-an-agent",
+      "date": null,
+      "source": "Claude",
+      "category": "Claude Code",
+      "titleJa": "エージェントのように見る：クロード・コードでツールをデザインする方法"
+    },
+    {
+      "title": "How and when to use subagents in Claude Code",
+      "link": "https://claude.com/blog/subagents-in-claude-code",
+      "date": null,
+      "source": "Claude",
+      "category": "Claude Code",
+      "titleJa": "クロード・コードでサブエージェントを使う方法とタイミング"
+    },
+    {
+      "title": "Auto mode for Claude Code",
+      "link": "https://claude.com/blog/auto-mode",
+      "date": null,
+      "source": "Claude",
+      "category": "Claude Code",
+      "titleJa": "クロード・コードのオート・モード"
+    },
+    {
+      "title": "Product management on the AI exponential",
+      "link": "https://claude.com/blog/product-management-on-the-ai-exponential",
+      "date": null,
+      "source": "Claude",
+      "category": "Claude Code",
+      "titleJa": "AIエクスポネンシャルにおける製品管理"
+    },
+    {
+      "title": "Code with Claude comes to San Francisco, London, and Tokyo",
+      "link": "https://claude.com/blog/code-with-claude-san-francisco-london-tokyo",
+      "date": null,
+      "source": "Claude",
+      "category": "Claude Code",
+      "titleJa": "コード・ウィズ・クロードがサンフランシスコ、ロンドン、東京に登場"
+    },
+    {
+      "title": "Bringing Code Review to Claude Code",
+      "link": "https://claude.com/blog/code-review",
+      "date": null,
+      "source": "Claude",
+      "category": "Claude Code",
+      "titleJa": "コード・レビューをクロード・コードに"
+    },
+    {
+      "title": "Improving skill-creator: Test, measure, and refine Agent Skills",
+      "link": "https://claude.com/blog/improving-skill-creator-test-measure-and-refine-agent-skills",
+      "date": null,
+      "source": "Claude",
+      "category": "Claude Code",
+      "titleJa": "スキルクリエーターの向上エージェントスキルのテスト、測定、改良"
+    },
+    {
+      "title": "How AI helps break the cost barrier to COBOL modernization",
+      "link": "https://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization",
+      "date": null,
+      "source": "Claude",
+      "category": "Claude Code",
+      "titleJa": "AIがCOBOLモダナイゼーションのコスト障壁を破る方法"
+    },
+    {
+      "title": "Bringing automated preview, review, and merge to Claude Code on desktop",
+      "link": "https://claude.com/blog/preview-review-and-merge-with-claude-code",
+      "date": null,
+      "source": "Claude",
+      "category": "Claude Code",
+      "titleJa": "自動化されたプレビュー、レビュー、マージをデスクトップ上のClaude Codeにもたらす"
+    },
+    {
+      "title": "A complete guide to building skills for Claude",
+      "link": "https://claude.com/blog/complete-guide-to-building-skills-for-claude",
+      "date": null,
+      "source": "Claude",
+      "category": "Claude Code",
+      "titleJa": "クロードのためのスキルアップ完全ガイド"
+    },
+    {
+      "title": "Understand Claude Code’s impact with contribution metrics",
+      "link": "https://claude.com/blog/contribution-metrics",
+      "date": null,
+      "source": "Claude",
+      "category": "Claude Code",
+      "titleJa": "クロード・コードの影響力を貢献度指標で理解する"
+    },
+    {
+      "title": "Building agents with Skills: Equipping agents for specialized work",
+      "link": "https://claude.com/blog/building-agents-with-skills-equipping-agents-for-specialized-work",
+      "date": null,
+      "source": "Claude",
+      "category": "Claude Code",
+      "titleJa": "スキルを備えたエージェントの育成エージェントに専門的な仕事をさせる"
+    },
+    {
+      "title": "Preparing your security program for AI-accelerated offense",
+      "link": "https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense",
+      "date": null,
+      "source": "Claude",
+      "category": "Agents",
+      "titleJa": "AIが加速する攻撃へのセキュリティ・プログラムの準備"
+    },
+    {
+      "title": "Multi-agent coordination patterns: Five approaches and when to use them",
+      "link": "https://claude.com/blog/multi-agent-coordination-patterns",
+      "date": null,
+      "source": "Claude",
+      "category": "Agents",
+      "titleJa": "マルチエージェントのコーディネーションパターン：5つのアプローチとその使い分け"
+    },
+    {
+      "title": "Harnessing Claude’s intelligence",
+      "link": "https://claude.com/blog/harnessing-claudes-intelligence",
+      "date": null,
+      "source": "Claude",
+      "category": "Agents",
+      "titleJa": "クロードの知性を利用する"
+    },
+    {
+      "title": "Common workflow patterns for AI agents—and when to use them",
+      "link": "https://claude.com/blog/common-workflow-patterns-for-ai-agents-and-when-to-use-them",
+      "date": null,
+      "source": "Claude",
+      "category": "Agents",
+      "titleJa": "AIエージェントの一般的なワークフローパターンとその使用タイミング"
+    },
+    {
+      "title": "Cowork and plugins for finance",
+      "link": "https://claude.com/blog/cowork-plugins-finance",
+      "date": null,
+      "source": "Claude",
+      "category": "Agents",
+      "titleJa": "金融のためのコワークとプラグイン"
+    },
+    {
+      "title": "Cowork and plugins for teams across the enterprise",
+      "link": "https://claude.com/blog/cowork-plugins-across-enterprise",
+      "date": null,
+      "source": "Claude",
+      "category": "Agents",
+      "titleJa": "企業全体のチームのためのコワークとプラグイン"
+    },
+    {
+      "title": "Customize Cowork with plugins",
+      "link": "https://claude.com/blog/cowork-plugins",
+      "date": null,
+      "source": "Claude",
+      "category": "Agents",
+      "titleJa": "プラグインでCoworkをカスタマイズ"
+    },
+    {
+      "title": "Building multi-agent systems: When and how to use them",
+      "link": "https://claude.com/blog/building-multi-agent-systems-when-and-how-to-use-them",
+      "date": null,
+      "source": "Claude",
+      "category": "Agents",
+      "titleJa": "マルチエージェントシステムの構築：いつ、どのように使うか"
+    },
+    {
+      "title": "Eight trends defining how software gets built in 2026",
+      "link": "https://claude.com/blog/eight-trends-defining-how-software-gets-built-in-2026",
+      "date": null,
+      "source": "Claude",
+      "category": "Agents",
+      "titleJa": "2026年のソフトウェア構築を定義する8つのトレンド"
+    },
+    {
+      "title": "Extending Claude’s capabilities with skills and MCP servers",
+      "link": "https://claude.com/blog/extending-claude-capabilities-with-skills-mcp-servers",
+      "date": null,
+      "source": "Claude",
+      "category": "Agents",
+      "titleJa": "スキルとMCPサーバーによるクロードの能力拡張"
+    },
+    {
+      "title": "Skills for organizations, partners, the ecosystem",
+      "link": "https://claude.com/blog/organization-skills-and-directory",
+      "date": null,
+      "source": "Claude",
+      "category": "Agents",
+      "titleJa": "組織、パートナー、エコシステムのためのスキル"
+    },
+    {
+      "title": "How to create Skills: Key steps, limitations, and examples",
+      "link": "https://claude.com/blog/how-to-create-skills-key-steps-limitations-and-examples",
+      "date": null,
+      "source": "Claude",
+      "category": "Agents",
+      "titleJa": "スキルの作り方：主なステップ、制限、例"
+    },
+    {
+      "title": "Skills explained: How Skills compares to prompts, Projects, MCP, and subagents",
+      "link": "https://claude.com/blog/skills-explained",
+      "date": null,
+      "source": "Claude",
+      "category": "Agents",
+      "titleJa": "スキルの説明スキルとプロンプト、プロジェクト、MCP、サブエージェントとの比較"
+    },
+    {
+      "title": "Best practices for prompt engineering",
+      "link": "https://claude.com/blog/best-practices-for-prompt-engineering",
+      "date": null,
+      "source": "Claude",
+      "category": "Agents",
+      "titleJa": "迅速なエンジニアリングのベストプラクティス"
+    },
+    {
+      "title": "Introducing routines in Claude Code",
+      "link": "https://claude.com/blog/introducing-routines-in-claude-code",
+      "date": null,
+      "source": "Claude",
+      "category": "Product Announcements",
+      "titleJa": "クロード・コードでルーチンを紹介"
+    },
+    {
+      "title": "The advisor strategy: Give agents an intelligence boost",
+      "link": "https://claude.com/blog/the-advisor-strategy",
+      "date": null,
+      "source": "Claude",
+      "category": "Product Announcements",
+      "titleJa": "アドバイザー戦略エージェントのインテリジェンスを高める"
+    },
+    {
+      "title": "Making Claude Cowork ready for enterprise",
+      "link": "https://claude.com/blog/cowork-for-enterprise",
+      "date": null,
+      "source": "Claude",
+      "category": "Product Announcements",
+      "titleJa": "クロード・コワークを企業向けに"
+    },
+    {
+      "title": "Claude Managed Agents: get to production 10x faster",
+      "link": "https://claude.com/blog/claude-managed-agents",
+      "date": null,
+      "source": "Claude",
+      "category": "Product Announcements",
+      "titleJa": "クロード・マネージド・エージェント：本番稼動を10倍高速化"
+    },
+    {
+      "title": "Audit Claude Platform activity with the Compliance API",
+      "link": "https://claude.com/blog/claude-platform-compliance-api",
+      "date": null,
+      "source": "Claude",
+      "category": "Product Announcements",
+      "titleJa": "Compliance API による Claude Platform アクティビティの監査"
+    },
+    {
+      "title": "Put Claude to work on your computer",
+      "link": "https://claude.com/blog/dispatch-and-computer-use",
+      "date": null,
+      "source": "Claude",
+      "category": "Product Announcements",
+      "titleJa": "クロードをコンピュータで働かせる"
+    },
+    {
+      "title": "1M context is now generally available for Opus 4.6 and Sonnet 4.6",
+      "link": "https://claude.com/blog/1m-context-ga",
+      "date": null,
+      "source": "Claude",
+      "category": "Product Announcements",
+      "titleJa": "Opus 4.6とSonnet 4.6で1Mコンテキストの一般提供を開始"
+    },
+    {
+      "title": "Claude now creates interactive charts, diagrams and visualizations",
+      "link": "https://claude.com/blog/claude-builds-visuals",
+      "date": null,
+      "source": "Claude",
+      "category": "Product Announcements",
+      "titleJa": "クロードがインタラクティブなチャート、ダイアグラム、ビジュアライゼーションを作成できるようになりました。"
+    },
+    {
+      "title": "Increase web search accuracy and efficiency with dynamic filtering",
+      "link": "https://claude.com/blog/improved-web-search-with-dynamic-filtering",
+      "date": null,
+      "source": "Claude",
+      "category": "Product Announcements",
+      "titleJa": "ダイナミックフィルタリングでウェブ検索の精度と効率を高める"
+    },
+    {
+      "title": "How Carta Healthcare gets AI to reason like a clinical abstractor",
+      "link": "https://claude.com/blog/carta-healthcare-clinical-abstractor",
+      "date": null,
+      "source": "Claude",
+      "category": "Enterprise AI",
+      "titleJa": "カルタ・ヘルスケアがAIに臨床抄読医のような推論をさせる方法"
+    },
+    {
+      "title": "Advancing Claude for Excel and PowerPoint",
+      "link": "https://claude.com/blog/claude-excel-powerpoint-updates",
+      "date": null,
+      "source": "Claude",
+      "category": "Enterprise AI",
+      "titleJa": "エクセルとパワーポイントのためのアドバンス・クロード"
+    },
+    {
+      "title": "Claude Enterprise, now available self-serve",
+      "link": "https://claude.com/blog/self-serve-enterprise",
+      "date": null,
+      "source": "Claude",
+      "category": "Enterprise AI",
+      "titleJa": "クロード・エンタープライズ、セルフサービスで利用可能に"
+    },
+    {
+      "title": "Behind the model launch: What customers discovered testing Claude Opus 4.6 early",
+      "link": "https://claude.com/blog/behind-model-launch-what-customers-discovered-testing-claude-opus-4-6-early",
+      "date": null,
+      "source": "Claude",
+      "category": "Enterprise AI",
+      "titleJa": "モデル発表の裏側：クロード・オーパス4.6をいち早くテストした顧客が発見したこと"
+    },
+    {
+      "title": "Advancing finance with Claude Opus 4.6",
+      "link": "https://claude.com/blog/opus-4-6-finance",
+      "date": null,
+      "source": "Claude",
+      "category": "Enterprise AI",
+      "titleJa": "クロード・オーパス4.6で金融を前進させる"
+    },
+    {
+      "title": "How leading retailers are turning AI pilots into enterprise-wide transformation",
+      "link": "https://claude.com/blog/how-leading-retailers-are-turning-ai-pilots-into-enterprise-wide-transformation",
+      "date": null,
+      "source": "Claude",
+      "category": "Enterprise AI",
+      "titleJa": "大手小売企業がAIの試験導入を全社的な変革につなげる方法"
+    },
+    {
+      "title": "How Anthropic's Growth Marketing team cut ad creation time from 30 minutes to 30 seconds with Claude Code",
+      "link": "https://claude.com/blog/how-anthropic-uses-claude-marketing",
+      "date": null,
+      "source": "Claude",
+      "category": "Enterprise AI",
+      "titleJa": "Anthropicのグロースマーケティングチームがクロードコードで広告作成時間を30分から30秒に短縮した方法"
+    },
+    {
+      "title": "Making Claude a better electrical engineer",
+      "link": "https://claude.com/blog/making-claude-a-better-electrical-engineer",
+      "date": null,
+      "source": "Claude",
+      "category": "Enterprise AI",
+      "titleJa": "クロードをより優れた電気エンジニアに"
+    },
+    {
+      "title": "How enterprises are building AI agents in 2026",
+      "link": "https://claude.com/blog/how-enterprises-are-building-ai-agents-in-2026",
+      "date": null,
+      "source": "Claude",
+      "category": "Enterprise AI",
+      "titleJa": "2026年、企業はどのようにAIエージェントを構築するか"
+    },
+    {
+      "title": "How Anthropic's legal team cut review times from days to hours with Claude",
+      "link": "https://claude.com/blog/how-anthropic-uses-claude-legal",
+      "date": null,
+      "source": "Claude",
+      "category": "Enterprise AI",
+      "titleJa": "Anthropicのリーガルチームは、クロードを使用することで、レビュー時間を数日から数時間に短縮した。"
+    },
+    {
+      "title": "How three YC startups built their companies with Claude Code",
+      "link": "https://claude.com/blog/building-companies-with-claude-code",
+      "date": null,
+      "source": "Claude",
+      "category": "Enterprise AI",
+      "titleJa": "YCの新興企業3社がクロード・コードで会社を築いた方法"
+    },
+    {
+      "title": "product",
+      "link": "https://cursor.com/blog/topic/product",
+      "date": null,
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "製品"
+    },
+    {
+      "title": "research",
+      "link": "https://cursor.com/blog/topic/research",
+      "date": null,
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "リサーチ"
+    },
+    {
+      "title": "company",
+      "link": "https://cursor.com/blog/topic/company",
+      "date": null,
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "会社"
+    },
+    {
+      "title": "ideas",
+      "link": "https://cursor.com/blog/topic/ideas",
+      "date": null,
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "アイデア"
+    },
+    {
+      "title": "Read more →",
+      "link": "https://cursor.com/blog/self-driving-codebases",
+      "date": null,
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "もっと読む→こちら"
+    }
+  ]
+}
