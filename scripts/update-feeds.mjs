@@ -23,6 +23,10 @@ console.log(`既存記事数: ${existingByUrl.size}`);
 // 最新記事を取得
 const { articles: fresh } = await fetchAllFeeds();
 
+// ソース別取得件数をログ
+const bySource = fresh.reduce((acc, a) => { acc[a.source] = (acc[a.source] ?? 0) + 1; return acc; }, {});
+console.log('取得件数:', Object.entries(bySource).map(([k, v]) => `${k}=${v}`).join(', '));
+
 // 新着のみ抽出
 const newArticles = fresh.filter(a => !existingByUrl.has(a.link));
 console.log(`新着記事数: ${newArticles.length}`);
