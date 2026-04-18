@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-18T19:33:57.845Z",
+  "updatedAt": "2026-04-18T19:42:24.939Z",
   "articles": [
     {
       "title": "Codex for (almost) everything",
@@ -26,6 +26,22 @@
       "titleJa": "クロード・コードでクロード・オーパス4.7を使用するためのベストプラクティス"
     },
     {
+      "title": "Better AI models enable more ambitious work",
+      "link": "https://cursor.com/blog/better-models-ambitious-work",
+      "date": "2026-04-15T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "より優れたAIモデルが、より野心的な仕事を可能にする"
+    },
+    {
+      "title": "Amplitude ships 3x more production code with Cursor",
+      "link": "https://cursor.com/blog/amplitude",
+      "date": "2026-04-15T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "Amplitude、Cursorで3倍の量産コードを出荷"
+    },
+    {
       "title": "The next evolution of the Agents SDK",
       "link": "https://openai.com/index/the-next-evolution-of-the-agents-sdk",
       "date": "Wed, 15 Apr 2026 10:00:00 GMT",
@@ -40,6 +56,22 @@
       "category": "Claude Code",
       "date": "Apr 15, 2026",
       "titleJa": "クロード・コードの使用：セッション管理と1Mコンテキスト"
+    },
+    {
+      "title": "Interact with agent-created visualizations in canvases",
+      "link": "https://cursor.com/blog/canvas",
+      "date": "2026-04-15T00:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "キャンバスでエージェントが作成したビジュアライゼーションとインタラクトする"
+    },
+    {
+      "title": "Speeding up GPU kernels by 38% with a multi-agent system",
+      "link": "https://cursor.com/blog/multi-agent-kernels",
+      "date": "2026-04-14T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "マルチエージェントシステムでGPUカーネルを38%高速化"
     },
     {
       "title": "Redesigning Claude Code on desktop for parallel agents",
@@ -98,6 +130,14 @@
       "titleJa": "クロード・コワークを企業向けに"
     },
     {
+      "title": "Bugbot now self-improves with learned rules",
+      "link": "https://cursor.com/blog/bugbot-learning",
+      "date": "2026-04-08T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "バグボットが学習したルールで自己改善するようになった"
+    },
+    {
       "title": "Claude Managed Agents: get to production 10x faster",
       "link": "https://claude.com/blog/claude-managed-agents",
       "source": "Claude",
@@ -122,6 +162,14 @@
       "titleJa": "クロード・コードでサブエージェントを使う方法とタイミング"
     },
     {
+      "title": "Better MoE model inference with warp decode",
+      "link": "https://cursor.com/blog/warp-decode",
+      "date": "2026-04-06T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "ワープデコードによるMoEモデル推論の改善"
+    },
+    {
       "title": "Codex now offers more flexible pricing for teams",
       "link": "https://openai.com/index/codex-flexible-pricing-for-teams",
       "date": "Thu, 02 Apr 2026 10:00:00 GMT",
@@ -138,12 +186,36 @@
       "titleJa": "クロードの知性を利用する"
     },
     {
+      "title": "Meet the new Cursor",
+      "link": "https://cursor.com/blog/cursor-3",
+      "date": "2026-04-02T00:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "新しいカーソル"
+    },
+    {
       "title": "Audit Claude Platform activity with the Compliance API",
       "link": "https://claude.com/blog/claude-platform-compliance-api",
       "source": "Claude",
       "category": "Product Announcements",
       "date": "Mar 30, 2026",
       "titleJa": "Compliance API による Claude Platform アクティビティの監査"
+    },
+    {
+      "title": "A technical report on Composer 2",
+      "link": "https://cursor.com/blog/composer-2-technical-report",
+      "date": "2026-03-27T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "コンポーザー2の技術レポート"
+    },
+    {
+      "title": "Improving Composer through real-time RL",
+      "link": "https://cursor.com/blog/real-time-rl-for-composer",
+      "date": "2026-03-26T00:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "リアルタイムRLによるコンポーザーの改善"
     },
     {
       "title": "Run cloud agents in your own infrastructure",
