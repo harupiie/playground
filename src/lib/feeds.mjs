@@ -16,7 +16,7 @@ async function fetchWithTimeout(url, options = {}) {
   }
 }
 
-/** 記事ページ HTML から公開日を取得（JSON-LD の datePublished を優先。Claude は <time> が無いことが多い） */
+/** 記事ページ HTML から公開日を取得（JSON-LD の datePublished を優先し、無いときだけ先頭の time を使う） */
 function extractPublishedDate($) {
   for (const el of $('script[type="application/ld+json"]').toArray()) {
     const raw = $(el).html();
@@ -29,6 +29,10 @@ function extractPublishedDate($) {
       /* ignore */
     }
   }
+  const timeAttr = $('time').first().attr('datetime');
+  const timeText = $('time').first().text().trim();
+  if (timeAttr) return timeAttr;
+  if (timeText) return timeText;
   return null;
 }
 
@@ -133,28 +137,53 @@ export async function scrapeClaudeBlog(categorySlug, categoryLabel) {
   return articles;
 }
 
-// サイトマップから全ブログ記事URLを取得し、既存URLを除いた新着分のみ
-// 各記事ページをフェッチして正確なタイトルと公開日を取得する。
-// 初回は最大68リクエスト発生するが、2回目以降は新着分のみ。
-export async function scrapeCursor(existingUrls = new Set()) {
+const CURSOR_TOPIC_SLUGS = ['product', 'research', 'company', 'customers', 'news'];
+
+/** サイトマップに載らない新着が /blog/topic/* にだけ出ることがあるため、トピックページからも URL を拾う */
+async function collectCursorBlogUrlsFromTopics() {
+  const urls = new Set();
+  for (const slug of CURSOR_TOPIC_SLUGS) {
+    const topicUrl = `https://cursor.com/blog/topic/${slug}`;
+    try {
+      const res = await fetchWithTimeout(topicUrl, { headers: HEADERS });
+      const html = await res.text();
+      const $ = cheerio.load(html);
+      $('a[href^="/blog/"]').each((_, el) => {
+        const href = $(el).attr('href') ?? '';
+        if (!href.startsWith('/blog/') || href.includes('/topic/')) return;
+        urls.add(`https://cursor.com${href}`);
+      });
+    } catch (e) {
+      console.warn(`Cursor topic 取得失敗: ${topicUrl}`, e.message);
+    }
+  }
+  return [...urls];
+}
+
+// サイトマップとトピック一覧からブログ記事URLを列挙し、毎回すべての記事ページを取得する。
+// （差分のみ取得だと、既存URLの日付が誤ったまま残り、新着が正しく並ばないため）
+export async function scrapeCursor() {
   const sitemapRes = await fetchWithTimeout('https://cursor.com/sitemap.xml', { headers: HEADERS });
   const sitemapXml = await sitemapRes.text();
 
-  const allUrls = [...sitemapXml.matchAll(/<loc>(https:\/\/cursor\.com\/blog\/(?!topic\/)[^<]+)<\/loc>/g)]
+  const fromSitemap = [...sitemapXml.matchAll(/<loc>(https:\/\/cursor\.com\/blog\/(?!topic\/)[^<]+)<\/loc>/g)]
     .map(m => m[1]);
+  const fromTopics = await collectCursorBlogUrlsFromTopics();
+  const allUrls = [...new Set([...fromSitemap, ...fromTopics])];
 
-  const newUrls = allUrls.filter(url => !existingUrls.has(url));
-  console.log(`Cursor: サイトマップ ${allUrls.length} 件中 ${newUrls.length} 件を新規取得`);
+  console.log(
+    `Cursor: 記事URL ${allUrls.length} 件（サイトマップ ${fromSitemap.length} 件、トピック補完 +${allUrls.length - fromSitemap.length} 件）`,
+  );
 
   const articles = [];
-  for (const url of newUrls) {
+  for (const url of allUrls) {
     try {
       const res = await fetchWithTimeout(url, { headers: HEADERS });
       const html = await res.text();
       const $ = cheerio.load(html);
 
       const title = $('h1').first().text().trim();
-      const datetime = $('time').first().attr('datetime') || $('time').first().text().trim() || null;
+      const datetime = extractPublishedDate($);
 
       if (!title) continue;
       articles.push({ title, link: url, date: datetime, source: 'Cursor', category: 'Blog' });
@@ -166,14 +195,14 @@ export async function scrapeCursor(existingUrls = new Set()) {
   return articles;
 }
 
-export async function fetchAllFeeds(existingUrls = new Set()) {
+export async function fetchAllFeeds() {
   const results = await Promise.allSettled([
     fetchOpenAINews(),
     scrapeClaudeBlog('claude-code', 'Claude Code'),
     scrapeClaudeBlog('agents', 'Agents'),
     scrapeClaudeBlog('announcements', 'Product Announcements'),
     scrapeClaudeBlog('enterprise-ai', 'Enterprise AI'),
-    scrapeCursor(existingUrls),
+    scrapeCursor(),
   ]);
 
   const articles = results.flatMap(r => (r.status === 'fulfilled' ? r.value : []));

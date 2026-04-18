@@ -20,14 +20,18 @@ if (existsSync(DATA_FILE)) {
 const existingByUrl = new Map(existing.articles.map(a => [a.link, a]));
 console.log(`既存記事数: ${existingByUrl.size}`);
 
-// 最新記事を取得（Cursor はサイトマップ方式のため既存URLを渡して差分のみ取得）
-const { articles: fresh } = await fetchAllFeeds(existingByUrl);
+// 最新記事を取得
+const { articles: fresh } = await fetchAllFeeds();
 
-// 既存で日付が欠けていた記事を、再取得結果で補完（例: Claude は一覧に time がなく記事ページの JSON-LD でしか取れない）
+// 既存URLはタイトル・日付を再取得結果で上書き（Cursor の日付修正やタイトル揺れの吸収）
 for (const a of fresh) {
   const prev = existingByUrl.get(a.link);
-  if (prev && !prev.date && a.date) {
-    existingByUrl.set(a.link, { ...prev, date: a.date, title: a.title || prev.title });
+  if (prev) {
+    existingByUrl.set(a.link, {
+      ...prev,
+      date: a.date ?? prev.date,
+      title: a.title || prev.title,
+    });
   }
 }
 
