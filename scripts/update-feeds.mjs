@@ -37,10 +37,13 @@ for (const article of translatedNew) {
 
 // 1年以上前の記事を削除
 const cutoff = Date.now() - ONE_YEAR_MS;
-const filtered = Array.from(existingByUrl.values()).filter(a => {
+const merged = Array.from(existingByUrl.values());
+const filtered = merged.filter(a => {
   if (!a.date) return true;
   return new Date(a.date).getTime() > cutoff;
 });
+const expiredCount = merged.length - filtered.length;
+if (expiredCount > 0) console.log(`1年以上前の記事を ${expiredCount} 件削除`);
 
 // 日付降順ソート
 filtered.sort((a, b) => {
