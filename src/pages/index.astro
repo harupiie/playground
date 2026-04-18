@@ -255,17 +255,15 @@ const formatDate = (dateStr) => {
     font-size: 0.8125rem;
     font-weight: 500;
     cursor: pointer;
-    transition: background 0.15s, color 0.15s;
     background: #fff;
     color: #6b7280;
     border: 1px solid #e5e7eb;
     -webkit-appearance: none;
     -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
   }
 
-  .filter-btn:hover { background: #f9fafb; }
-  .filter-btn:active { background: #f3f4f6; border-color: #d1d5db; color: #374151; }
-  .filter-btn--active:active { background: #111827; color: #fff; border-color: #111827; }
+  .filter-btn:not(.filter-btn--active):hover { background: #f9fafb; }
 
   .filter-btn--active {
     background: #111827;
