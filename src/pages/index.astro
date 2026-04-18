@@ -83,17 +83,9 @@ const formatDate = (dateStr) => {
     <script id="articles-data" type="application/json" set:html={JSON.stringify(articles)}></script>
 
     <script>
-      import Fuse from 'fuse.js';
+      import { normalize } from '../lib/search.mjs';
 
       const articles = JSON.parse(document.getElementById('articles-data')!.textContent!);
-      // threshold 0.2: 0.4 だとスクレイピングノイズを含む長いタイトルに誤ヒットしたため厳格化
-      // minMatchCharLength 4: 短すぎる部分一致（1〜3文字）による誤ヒットを防ぐ
-      const fuse = new Fuse(articles, {
-        keys: ['titleJa', 'title'],
-        threshold: 0.2,
-        minMatchCharLength: 4,
-        ignoreLocation: true,
-      });
 
       const items = Array.from(document.querySelectorAll<HTMLElement>('.article-card'));
       const shownCountEl = document.getElementById('shown-count')!;
@@ -109,7 +101,12 @@ const formatDate = (dateStr) => {
           ? items
           : items.filter(item => item.dataset.source === currentSource);
         if (currentSearch) {
-          const matchLinks = new Set(fuse.search(currentSearch).map((r: any) => r.item.link));
+          const q = normalize(currentSearch);
+          const matchLinks = new Set(
+            articles
+              .filter((a: any) => normalize(a.title).includes(q) || normalize(a.titleJa ?? '').includes(q))
+              .map((a: any) => a.link)
+          );
           filtered = filtered.filter(item => matchLinks.has(item.dataset.link));
         }
         return filtered;

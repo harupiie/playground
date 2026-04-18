@@ -7,12 +7,12 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "update-feeds": "node scripts/update-feeds.mjs"
+    "update-feeds": "node scripts/update-feeds.mjs",
+    "test": "node --test tests/search.test.mjs"
   },
   "dependencies": {
     "astro": "^6.1.8",
     "cheerio": "^1.0.0",
-    "fuse.js": "^7.0.0",
     "rss-parser": "^3.13.0"
   }
 }

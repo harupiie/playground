@@ -89,8 +89,8 @@ export async function scrapeCursor() {
       container.find('h1, h2, h3, h4').first().text().trim() ||
       $(el).find('h1, h2, h3, h4').first().text().trim();
     // $(el).text() フォールバックを使うとカード全体のテキスト（著者名・読了時間等）が混入するため、
-    // h1-h4 が取れない場合はスキップ。長さと改行でノイズを二重チェック。
-    if (!title || title.length < 5 || title.length > 200 || title.includes('\n')) return;
+    // h1-h4 が取れない場合はスキップ。長さ・改行・中黒（Cursor のメタデータ区切り文字）でノイズを三重チェック。
+    if (!title || title.length < 5 || title.length > 200 || title.includes('\n') || title.includes('·')) return;
 
     const datetime =
       container.find('time').attr('datetime') ||
