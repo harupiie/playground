@@ -1,10 +1,24 @@
 import * as cheerio from 'cheerio';
 import Parser from 'rss-parser';
 
-const parser = new Parser();
+const parser = new Parser({ timeout: 30000 });
 const HEADERS = { 'User-Agent': 'Mozilla/5.0 (compatible; ai-feed-reader/1.0)' };
+const FETCH_TIMEOUT_MS = 30000;
+
+// スクレイピング先がハングしたとき fetch がタイムアウトなく待ち続けるのを防ぐ
+async function fetchWithTimeout(url, options = {}) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
+  try {
+    return await fetch(url, { ...options, signal: controller.signal });
+  } finally {
+    clearTimeout(timer);
+  }
+}
 
 export async function fetchOpenAICodex() {
+  // developers.openai.com/blog/topic/codex はRSSを持たないため、
+  // 全記事フィードを取得してタイトル・URL・カテゴリで Codex 関連をフィルタする
   const feed = await parser.parseURL('https://openai.com/blog/rss.xml');
   return feed.items
     .filter(item =>
@@ -23,7 +37,7 @@ export async function fetchOpenAICodex() {
 
 export async function scrapeClaudeBlog(categorySlug, categoryLabel) {
   const url = `https://claude.com/blog/category/${categorySlug}`;
-  const res = await fetch(url, { headers: HEADERS });
+  const res = await fetchWithTimeout(url, { headers: HEADERS });
   const html = await res.text();
   const $ = cheerio.load(html);
 
@@ -59,7 +73,7 @@ export async function scrapeClaudeBlog(categorySlug, categoryLabel) {
 }
 
 export async function scrapeCursor() {
-  const res = await fetch('https://cursor.com/blog', { headers: HEADERS });
+  const res = await fetchWithTimeout('https://cursor.com/blog', { headers: HEADERS });
   const html = await res.text();
   const $ = cheerio.load(html);
 
@@ -73,9 +87,10 @@ export async function scrapeCursor() {
     const container = $(el).closest('article, [class*="card"], [class*="post"], li, div');
     const title =
       container.find('h1, h2, h3, h4').first().text().trim() ||
-      $(el).find('h1, h2, h3, h4').first().text().trim() ||
-      $(el).text().trim();
-    if (!title || title.length < 5) return;
+      $(el).find('h1, h2, h3, h4').first().text().trim();
+    // $(el).text() フォールバックを使うとカード全体のテキスト（著者名・読了時間等）が混入するため、
+    // h1-h4 が取れない場合はスキップ。長さと改行でノイズを二重チェック。
+    if (!title || title.length < 5 || title.length > 200 || title.includes('\n')) return;
 
     const datetime =
       container.find('time').attr('datetime') ||
@@ -133,10 +148,10 @@ export async function translateTitles(articles) {
   const titles = articles.map(a => a.title);
   const translated = [];
 
-  // DeepL allows up to 50 texts per request
+  // DeepL API の1リクエスト上限が50件のためチャンク送信
   for (let i = 0; i < titles.length; i += 50) {
     const chunk = titles.slice(i, i + 50);
-    const res = await fetch('https://api-free.deepl.com/v2/translate', {
+    const res = await fetchWithTimeout('https://api-free.deepl.com/v2/translate', {
       method: 'POST',
       headers: {
         'Authorization': `DeepL-Auth-Key ${apiKey}`,

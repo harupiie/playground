@@ -27,7 +27,7 @@ const { articles: fresh } = await fetchAllFeeds();
 const newArticles = fresh.filter(a => !existingByUrl.has(a.link));
 console.log(`新着記事数: ${newArticles.length}`);
 
-// 新着のみ翻訳
+// 新着のみ翻訳（既存分は再翻訳不要。DeepL無料枠の節約にもなる）
 const translatedNew = newArticles.length > 0 ? await translateTitles(newArticles) : [];
 
 // マージ
