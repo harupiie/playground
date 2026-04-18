@@ -10,7 +10,7 @@
     "update-feeds": "node scripts/update-feeds.mjs"
   },
   "dependencies": {
-    "astro": "^5.18.1",
+    "astro": "^6.1.8",
     "cheerio": "^1.0.0",
     "fuse.js": "^7.0.0",
     "rss-parser": "^3.13.0"
