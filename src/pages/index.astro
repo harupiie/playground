@@ -200,6 +200,9 @@ const formatDate = (dateStr) => {
         currentPage = 1;
         update();
       });
+
+      // 初期描画（All）でもページネーションと件数表示を同期する
+      update();
     </script>
   </body>
 </html>
