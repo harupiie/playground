@@ -141,7 +141,7 @@ const CURSOR_TOPIC_SLUGS = ['product', 'research'];
 
 /** サイトマップに載らない新着が /blog/topic/* にだけ出ることがあるため、トピックページからも URL を拾う */
 async function collectCursorBlogUrlsFromTopics() {
-  const urls = new Set();
+  const urlToTopic = new Map();
   for (const slug of CURSOR_TOPIC_SLUGS) {
     const topicUrl = `https://cursor.com/blog/topic/${slug}`;
     try {
@@ -151,13 +151,14 @@ async function collectCursorBlogUrlsFromTopics() {
       $('a[href^="/blog/"]').each((_, el) => {
         const href = $(el).attr('href') ?? '';
         if (!href.startsWith('/blog/') || href.includes('/topic/')) return;
-        urls.add(`https://cursor.com${href}`);
+        const url = `https://cursor.com${href}`;
+        urlToTopic.set(url, slug);
       });
     } catch (e) {
       console.warn(`Cursor topic 取得失敗: ${topicUrl}`, e.message);
     }
   }
-  return [...urls];
+  return urlToTopic;
 }
 
 // サイトマップとトピック一覧からブログ記事URLを列挙し、毎回すべての記事ページを取得する。
@@ -168,8 +169,8 @@ export async function scrapeCursor() {
 
   const fromSitemap = [...sitemapXml.matchAll(/<loc>(https:\/\/cursor\.com\/blog\/(?!topic\/)[^<]+)<\/loc>/g)]
     .map(m => m[1]);
-  const fromTopics = await collectCursorBlogUrlsFromTopics();
-  const allUrls = [...new Set([...fromSitemap, ...fromTopics])];
+  const urlToTopic = await collectCursorBlogUrlsFromTopics();
+  const allUrls = [...new Set([...fromSitemap, ...urlToTopic.keys()])];
 
   console.log(
     `Cursor: 記事URL ${allUrls.length} 件（サイトマップ ${fromSitemap.length} 件、トピック補完 +${allUrls.length - fromSitemap.length} 件）`,
@@ -185,8 +186,25 @@ export async function scrapeCursor() {
       const title = $('h1').first().text().trim();
       const datetime = extractPublishedDate($);
 
+      // トピックページから取得したURLはトピック名を使用、それ以外はページからカテゴリを抽出
+      let category = 'Blog';
+      if (urlToTopic.has(url)) {
+        const topic = urlToTopic.get(url);
+        category = topic.charAt(0).toUpperCase() + topic.slice(1);
+      } else {
+        // ページ内のトピックリンクからカテゴリを抽出
+        const topicLink = $('a[href^="/blog/topic/"]').first().attr('href');
+        if (topicLink) {
+          const match = topicLink.match(/\/blog\/topic\/([^/]+)/);
+          if (match) {
+            const topic = match[1];
+            category = topic.charAt(0).toUpperCase() + topic.slice(1);
+          }
+        }
+      }
+
       if (!title) continue;
-      articles.push({ title, link: url, date: datetime, source: 'Cursor', category: 'Blog' });
+      articles.push({ title, link: url, date: datetime, source: 'Cursor', category });
     } catch (e) {
       console.warn(`Cursor記事取得失敗: ${url}`, e.message);
     }
