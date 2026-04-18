@@ -137,7 +137,7 @@ export async function scrapeClaudeBlog(categorySlug, categoryLabel) {
   return articles;
 }
 
-const CURSOR_TOPIC_SLUGS = ['product', 'research', 'company', 'customers', 'news'];
+const CURSOR_TOPIC_SLUGS = ['product', 'research'];
 
 /** サイトマップに載らない新着が /blog/topic/* にだけ出ることがあるため、トピックページからも URL を拾う */
 async function collectCursorBlogUrlsFromTopics() {
