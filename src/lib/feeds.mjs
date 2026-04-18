@@ -16,22 +16,20 @@ async function fetchWithTimeout(url, options = {}) {
   }
 }
 
-export async function fetchOpenAICodex() {
-  // developers.openai.com/blog/topic/codex はRSSを持たないため、
-  // 全記事フィードを取得してタイトル・URL・カテゴリで Codex 関連をフィルタする
+const OPENAI_CATEGORIES = new Set(['product', 'research']);
+
+export async function fetchOpenAINews() {
   const feed = await parser.parseURL('https://openai.com/blog/rss.xml');
   return feed.items
     .filter(item =>
-      item.title?.toLowerCase().includes('codex') ||
-      item.link?.toLowerCase().includes('codex') ||
-      (item.categories ?? []).some(c => c.toLowerCase().includes('codex'))
+      (item.categories ?? []).some(c => OPENAI_CATEGORIES.has(c.toLowerCase()))
     )
     .map(item => ({
       title: item.title ?? '',
       link: item.link ?? '',
       date: item.pubDate ?? null,
       source: 'OpenAI',
-      category: 'Codex',
+      category: item.categories?.[0] ?? '',
     }));
 }
 
@@ -107,7 +105,7 @@ export async function scrapeCursor(existingUrls = new Set()) {
 
 export async function fetchAllFeeds(existingUrls = new Set()) {
   const results = await Promise.allSettled([
-    fetchOpenAICodex(),
+    fetchOpenAINews(),
     scrapeClaudeBlog('claude-code', 'Claude Code'),
     scrapeClaudeBlog('agents', 'Agents'),
     scrapeClaudeBlog('announcements', 'Product Announcements'),

@@ -6,7 +6,7 @@ OpenAI・Claude・Cursor の技術ブログを収集して一覧表示する静�
 
 | ソース | カテゴリ |
 |--------|----------|
-| OpenAI | Codex |
+| OpenAI | Product / Research |
 | Claude | Claude Code / Agents / Product Announcements / Enterprise AI |
 | Cursor | Blog |
 
