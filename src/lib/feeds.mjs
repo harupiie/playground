@@ -84,17 +84,18 @@ export async function scrapeCursor() {
     const href = $(el).attr('href') ?? '';
     if (!href.startsWith('/blog/') || href === '/blog' || href === '/blog/' || href.includes('/topic/') || seen.has(href)) return;
 
-    const container = $(el).closest('article, [class*="card"], [class*="post"], li, div');
-    const title =
-      container.find('h1, h2, h3, h4').first().text().trim() ||
-      $(el).find('h1, h2, h3, h4').first().text().trim();
-    // $(el).text() フォールバックを使うとカード全体のテキスト（著者名・読了時間等）が混入するため、
-    // h1-h4 が取れない場合はスキップ。長さと改行でノイズを二重チェック。
-    if (!title || title.length < 5 || title.length > 200 || title.includes('\n')) return;
+    // Cursor のブログカードは h 要素を持たず、テキストが
+    // "Apr 15, 2026·researchTITLEAuthor4m..." の形式で連結されているため、
+    // カテゴリ名の直後からシングルバイト数字+m（読了時間）の直前までをタイトルとして抽出する。
+    const raw = $(el).text().replace(/\s+/g, ' ').trim();
+    const match = raw.match(/·(?:research|product|company|ideas|press|blog)(.+?)\d+m/i);
+    const title = match ? match[1].trim() : null;
+    if (!title || title.length < 5 || title.length > 200) return;
 
+    const container = $(el).closest('article, [class*="card"], [class*="post"], li, div');
     const datetime =
       container.find('time').attr('datetime') ||
-      container.find('time').text().trim() ||
+      raw.match(/^(\w+ \d+, \d{4})/)?.[1] ||
       null;
 
     seen.add(href);
