@@ -16,6 +16,55 @@ async function fetchWithTimeout(url, options = {}) {
   }
 }
 
+/** 記事ページ HTML から公開日を取得（JSON-LD の datePublished を優先。Claude は <time> が無いことが多い） */
+function extractPublishedDate($) {
+  for (const el of $('script[type="application/ld+json"]').toArray()) {
+    const raw = $(el).html();
+    if (!raw) continue;
+    try {
+      const data = JSON.parse(raw.trim());
+      const d = findDatePublishedInJsonLd(data);
+      if (d) return d;
+    } catch {
+      /* ignore */
+    }
+  }
+  return null;
+}
+
+function findDatePublishedInJsonLd(node) {
+  if (node == null) return null;
+  if (Array.isArray(node)) {
+    for (const n of node) {
+      const d = findDatePublishedInJsonLd(n);
+      if (d) return d;
+    }
+    return null;
+  }
+  if (typeof node !== 'object') return null;
+
+  const type = node['@type'];
+  const types = Array.isArray(type) ? type : [type];
+  if (
+    types.some(t => ['BlogPosting', 'Article', 'NewsArticle'].includes(t)) &&
+    typeof node.datePublished === 'string'
+  ) {
+    return node.datePublished;
+  }
+  if (node['@graph']) {
+    const d = findDatePublishedInJsonLd(node['@graph']);
+    if (d) return d;
+  }
+  for (const k of Object.keys(node)) {
+    const v = node[k];
+    if (v && typeof v === 'object') {
+      const d = findDatePublishedInJsonLd(v);
+      if (d) return d;
+    }
+  }
+  return null;
+}
+
 const OPENAI_CATEGORIES = new Set(['product', 'research']);
 
 export async function fetchOpenAINews() {
@@ -40,7 +89,7 @@ export async function scrapeClaudeBlog(categorySlug, categoryLabel) {
   const $ = cheerio.load(html);
 
   const seen = new Set();
-  const articles = [];
+  const stubs = [];
 
   $('a[href]').each((_, el) => {
     const href = $(el).attr('href') ?? '';
@@ -52,20 +101,34 @@ export async function scrapeClaudeBlog(categorySlug, categoryLabel) {
       $(el).find('h1, h2, h3, h4').first().text().trim();
     if (!title) return;
 
-    const datetime =
-      container.find('time').attr('datetime') ||
-      container.find('time').text().trim() ||
-      null;
-
     seen.add(href);
-    articles.push({
+    stubs.push({
       title,
       link: `https://claude.com${href}`,
-      date: datetime,
       source: 'Claude',
       category: categoryLabel,
     });
   });
+
+  const articles = [];
+  for (const stub of stubs) {
+    try {
+      const pageRes = await fetchWithTimeout(stub.link, { headers: HEADERS });
+      if (!pageRes.ok) {
+        console.warn(`Claude記事 HTTP ${pageRes.status}: ${stub.link}`);
+        articles.push({ ...stub, date: null });
+        continue;
+      }
+      const pageHtml = await pageRes.text();
+      const $p = cheerio.load(pageHtml);
+      const title = $p('h1').first().text().trim() || stub.title;
+      const date = extractPublishedDate($p);
+      articles.push({ ...stub, title, date });
+    } catch (e) {
+      console.warn(`Claude記事取得失敗: ${stub.link}`, e.message);
+      articles.push({ ...stub, date: null });
+    }
+  }
 
   return articles;
 }

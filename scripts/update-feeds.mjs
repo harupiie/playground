@@ -23,6 +23,14 @@ console.log(`既存記事数: ${existingByUrl.size}`);
 // 最新記事を取得（Cursor はサイトマップ方式のため既存URLを渡して差分のみ取得）
 const { articles: fresh } = await fetchAllFeeds(existingByUrl);
 
+// 既存で日付が欠けていた記事を、再取得結果で補完（例: Claude は一覧に time がなく記事ページの JSON-LD でしか取れない）
+for (const a of fresh) {
+  const prev = existingByUrl.get(a.link);
+  if (prev && !prev.date && a.date) {
+    existingByUrl.set(a.link, { ...prev, date: a.date, title: a.title || prev.title });
+  }
+}
+
 // ソース別取得件数をログ
 const bySource = fresh.reduce((acc, a) => { acc[a.source] = (acc[a.source] ?? 0) + 1; return acc; }, {});
 console.log('取得件数:', Object.entries(bySource).map(([k, v]) => `${k}=${v}`).join(', '));
