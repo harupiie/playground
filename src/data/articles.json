@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-18T18:29:17.099Z",
+  "updatedAt": "2026-04-18T18:33:48.718Z",
   "articles": [
     {
       "title": "Codex for (almost) everything",
@@ -10,12 +10,52 @@
       "titleJa": "ほぼ）すべてのコーデックス"
     },
     {
+      "title": "Better AI models enable more ambitious workLuke Melas-Kyriazi",
+      "link": "https://cursor.com/blog/better-models-ambitious-work",
+      "date": "2026-04-15T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "より優れたAIモデルがより野心的な仕事を可能にするルーク・メラス＝キリアージ"
+    },
+    {
+      "title": "Interact with agent-created visualizations in canvasesAlex Vandak Maloney",
+      "link": "https://cursor.com/blog/canvas",
+      "date": "2026-04-15T00:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "キャンバスでエージェントが作成したビジュアライゼーションとインタラクトAlex Vandak Maloney"
+    },
+    {
+      "title": "Speeding up GPU kernels by 38% with a multi-agent systemWilson, Sahil, Yuan & Edward",
+      "link": "https://cursor.com/blog/multi-agent-kernels",
+      "date": "2026-04-14T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "マルチエージェントシステムでGPUカーネルを38%高速化Wilson, Sahil, Yuan & Edward"
+    },
+    {
       "title": "CyberAgent moves faster with ChatGPT Enterprise and Codex",
       "link": "https://openai.com/index/cyberagent",
       "date": "Thu, 09 Apr 2026 00:00:00 GMT",
       "source": "OpenAI",
       "category": "Codex",
       "titleJa": "ChatGPTエンタープライズとCodexでサイバーエージェントはより速く動く"
+    },
+    {
+      "title": "Bugbot now self-improves with learned rulesMichael Zhao",
+      "link": "https://cursor.com/blog/bugbot-learning",
+      "date": "2026-04-08T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "バグボット、学習したルールで自己改善Michael Zhao"
+    },
+    {
+      "title": "Better MoE model inference with warp decodeLess, Federico & Zhiyuan",
+      "link": "https://cursor.com/blog/warp-decode",
+      "date": "2026-04-06T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "ワープデコードによるより良いMoEモデル推論Less, Federico & Zhiyuan"
     },
     {
       "title": "Codex now offers more flexible pricing for teams",
@@ -26,12 +66,76 @@
       "titleJa": "Codexがチームにより柔軟な価格設定を提供"
     },
     {
+      "title": "Meet the new CursorCursor 3 is a unified workspace for building software with agents.Michael & Sualeh ·",
+      "link": "https://cursor.com/blog/cursor-3",
+      "date": "2026-04-02T00:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "新しいCursorCursor 3は、エージェントを使ってソフトウェアを構築するための統一されたワークスペースです。"
+    },
+    {
+      "title": "A technical report on Composer 2Sasha Rush",
+      "link": "https://cursor.com/blog/composer-2-technical-report",
+      "date": "2026-03-27T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "コンポーザー2の技術レポートサーシャ・ラッシュ"
+    },
+    {
+      "title": "Improving Composer through real-time RLJacob, Ben, Nathan & Wanqi",
+      "link": "https://cursor.com/blog/real-time-rl-for-composer",
+      "date": "2026-03-26T00:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "リアルタイムRLによるコンポーザーの改善ジェイコブ、ベン、ネイサン、ワンチー"
+    },
+    {
+      "title": "Run cloud agents in your own infrastructureKatia Bazzi",
+      "link": "https://cursor.com/blog/self-hosted-cloud-agents",
+      "date": "2026-03-25T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "独自のインフラでクラウドエージェントを運用Katia Bazzi"
+    },
+    {
+      "title": "Fast regex search: indexing text for agent toolsVicent Marti",
+      "link": "https://cursor.com/blog/fast-regex-search",
+      "date": "2026-03-23T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "高速正規表現検索：エージェント・ツールのためのテキスト・インデックス作成Vicent Marti"
+    },
+    {
+      "title": "Introducing Composer 2Frontier-level coding with strong CursorBench results, higher token efficiency, and a faster default variant.Cursor Team ·",
+      "link": "https://cursor.com/blog/composer-2",
+      "date": "2026-03-19T00:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "Composer 2の導入強力なCursorBenchの結果、より高いトークン効率、より高速なデフォルトバリアントを備えたフロンティアレベルのコーディング。"
+    },
+    {
+      "title": "Training Composer for longer horizonsFederico & Sasha",
+      "link": "https://cursor.com/blog/self-summarization",
+      "date": "2026-03-17T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "コンポーザーをより長い視野でトレーニングするフェデリコ＆サーシャ"
+    },
+    {
       "title": "Why Codex Security Doesn’t Include a SAST Report",
       "link": "https://openai.com/index/why-codex-security-doesnt-include-sast",
       "date": "Mon, 16 Mar 2026 00:00:00 GMT",
       "source": "OpenAI",
       "category": "Codex",
       "titleJa": "コーデックスのセキュリティにSASTレポートが含まれない理由"
+    },
+    {
+      "title": "How we compare model quality in CursorWe use a hybrid online-offline eval process to keep our understanding of model quality aligned with what developers actually do.Naman Jain ·",
+      "link": "https://cursor.com/blog/cursorbench",
+      "date": "2026-03-11T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "Cursorにおけるモデル品質の比較方法オンラインとオフラインのハイブリッドな評価プロセスを使用することで、モデル品質の理解を開発者が実際に行っていることと一致させています。"
     },
     {
       "title": "Rakuten fixes issues twice as fast with Codex",
@@ -48,6 +152,14 @@
       "source": "OpenAI",
       "category": "Codex",
       "titleJa": "コーデックス・セキュリティ：現在リサーチプレビュー中"
+    },
+    {
+      "title": "The third era of AI software developmentA third era of AI software development is emerging as autonomous cloud agents take on larger tasks over longer timescales.Michael Truell ·",
+      "link": "https://cursor.com/blog/third-era",
+      "date": "2026-02-26T19:35:24.000Z",
+      "source": "Cursor",
+      "category": "Blog",
+      "titleJa": "AIソフトウェア開発の第3の時代自律型クラウドエージェントがより長い時間スケールでより大きなタスクを担うようになり、AIソフトウェア開発の第3の時代が到来しつつある。"
     },
     {
       "title": "OpenAI Codex and Figma launch seamless code-to-design experience",
