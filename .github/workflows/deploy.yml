@@ -34,6 +34,8 @@ jobs:
       - run: pnpm install
 
       - run: pnpm build
+        env:
+          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
 
       - uses: actions/configure-pages@v5
 

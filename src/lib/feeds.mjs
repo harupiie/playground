@@ -120,5 +120,40 @@ export async function fetchAllFeeds() {
     return new Date(b.date) - new Date(a.date);
   });
 
-  return { updatedAt: new Date().toISOString(), articles: unique };
+  const translated = await translateTitles(unique);
+  return { updatedAt: new Date().toISOString(), articles: translated };
+}
+
+async function translateTitles(articles) {
+  const apiKey = process.env.DEEPL_API_KEY;
+  if (!apiKey) {
+    console.warn('DEEPL_API_KEY not set, skipping translation.');
+    return articles;
+  }
+
+  const titles = articles.map(a => a.title);
+  const translated = [];
+
+  // DeepL allows up to 50 texts per request
+  for (let i = 0; i < titles.length; i += 50) {
+    const chunk = titles.slice(i, i + 50);
+    const res = await fetch('https://api-free.deepl.com/v2/translate', {
+      method: 'POST',
+      headers: {
+        'Authorization': `DeepL-Auth-Key ${apiKey}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ text: chunk, target_lang: 'JA', source_lang: 'EN' }),
+    });
+
+    if (!res.ok) {
+      console.error('DeepL API error:', res.status, await res.text());
+      return articles;
+    }
+
+    const data = await res.json();
+    translated.push(...data.translations.map(t => t.text));
+  }
+
+  return articles.map((a, i) => ({ ...a, titleJa: translated[i] }));
 }

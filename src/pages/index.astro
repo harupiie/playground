@@ -82,9 +82,16 @@ const categoryColor = {
                   href={article.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="text-gray-900 font-medium hover:text-blue-600 transition-colors line-clamp-2"
+                  class="block hover:text-blue-600 transition-colors"
                 >
-                  {article.title}
+                  {article.titleJa ? (
+                    <>
+                      <span class="text-gray-900 font-medium line-clamp-2">{article.titleJa}</span>
+                      <span class="text-xs text-gray-400 line-clamp-1 mt-0.5">{article.title}</span>
+                    </>
+                  ) : (
+                    <span class="text-gray-900 font-medium line-clamp-2">{article.title}</span>
+                  )}
                 </a>
               </div>
               {article.date && (
