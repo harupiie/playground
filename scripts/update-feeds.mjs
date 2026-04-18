@@ -55,3 +55,4 @@ filtered.sort((a, b) => {
 mkdirSync(join(__dirname, '../src/data'), { recursive: true });
 writeFileSync(DATA_FILE, JSON.stringify({ updatedAt: new Date().toISOString(), articles: filtered }, null, 2));
 console.log(`更新後の記事数: ${filtered.length}`);
+process.exit(0);
