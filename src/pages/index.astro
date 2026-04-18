@@ -54,6 +54,7 @@ const formatDate = (dateStr) => {
     </header>
 
     <main class="main">
+      <nav id="pagination-top" class="pagination pagination--top" aria-label="ページネーション（先頭）"></nav>
       <div id="articles" class="articles">
         {articles.map((article, i) => (
           <article
@@ -87,7 +88,7 @@ const formatDate = (dateStr) => {
         ))}
       </div>
 
-      <div id="pagination" class="pagination"></div>
+      <nav id="pagination-bottom" class="pagination pagination--bottom" aria-label="ページネーション（末尾）"></nav>
     </main>
 
     <footer class="site-footer">
@@ -107,7 +108,10 @@ const formatDate = (dateStr) => {
 
       const items = Array.from(document.querySelectorAll<HTMLElement>('.article-card'));
       const shownCountEl = document.getElementById('shown-count')!;
-      const paginationEl = document.getElementById('pagination')!;
+      const paginationEls = [
+        document.getElementById('pagination-top')!,
+        document.getElementById('pagination-bottom')!,
+      ];
 
       const PAGE_SIZE = 50;
       let currentPage = 1;
@@ -131,8 +135,11 @@ const formatDate = (dateStr) => {
       }
 
       function renderPagination(current: number, total: number) {
-        if (total <= 1) { paginationEl.style.display = 'none'; return; }
-        paginationEl.style.display = '';
+        if (total <= 1) {
+          paginationEls.forEach(el => { el.style.display = 'none'; });
+          return;
+        }
+        paginationEls.forEach(el => { el.style.display = ''; });
 
         const pages: (number | '...')[] = [];
         if (total <= 7) {
@@ -145,20 +152,23 @@ const formatDate = (dateStr) => {
           pages.push(total);
         }
 
-        paginationEl.innerHTML = `
-          <button class="page-btn page-nav" data-page="${current - 1}" ${current === 1 ? 'disabled' : ''}>‹</button>
+        const html = `
+          <button type="button" class="page-btn page-nav" data-page="${current - 1}" ${current === 1 ? 'disabled' : ''}>‹</button>
           ${pages.map(p => p === '...'
             ? '<span class="page-ellipsis">…</span>'
-            : `<button class="page-btn ${p === current ? 'page-btn--active' : ''}" data-page="${p}">${p}</button>`
+            : `<button type="button" class="page-btn ${p === current ? 'page-btn--active' : ''}" data-page="${p}">${p}</button>`
           ).join('')}
-          <button class="page-btn page-nav" data-page="${current + 1}" ${current === total ? 'disabled' : ''}>›</button>
+          <button type="button" class="page-btn page-nav" data-page="${current + 1}" ${current === total ? 'disabled' : ''}>›</button>
         `;
 
-        paginationEl.querySelectorAll<HTMLButtonElement>('.page-btn:not([disabled])').forEach(btn => {
-          btn.addEventListener('click', () => {
-            currentPage = Number(btn.dataset.page);
-            update();
-            window.scrollTo({ top: 0, behavior: 'smooth' });
+        paginationEls.forEach(el => { el.innerHTML = html; });
+        paginationEls.forEach(el => {
+          el.querySelectorAll<HTMLButtonElement>('.page-btn:not([disabled])').forEach(btn => {
+            btn.addEventListener('click', () => {
+              currentPage = Number(btn.dataset.page);
+              update();
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
           });
         });
       }
@@ -171,7 +181,7 @@ const formatDate = (dateStr) => {
           // 検索は全記事を対象にするため、ページをまたいだ結果を一覧表示しページネーションを隠す
           filtered.forEach(item => { item.style.display = ''; });
           shownCountEl.textContent = String(filtered.length);
-          paginationEl.style.display = 'none';
+          paginationEls.forEach(el => { el.style.display = 'none'; });
         } else {
           const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
           // ソースフィルタや検索で件数が減ったとき currentPage が範囲外になるのを防ぐ
@@ -392,6 +402,13 @@ const formatDate = (dateStr) => {
     justify-content: center;
     align-items: center;
     gap: 0.25rem;
+  }
+
+  .pagination--top {
+    margin-bottom: 1rem;
+  }
+
+  .pagination--bottom {
     margin-top: 1.5rem;
   }
 
