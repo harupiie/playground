@@ -72,53 +72,47 @@ export async function scrapeClaudeBlog(categorySlug, categoryLabel) {
   return articles;
 }
 
-export async function scrapeCursor() {
-  const res = await fetchWithTimeout('https://cursor.com/blog', { headers: HEADERS });
-  const html = await res.text();
-  const $ = cheerio.load(html);
+// サイトマップから全ブログ記事URLを取得し、既存URLを除いた新着分のみ
+// 各記事ページをフェッチして正確なタイトルと公開日を取得する。
+// 初回は最大68リクエスト発生するが、2回目以降は新着分のみ。
+export async function scrapeCursor(existingUrls = new Set()) {
+  const sitemapRes = await fetchWithTimeout('https://cursor.com/sitemap.xml', { headers: HEADERS });
+  const sitemapXml = await sitemapRes.text();
 
-  const seen = new Set();
+  const allUrls = [...sitemapXml.matchAll(/<loc>(https:\/\/cursor\.com\/blog\/(?!topic\/)[^<]+)<\/loc>/g)]
+    .map(m => m[1]);
+
+  const newUrls = allUrls.filter(url => !existingUrls.has(url));
+  console.log(`Cursor: サイトマップ ${allUrls.length} 件中 ${newUrls.length} 件を新規取得`);
+
   const articles = [];
+  for (const url of newUrls) {
+    try {
+      const res = await fetchWithTimeout(url, { headers: HEADERS });
+      const html = await res.text();
+      const $ = cheerio.load(html);
 
-  $('a[href]').each((_, el) => {
-    const href = $(el).attr('href') ?? '';
-    if (!href.startsWith('/blog/') || href === '/blog' || href === '/blog/' || href.includes('/topic/') || seen.has(href)) return;
+      const title = $('h1').first().text().trim();
+      const datetime = $('time').first().attr('datetime') || $('time').first().text().trim() || null;
 
-    // Cursor のブログカードは h 要素を持たず、テキストが
-    // "Apr 15, 2026·researchTITLEAuthor4m..." の形式で連結されているため、
-    // カテゴリ名の直後からシングルバイト数字+m（読了時間）の直前までをタイトルとして抽出する。
-    const raw = $(el).text().replace(/\s+/g, ' ').trim();
-    const match = raw.match(/·(?:research|product|company|ideas|press|blog)(.+?)\d+m/i);
-    const title = match ? match[1].trim() : null;
-    if (!title || title.length < 5 || title.length > 200) return;
-
-    const container = $(el).closest('article, [class*="card"], [class*="post"], li, div');
-    const datetime =
-      container.find('time').attr('datetime') ||
-      raw.match(/^(\w+ \d+, \d{4})/)?.[1] ||
-      null;
-
-    seen.add(href);
-    articles.push({
-      title,
-      link: `https://cursor.com${href}`,
-      date: datetime,
-      source: 'Cursor',
-      category: 'Blog',
-    });
-  });
+      if (!title) continue;
+      articles.push({ title, link: url, date: datetime, source: 'Cursor', category: 'Blog' });
+    } catch (e) {
+      console.warn(`Cursor記事取得失敗: ${url}`, e.message);
+    }
+  }
 
   return articles;
 }
 
-export async function fetchAllFeeds() {
+export async function fetchAllFeeds(existingUrls = new Set()) {
   const results = await Promise.allSettled([
     fetchOpenAICodex(),
     scrapeClaudeBlog('claude-code', 'Claude Code'),
     scrapeClaudeBlog('agents', 'Agents'),
     scrapeClaudeBlog('announcements', 'Product Announcements'),
     scrapeClaudeBlog('enterprise-ai', 'Enterprise AI'),
-    scrapeCursor(),
+    scrapeCursor(existingUrls),
   ]);
 
   const articles = results.flatMap(r => (r.status === 'fulfilled' ? r.value : []));

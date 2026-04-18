@@ -20,8 +20,8 @@ if (existsSync(DATA_FILE)) {
 const existingByUrl = new Map(existing.articles.map(a => [a.link, a]));
 console.log(`既存記事数: ${existingByUrl.size}`);
 
-// 最新記事を取得
-const { articles: fresh } = await fetchAllFeeds();
+// 最新記事を取得（Cursor はサイトマップ方式のため既存URLを渡して差分のみ取得）
+const { articles: fresh } = await fetchAllFeeds(existingByUrl);
 
 // ソース別取得件数をログ
 const bySource = fresh.reduce((acc, a) => { acc[a.source] = (acc[a.source] ?? 0) + 1; return acc; }, {});
