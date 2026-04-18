@@ -5,6 +5,10 @@
 - Do NOT add `Co-Authored-By: Claude` or any AI attribution to commit messages.
 - Write commit messages in Japanese.
 
+## Git
+
+- Before pushing, always run `git pull --rebase` to incorporate the latest `articles.json` commit from GitHub Actions.
+
 ## Dependencies
 
 - After running `pnpm install`, always run `pnpm audit` and resolve any vulnerabilities before proceeding.
