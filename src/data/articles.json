@@ -10,14 +10,6 @@
       "titleJa": "ほぼ）すべてのコーデックス"
     },
     {
-      "title": "Customer stories",
-      "link": "https://cursor.com/blog/topic/customers",
-      "date": "2026-04-15T12:00:00.000Z",
-      "source": "Cursor",
-      "category": "Blog",
-      "titleJa": "お客様の声"
-    },
-    {
       "title": "CyberAgent moves faster with ChatGPT Enterprise and Codex",
       "link": "https://openai.com/index/cyberagent",
       "date": "Thu, 09 Apr 2026 00:00:00 GMT",
@@ -40,14 +32,6 @@
       "source": "OpenAI",
       "category": "Codex",
       "titleJa": "コーデックスのセキュリティにSASTレポートが含まれない理由"
-    },
-    {
-      "title": "Press",
-      "link": "https://cursor.com/blog/topic/press",
-      "date": "2026-03-16T00:00:00.000Z",
-      "source": "Cursor",
-      "category": "Blog",
-      "titleJa": "プレス"
     },
     {
       "title": "Rakuten fixes issues twice as fast with Codex",

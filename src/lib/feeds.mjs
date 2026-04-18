@@ -82,7 +82,7 @@ export async function scrapeCursor() {
 
   $('a[href]').each((_, el) => {
     const href = $(el).attr('href') ?? '';
-    if (!href.startsWith('/blog/') || href === '/blog' || href === '/blog/' || seen.has(href)) return;
+    if (!href.startsWith('/blog/') || href === '/blog' || href === '/blog/' || href.includes('/topic/') || seen.has(href)) return;
 
     const container = $(el).closest('article, [class*="card"], [class*="post"], li, div');
     const title =
