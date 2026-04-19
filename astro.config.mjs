@@ -1,7 +1,7 @@
-import { defineConfig } from 'astro/config';
+import { defineConfig } from "astro/config";
 
 export default defineConfig({
-  site: 'https://harupiie.github.io',
-  base: '/playground',
-  output: 'static',
+	site: "https://harupiie.github.io",
+	base: "/playground",
+	output: "static",
 });

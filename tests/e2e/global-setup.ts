@@ -1,12 +1,12 @@
-import { writeFileSync, copyFileSync } from 'fs';
-import { execSync, spawn } from 'child_process';
-import { join } from 'path';
+import { execSync, spawn } from "node:child_process";
+import { copyFileSync, writeFileSync } from "node:fs";
+import { join } from "node:path";
 
-const ROOT     = process.cwd();
-const ARTICLES = join(ROOT, 'src/data/articles.json');
-const BACKUP   = join(ROOT, 'src/data/articles.json.bak');
-const FIXTURE  = join(ROOT, 'tests/e2e/fixtures/articles.json');
-const PID_FILE = join(ROOT, '.preview-pid');
+const ROOT = process.cwd();
+const ARTICLES = join(ROOT, "src/data/articles.json");
+const BACKUP = join(ROOT, "src/data/articles.json.bak");
+const FIXTURE = join(ROOT, "tests/e2e/fixtures/articles.json");
+const PID_FILE = join(ROOT, ".preview-pid");
 
 /**
  * テストスイート開始前に1回だけ実行される。
@@ -21,30 +21,32 @@ const PID_FILE = join(ROOT, '.preview-pid');
  * コミット済み内容から確実に正しいデータを復元できるようにするため。
  */
 export default async function globalSetup() {
-  const committed = execSync('git show HEAD:src/data/articles.json', { cwd: ROOT });
-  writeFileSync(BACKUP, committed);
-  copyFileSync(FIXTURE, ARTICLES);
-  execSync('pnpm build', { cwd: ROOT, stdio: 'inherit' });
+	const committed = execSync("git show HEAD:src/data/articles.json", {
+		cwd: ROOT,
+	});
+	writeFileSync(BACKUP, committed);
+	copyFileSync(FIXTURE, ARTICLES);
+	execSync("pnpm build", { cwd: ROOT, stdio: "inherit" });
 
-  const preview = spawn('pnpm', ['preview'], {
-    cwd: ROOT,
-    stdio: 'ignore',
-    detached: true,
-  });
-  preview.unref();
-  writeFileSync(PID_FILE, String(preview.pid));
+	const preview = spawn("pnpm", ["preview"], {
+		cwd: ROOT,
+		stdio: "ignore",
+		detached: true,
+	});
+	preview.unref();
+	writeFileSync(PID_FILE, String(preview.pid));
 
-  await waitFor('http://localhost:4321/playground/');
+	await waitFor("http://localhost:4321/playground/");
 }
 
 async function waitFor(url: string, timeoutMs = 30_000) {
-  const deadline = Date.now() + timeoutMs;
-  while (Date.now() < deadline) {
-    try {
-      const res = await fetch(url);
-      if (res.ok || res.status < 500) return;
-    } catch {}
-    await new Promise(r => setTimeout(r, 500));
-  }
-  throw new Error(`Server at ${url} not ready after ${timeoutMs}ms`);
+	const deadline = Date.now() + timeoutMs;
+	while (Date.now() < deadline) {
+		try {
+			const res = await fetch(url);
+			if (res.ok || res.status < 500) return;
+		} catch {}
+		await new Promise((r) => setTimeout(r, 500));
+	}
+	throw new Error(`Server at ${url} not ready after ${timeoutMs}ms`);
 }
