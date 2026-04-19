@@ -1,7 +1,6 @@
 import * as cheerio from 'cheerio';
 import Parser from 'rss-parser';
 
-// rss-parser: RSS/Atom フィードを取得・パースするライブラリ
 const parser = new Parser({ timeout: 30000 });
 
 // スクレイピング時に送る User-Agent。ボットブロックを避けるためブラウザに近い文字列にしている
@@ -164,7 +163,6 @@ export async function scrapeClaudeBlog(categorySlug, categoryLabel) {
   const html = await res.text();
   const $ = cheerio.load(html);
 
-  // 同一 href の重複を防ぐための Set
   const seen = new Set();
   const stubs = [];
 
@@ -267,7 +265,7 @@ export async function scrapeCursor() {
   const fromSitemap = [...sitemapXml.matchAll(/<loc>(https:\/\/cursor\.com\/blog\/(?!topic\/)[^<]+)<\/loc>/g)]
     .map(m => m[1]);
 
-  // トピックページからも URL を補完し、Set で重複を除去する
+  // サイトマップ未収録の新着を補完するため、トピックページからも URL を収集して合算する
   const urlToTopic = await collectCursorBlogUrlsFromTopics();
   const allUrls = [...new Set([...fromSitemap, ...urlToTopic.keys()])];
 
@@ -319,7 +317,6 @@ export async function scrapeCursor() {
  * - 日付降順ソート（日付なしは末尾）
  */
 export async function fetchAllFeeds() {
-  // 全ソースを並行取得。一部失敗しても他の結果は返す
   const results = await Promise.allSettled([
     fetchOpenAINews(),
     scrapeClaudeBlog('claude-code', 'Claude Code'),
@@ -329,7 +326,6 @@ export async function fetchAllFeeds() {
     scrapeCursor(),
   ]);
 
-  // fulfilled のみ採用し、rejected は無視して処理を継続する
   const articles = results.flatMap(r => (r.status === 'fulfilled' ? r.value : []));
 
   // 同一 URL の記事を除去する（複数カテゴリに同じ記事が登録されるケースへの対応）
@@ -367,7 +363,6 @@ export async function translateTitles(articles) {
   const titles = articles.map(a => a.title);
   const translated = [];
 
-  // DeepL API の1リクエスト上限が50件のためチャンク送信
   for (let i = 0; i < titles.length; i += 50) {
     const chunk = titles.slice(i, i + 50);
     const res = await fetchWithTimeout('https://api-free.deepl.com/v2/translate', {
@@ -389,6 +384,5 @@ export async function translateTitles(articles) {
     translated.push(...data.translations.map(t => t.text));
   }
 
-  // 元の記事オブジェクトに titleJa を追加して返す
   return articles.map((a, i) => ({ ...a, titleJa: translated[i] }));
 }
