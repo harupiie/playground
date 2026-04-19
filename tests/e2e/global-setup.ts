@@ -12,7 +12,7 @@ const PID_FILE = join(ROOT, '.preview-pid');
  * テストスイート開始前に1回だけ実行される。
  * articles.json をフィクスチャデータに差し替え、ビルドし、プレビューサーバーを起動する。
  *
- * webServer を使わずここでサーバーを起動する理由:
+ * webServer を使わずここでビルド・サーバー起動・応答待機を行う理由:
  * Playwright は globalSetup と webServer を並行起動するため、webServer に build を含めると
  * フィクスチャ適用前にビルドが走ってしまう。ここで一括管理することで順序を保証する。
  *
