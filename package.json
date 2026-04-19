@@ -12,6 +12,7 @@
     "test:e2e": "playwright test",
     "debug:ci": "node scripts/analyze-ci.mjs",
     "debug:dependabot": "node scripts/analyze-dependabot.mjs",
+    "debug:dependabot-pr": "node scripts/analyze-dependabot-pr.mjs",
     "lint": "biome check",
     "lint:fix": "biome check --write --unsafe"
   },
