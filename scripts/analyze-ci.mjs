@@ -9,24 +9,30 @@
 import { execSync } from 'node:child_process';
 
 const WORKFLOW = 'deploy.yml';
-const LIMIT = 1;
 
 function run(cmd) {
   return execSync(cmd, { encoding: 'utf-8' }).trim();
 }
 
-// 最新の失敗 run を取得
-const runsJson = run(
-  `gh run list --workflow=${WORKFLOW} --status=failure --limit=${LIMIT} --json databaseId,displayTitle,createdAt,headBranch`
-);
-const runs = JSON.parse(runsJson);
+// 引数で runId が指定されていればそれを使い、なければ最新の失敗 run を取得する
+const specifiedRunId = process.argv[2];
+let runId, displayTitle, createdAt, headBranch;
 
-if (runs.length === 0) {
-  console.log('直近の失敗した CI/CD 実行はありません。');
-  process.exit(0);
+if (specifiedRunId) {
+  runId = specifiedRunId;
+  const runJson = run(`gh run view ${runId} --json displayTitle,createdAt,headBranch`);
+  ({ displayTitle, createdAt, headBranch } = JSON.parse(runJson));
+} else {
+  const runsJson = run(
+    `gh run list --workflow=${WORKFLOW} --status=failure --limit=1 --json databaseId,displayTitle,createdAt,headBranch`
+  );
+  const runs = JSON.parse(runsJson);
+  if (runs.length === 0) {
+    console.log('直近の失敗した CI/CD 実行はありません。');
+    process.exit(0);
+  }
+  ({ databaseId: runId, displayTitle, createdAt, headBranch } = runs[0]);
 }
-
-const { databaseId: runId, displayTitle, createdAt, headBranch } = runs[0];
 
 console.log('=== CI/CD 失敗レポート ===');
 console.log(`実行ID   : ${runId}`);
