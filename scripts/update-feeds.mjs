@@ -1,4 +1,5 @@
 import { fetchAllFeeds, translateTitles } from '../src/lib/feeds.mjs';
+import { applyUpdates, filterExpired, sortByDate } from '../src/lib/merge.mjs';
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
@@ -24,23 +25,14 @@ console.log(`既存記事数: ${existingByUrl.size}`);
 const { articles: fresh } = await fetchAllFeeds();
 
 // 既存URLはタイトル・日付を再取得結果で上書き（Cursor の日付修正やタイトル揺れの吸収）
-for (const a of fresh) {
-  const prev = existingByUrl.get(a.link);
-  if (prev) {
-    existingByUrl.set(a.link, {
-      ...prev,
-      date: a.date ?? prev.date,
-      title: a.title || prev.title,
-    });
-  }
-}
+const updatedByUrl = applyUpdates(existingByUrl, fresh);
 
 // ソース別取得件数をログ
 const bySource = fresh.reduce((acc, a) => { acc[a.source] = (acc[a.source] ?? 0) + 1; return acc; }, {});
 console.log('取得件数:', Object.entries(bySource).map(([k, v]) => `${k}=${v}`).join(', '));
 
 // 新着のみ抽出
-const newArticles = fresh.filter(a => !existingByUrl.has(a.link));
+const newArticles = fresh.filter(a => !updatedByUrl.has(a.link));
 console.log(`新着記事数: ${newArticles.length}`);
 
 // 新着のみ翻訳（既存分は再翻訳不要。DeepL無料枠の節約にもなる）
@@ -48,27 +40,20 @@ const translatedNew = newArticles.length > 0 ? await translateTitles(newArticles
 
 // マージ
 for (const article of translatedNew) {
-  existingByUrl.set(article.link, article);
+  updatedByUrl.set(article.link, article);
 }
 
 // 1年以上前の記事を削除
 const cutoff = Date.now() - ONE_YEAR_MS;
-const merged = Array.from(existingByUrl.values());
-const filtered = merged.filter(a => {
-  if (!a.date) return true;
-  return new Date(a.date).getTime() > cutoff;
-});
+const merged = Array.from(updatedByUrl.values());
+const filtered = filterExpired(merged, cutoff);
 const expiredCount = merged.length - filtered.length;
 if (expiredCount > 0) console.log(`1年以上前の記事を ${expiredCount} 件削除`);
 
 // 日付降順ソート
-filtered.sort((a, b) => {
-  if (!a.date) return 1;
-  if (!b.date) return -1;
-  return new Date(b.date) - new Date(a.date);
-});
+const sorted = sortByDate(filtered);
 
 mkdirSync(join(__dirname, '../src/data'), { recursive: true });
-writeFileSync(DATA_FILE, JSON.stringify({ updatedAt: new Date().toISOString(), articles: filtered }, null, 2));
-console.log(`更新後の記事数: ${filtered.length}`);
+writeFileSync(DATA_FILE, JSON.stringify({ updatedAt: new Date().toISOString(), articles: sorted }, null, 2));
+console.log(`更新後の記事数: ${sorted.length}`);
 process.exit(0);
