@@ -13,7 +13,7 @@ OpenAI・Claude・Cursor の技術ブログを収集して一覧表示する静�
 ## 仕組み
 
 - **Astro** でビルド時にRSS取得・スクレイピングを実行し静的HTMLを生成
-- **GitHub Actions** が毎日 JST 9:00 に自動ビルド＆デプロイ
+- **GitHub Actions** が毎日 JST 17:00 (UTC 8:00) に自動ビルド＆デプロイ
 - **GitHub Pages** でホスティング
 
 ## 開発
