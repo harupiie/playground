@@ -17,7 +17,29 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  e2e:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+
+      - uses: pnpm/action-setup@v6
+
+      - run: pnpm install
+
+      # globalSetup が articles.json をフィクスチャに差し替えてビルドするため、
+      # CI フラグを渡すだけで本番データを汚さずに E2E を実行できる。
+      - name: Playwright ブラウザをインストール
+        run: npx playwright install --with-deps chromium
+
+      - name: E2E テストを実行
+        run: pnpm test:e2e
+
   build-and-deploy:
+    needs: e2e
     runs-on: ubuntu-latest
     environment:
       name: github-pages
