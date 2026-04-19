@@ -4,6 +4,14 @@
 
 - Do NOT add `Co-Authored-By: Claude` or any AI attribution to commit messages.
 - Write commit messages in Japanese.
+- Always prefix commit messages with a Conventional Commits type:
+  - `feat:` new feature
+  - `fix:` bug fix
+  - `docs:` documentation only
+  - `style:` formatting / visual changes (no logic change)
+  - `refactor:` refactoring (no feature or bug fix)
+  - `test:` adding or updating tests
+  - `chore:` build, CI, dependencies, etc.
 
 ## Testing
 
