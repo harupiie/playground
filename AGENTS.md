@@ -1,27 +1,49 @@
-# Agent Guidelines
+# エージェントガイドライン
 
-## Commit Messages
+## コミットメッセージ
 
-- Do NOT add `Co-Authored-By: Claude` or any AI attribution to commit messages.
-- Write commit messages in Japanese.
-- Always prefix commit messages with a Conventional Commits type:
-  - `feat:` new feature
-  - `fix:` bug fix
-  - `docs:` documentation only
-  - `style:` formatting / visual changes (no logic change)
-  - `refactor:` refactoring (no feature or bug fix)
-  - `test:` adding or updating tests
-  - `chore:` build, CI, dependencies, etc.
+- `Co-Authored-By: Claude` などの AI 帰属をコミットメッセージに追加しない。
+- コミットメッセージは日本語で書く。
+- 必ず Conventional Commits のプレフィクスを付ける：
+  - `feat:` 新機能
+  - `fix:` バグ修正
+  - `docs:` ドキュメントのみの変更
+  - `style:` 見た目・スタイルの変更（ロジック変更なし）
+  - `refactor:` リファクタリング（機能追加・バグ修正なし）
+  - `test:` テストの追加・修正
+  - `chore:` ビルド・CI・依存関係など雑務
 
-## Testing
+## テスト
 
-- Before committing, always run `pnpm test` and ensure all tests pass.
+- コミット前に必ず `pnpm test` を実行し、全テストがパスすることを確認する。
+
+### テストコードの書き方
+
+**テストランナー：** `node:test`（Node.js 組み込み）。Vitest の API（`vi.mock`、`onTestFinished` など）は使用しない。
+
+**テスト対象：** 純粋関数のみ。HTTP 通信やファイル I/O を伴う関数はテストしない（モック禁止方針）。
+
+**構造：**
+- アウトラインで定めた `describe` ブロックの階層とテストケース名（ドキュメントとしての意図）を維持する。
+- `it.todo` はすべて実装済みの `it` に置き換える。
+- 実装後は `pnpm test <ファイル>` を実行し、テストが失敗した場合は以下の観点で判断する：
+  - テストコードが間違っている → テストコードを修正する。
+  - 実装やテストの意図が間違っている → `it.skip` でスキップしてユーザに確認する。
+
+**AAA パターン（必須）：** 各 `it` ブロックを空行で視覚的に3フェーズに分ける：
+- Arrange（準備）: 入力値・期待値などの固定データ
+- Act（実行）: テスト対象の関数を1回だけ呼び出す
+- Assert（検証）: 戻り値を検証する
+
+**ライフサイクルフック：** 純粋関数のテストには `beforeEach` / `afterEach` は原則不要。共有セットアップが本当に必要な場合のみ使う。
+
+**テストユーティリティ：** 複数のテストファイルで共通する処理は `tests/helpers/` に切り出す。2つ目のテストファイルが必要になったタイミングでディレクトリを作成する。
 
 ## Git
 
-- Before pushing, always run `git pull --rebase` to incorporate the latest `articles.json` commit from GitHub Actions.
+- プッシュ前に必ず `git pull --rebase` を実行し、GitHub Actions による `articles.json` の自動コミットを取り込む。
 
-## Dependencies
+## 依存関係
 
-- After running `pnpm install`, always run `pnpm audit` and resolve any vulnerabilities before proceeding.
-- If `pnpm audit` outputs any WARN or higher (deprecated subdependencies, moderate/high/critical vulnerabilities), report the details to the user and confirm whether action is required before proceeding.
+- `pnpm install` 実行後は必ず `pnpm audit` を実行し、脆弱性がないことを確認してから作業を進める。
+- `pnpm audit` で WARN 以上（非推奨の間接依存、moderate/high/critical の脆弱性）が出た場合は、詳細をユーザに報告し、対応が必要かどうか確認してから進める。
