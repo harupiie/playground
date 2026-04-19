@@ -19,6 +19,7 @@ concurrency:
 jobs:
   e2e:
     runs-on: ubuntu-latest
+    if: github.event_name == 'push'
     steps:
       - uses: actions/checkout@v6
 
@@ -40,6 +41,7 @@ jobs:
 
   build-and-deploy:
     needs: e2e
+    if: always() && (needs.e2e.result == 'success' || needs.e2e.result == 'skipped')
     runs-on: ubuntu-latest
     environment:
       name: github-pages
