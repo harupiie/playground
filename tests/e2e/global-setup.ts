@@ -1,28 +1,50 @@
 import { writeFileSync, copyFileSync } from 'fs';
-import { execSync } from 'child_process';
+import { execSync, spawn } from 'child_process';
 import { join } from 'path';
 
-const ROOT = process.cwd();
+const ROOT     = process.cwd();
 const ARTICLES = join(ROOT, 'src/data/articles.json');
 const BACKUP   = join(ROOT, 'src/data/articles.json.bak');
 const FIXTURE  = join(ROOT, 'tests/e2e/fixtures/articles.json');
+const PID_FILE = join(ROOT, '.preview-pid');
 
 /**
  * テストスイート開始前に1回だけ実行される。
- * articles.json をフィクスチャデータに差し替え、確定的なデータでビルドする。
+ * articles.json をフィクスチャデータに差し替え、ビルドし、プレビューサーバーを起動する。
  *
- * ビルドをここで実行する理由:
- * Playwright は globalSetup と webServer を並行起動するため、
- * webServer の command に build を含めると差し替え前の articles.json でビルドされてしまう。
- * globalSetup 内でビルドまで完了させることで、フィクスチャ適用 → ビルド → preview の順序を保証する。
+ * webServer を使わずここでサーバーを起動する理由:
+ * Playwright は globalSetup と webServer を並行起動するため、webServer に build を含めると
+ * フィクスチャ適用前にビルドが走ってしまう。ここで一括管理することで順序を保証する。
  *
  * バックアップ元に git の HEAD を使う理由:
  * 前回の中断でファイルシステムが不整合（articles.json がフィクスチャのまま）でも、
  * コミット済み内容から確実に正しいデータを復元できるようにするため。
  */
-export default function globalSetup() {
+export default async function globalSetup() {
   const committed = execSync('git show HEAD:src/data/articles.json', { cwd: ROOT });
   writeFileSync(BACKUP, committed);
   copyFileSync(FIXTURE, ARTICLES);
   execSync('pnpm build', { cwd: ROOT, stdio: 'inherit' });
+
+  const preview = spawn('pnpm', ['preview'], {
+    cwd: ROOT,
+    stdio: 'ignore',
+    detached: true,
+  });
+  preview.unref();
+  writeFileSync(PID_FILE, String(preview.pid));
+
+  await waitFor('http://localhost:4321/playground/');
+}
+
+async function waitFor(url: string, timeoutMs = 30_000) {
+  const deadline = Date.now() + timeoutMs;
+  while (Date.now() < deadline) {
+    try {
+      const res = await fetch(url);
+      if (res.ok || res.status < 500) return;
+    } catch {}
+    await new Promise(r => setTimeout(r, 500));
+  }
+  throw new Error(`Server at ${url} not ready after ${timeoutMs}ms`);
 }

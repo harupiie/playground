@@ -3,10 +3,10 @@ import { defineConfig } from '@playwright/test';
 /**
  * Playwright の設定。
  *
- * webServer の役割:
- * - command でビルド → プレビューサーバー起動を直列実行する
- * - url でサーバーの準備完了を検知する（ポーリングで確認）
- * - reuseExistingServer: CI では常に新しくビルド、ローカルでは起動済みサーバーを再利用してビルド時間を節約
+ * webServer を使わずにプレビューサーバーを globalSetup/globalTeardown で管理する理由:
+ * Playwright は globalSetup と webServer を並行起動するため、globalSetup でビルドを行っても
+ * ビルド完了前に webServer が起動してしまい、dist/ が存在しない状態で pnpm preview が失敗する。
+ * サーバーのライフサイクルを globalSetup/globalTeardown に集約することで順序を保証する。
  *
  * base: '/playground' があるため baseURL はオリジンのみとし、テスト内で /playground/ を明示する。
  * page.goto('/') は '/' を絶対パスとして解釈するため subpath を持つ baseURL と組み合わせると
@@ -19,12 +19,5 @@ export default defineConfig({
 
   use: {
     baseURL: 'http://localhost:4321',
-  },
-
-  webServer: {
-    command: 'pnpm preview',
-    url: 'http://localhost:4321/playground/',
-    reuseExistingServer: !process.env.CI,
-    timeout: 120_000,
   },
 });

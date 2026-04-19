@@ -3,3 +3,4 @@ dist/
 .astro/
 .claude/settings.local.json
 test-results/
+.preview-pid
