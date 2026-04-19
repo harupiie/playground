@@ -22,7 +22,7 @@ export default defineConfig({
   },
 
   webServer: {
-    command: 'pnpm build && pnpm preview',
+    command: 'pnpm preview',
     url: 'http://localhost:4321/playground/',
     reuseExistingServer: !process.env.CI,
     timeout: 120_000,
