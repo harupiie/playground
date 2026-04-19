@@ -1,4 +1,5 @@
-import { copyFileSync } from 'fs';
+import { writeFileSync, copyFileSync } from 'fs';
+import { execSync } from 'child_process';
 import { join } from 'path';
 
 const ROOT = process.cwd();
@@ -8,10 +9,14 @@ const FIXTURE  = join(ROOT, 'tests/e2e/fixtures/articles.json');
 
 /**
  * テストスイート開始前に1回だけ実行される。
- * articles.json をバックアップし、フィクスチャデータに差し替える。
- * これにより pnpm build が確定的なテストデータでビルドされる。
+ * articles.json をフィクスチャデータに差し替え、ビルドが確定的なテストデータを使うようにする。
+ *
+ * バックアップ元にファイルシステム上の articles.json ではなく git の HEAD を使う理由:
+ * 前回のテスト中断でファイルシステムが不整合（articles.json がフィクスチャのまま）でも、
+ * コミット済み内容から確実に正しいデータを復元できるようにするため。
  */
 export default function globalSetup() {
-  copyFileSync(ARTICLES, BACKUP);
+  const committed = execSync('git show HEAD:src/data/articles.json', { cwd: ROOT });
+  writeFileSync(BACKUP, committed);
   copyFileSync(FIXTURE, ARTICLES);
 }

@@ -23,6 +23,18 @@
 - 単体テスト（`tests/*.test.mjs`）: `node:test`（Node.js 組み込み）。Vitest の API（`vi.mock`、`onTestFinished` など）は使用しない。
 - E2E テスト（`tests/e2e/*.spec.ts`）: Playwright。`pnpm test:e2e` で実行。
 
+**E2E 実行後のクリーンアップ：**
+
+`pnpm test:e2e` はビルド前に `src/data/articles.json` をフィクスチャデータに差し替え、終了後に元のデータを復元する。
+ただし Ctrl+C などの強制終了では復元処理（globalTeardown）が走らないことがある。
+
+| 残留するファイル | 対処 |
+|---|---|
+| `src/data/articles.json`（フィクスチャ内容のまま） | `git restore src/data/articles.json` |
+| `test-results/`（`.last-run.json` 等） | `.gitignore` 対象のため放置でよい |
+
+`src/data/articles.json` が変更されているように見えても本物の記事データに戻す前に commit・push しないこと。
+
 **テスト対象：**
 - 単体テスト: 純粋関数のみ。HTTP 通信やファイル I/O を伴う関数はテストしない（モック禁止方針）。
 - E2E テスト: ブラウザ上のユーザー操作（フィルター・検索・ページネーション等）。フィクスチャデータ（`tests/e2e/fixtures/articles.json`）でビルドして実行する。

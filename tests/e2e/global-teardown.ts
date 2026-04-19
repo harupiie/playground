@@ -8,7 +8,8 @@ const BACKUP   = join(ROOT, 'src/data/articles.json.bak');
 /**
  * テストスイート終了後に1回だけ実行される。
  * articles.json をバックアップから復元し、バックアップファイルを削除する。
- * テストが失敗・中断した場合でも必ず呼ばれるため、副作用が残らない。
+ * Playwright は正常終了時に globalTeardown を呼ぶが、強制終了（Ctrl+C 等）では呼ばれない場合がある。
+ * その場合は src/data/articles.json がフィクスチャのままになるため、git restore で手動復元する。
  */
 export default function globalTeardown() {
   if (existsSync(BACKUP)) {
