@@ -19,14 +19,20 @@
 
 ### テストコードの書き方
 
-**テストランナー：** `node:test`（Node.js 組み込み）。Vitest の API（`vi.mock`、`onTestFinished` など）は使用しない。
+**テストランナー：**
+- 単体テスト（`tests/*.test.mjs`）: `node:test`（Node.js 組み込み）。Vitest の API（`vi.mock`、`onTestFinished` など）は使用しない。
+- E2E テスト（`tests/e2e/*.spec.ts`）: Playwright。`pnpm test:e2e` で実行。
 
-**テスト対象：** 純粋関数のみ。HTTP 通信やファイル I/O を伴う関数はテストしない（モック禁止方針）。
+**テスト対象：**
+- 単体テスト: 純粋関数のみ。HTTP 通信やファイル I/O を伴う関数はテストしない（モック禁止方針）。
+- E2E テスト: ブラウザ上のユーザー操作（フィルター・検索・ページネーション等）。フィクスチャデータ（`tests/e2e/fixtures/articles.json`）でビルドして実行する。
 
 **2フェーズで進める：**
 
 1. **アウトライン作成（フェーズ1）**
-   - まず `describe` と `it.todo` のみで構造とケース名を定義する。
+   - まず `describe` と未実装マーカーのみで構造とケース名を定義する。
+   - 単体テスト: `it.todo('ケース名')`
+   - E2E テスト: `test.skip('ケース名', async () => {})` ※ Playwright に `test.todo` は存在しないため
    - この段階では Arrange・Act・Assert などの実テストロジックは一切書かない。
    - アウトラインをユーザに確認してもらってから実装に進む。
 
