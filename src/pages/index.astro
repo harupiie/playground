@@ -185,7 +185,10 @@ const formatDate = (dateStr) => {
         items.forEach(item => { item.style.display = 'none'; });
 
         if (currentSearch) {
-          // 検索は全記事を対象にするため、ページをまたいだ結果を一覧表示しページネーションを隠す
+          // 検索中はページネーションを非表示にして全件を一覧表示する。
+          // ページネーションを残すと「ページ1しか検索していないのでは？」という誤解を招くため。
+          // 記事数が少ない（200件程度）現状では全件表示でも問題ないが、
+          // 記事が大幅に増えた場合はページネーション対応への見直しが必要になる。
           filtered.forEach(item => { item.style.display = ''; });
           shownCountEl.textContent = String(filtered.length);
           paginationEls.forEach(el => { el.style.display = 'none'; });
