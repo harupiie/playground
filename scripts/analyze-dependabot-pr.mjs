@@ -45,6 +45,35 @@ function getBumpType(from, to) {
   return "PATCH";
 }
 
+/**
+ * diff テキストから pnpm-lock.yaml セクションを取り除き、
+ * 代わりに「+N/-N 行」のサマリー行に置き換える。
+ * LLM のコンテキスト消費を抑えるため、自動生成ファイルの raw diff は不要。
+ */
+function filterDiff(diff) {
+  const sections = diff.split(/(?=^diff --git )/m);
+  const filtered = [];
+  let lockSummary = null;
+
+  for (const section of sections) {
+    if (section.includes("pnpm-lock.yaml")) {
+      const lines = section.split("\n");
+      const added = lines.filter(
+        (l) => l.startsWith("+") && !l.startsWith("+++"),
+      ).length;
+      const removed = lines.filter(
+        (l) => l.startsWith("-") && !l.startsWith("---"),
+      ).length;
+      lockSummary = `[pnpm-lock.yaml: +${added} -${removed} 行（自動生成ファイルのため詳細省略）]`;
+    } else {
+      filtered.push(section);
+    }
+  }
+
+  const result = filtered.join("");
+  return lockSummary ? `${result}\n${lockSummary}` : result;
+}
+
 // PR の基本情報を取得
 const prJson = run(
   `gh pr view ${prNumber} --json number,title,url,body,headRefName`,
@@ -81,7 +110,7 @@ if (packageName) {
       console.log(`ローカルバージョン: ${localRaw}（実質 ${localVersion}）`);
       if (alreadyApplied) {
         console.log(
-          "⚠️  警告: ローカルの package.json にはすでにバンプ先バージョンが適用済みの可能性があります",
+          "ℹ️  ローカルと PR の差分なし（ローカルは移行済みの可能性）— PR はリモートへの反映のみかもしれません",
         );
       }
     } else {
@@ -91,6 +120,45 @@ if (packageName) {
     }
   } catch {
     console.log("ローカルバージョン: 取得失敗");
+  }
+  console.log("");
+}
+
+// MAJOR バンプ時は移行ガイドの URL を npm registry から取得して提示
+if (bumpType === "MAJOR" && packageName) {
+  console.log(`=== MAJOR バンプ: 移行ガイド情報 ===`);
+  try {
+    const infoJson = run(`pnpm info ${packageName} homepage repository --json`);
+    const info = JSON.parse(infoJson);
+    const homepage = info.homepage;
+    const repoUrl = (
+      typeof info.repository === "string"
+        ? info.repository
+        : (info.repository?.url ?? "")
+    )
+      .replace(/^git\+/, "")
+      .replace(/\.git$/, "");
+
+    if (homepage) console.log(`Homepage: ${homepage}`);
+    if (repoUrl) {
+      console.log(`Repository: ${repoUrl}`);
+      const ghMatch = repoUrl.match(/github\.com\/([^/]+\/[^/]+)/);
+      if (ghMatch) {
+        console.log(
+          `Releases (${toVersion}): https://github.com/${ghMatch[1]}/releases/tag/${toVersion}`,
+        );
+        console.log(
+          `CHANGELOG: https://github.com/${ghMatch[1]}/blob/main/CHANGELOG.md`,
+        );
+      }
+    }
+    console.log(
+      `\n⚠️  ${fromVersion} → ${toVersion} のメジャーバンプです。上記リンクで破壊的変更を確認してください。`,
+    );
+  } catch {
+    console.log(
+      `⚠️  メジャーバンプです。公式ドキュメントで ${fromVersion} → ${toVersion} の移行ガイドを確認してください。`,
+    );
   }
   console.log("");
 }
@@ -111,10 +179,10 @@ console.log("=== PR 本文（リリースノート・変更概要）===");
 console.log(pr.body ? stripHtml(pr.body) : "(本文なし)");
 console.log("");
 
-// フル diff
+// diff（pnpm-lock.yaml はサマリーのみ）
 console.log("=== diff ===");
 try {
-  console.log(run(`gh pr diff ${prNumber}`));
+  console.log(filterDiff(run(`gh pr diff ${prNumber}`)));
 } catch {
   console.log("diff の取得に失敗しました。");
 }
