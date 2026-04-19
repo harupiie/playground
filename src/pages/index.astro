@@ -5,16 +5,16 @@ const { updatedAt, articles } = articlesData;
 const sources = ["All", "OpenAI", "Claude", "Cursor"];
 
 const formatDate = (dateStr) => {
-	if (!dateStr) return "";
-	try {
-		return new Date(dateStr).toLocaleDateString("ja-JP", {
-			year: "numeric",
-			month: "short",
-			day: "numeric",
-		});
-	} catch {
-		return dateStr;
-	}
+  if (!dateStr) return "";
+  try {
+    return new Date(dateStr).toLocaleDateString("ja-JP", {
+      year: "numeric",
+      month: "short",
+      day: "numeric",
+    });
+  } catch {
+    return dateStr;
+  }
 };
 ---
 

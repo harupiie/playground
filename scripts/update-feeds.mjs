@@ -11,11 +11,11 @@ const ONE_YEAR_MS = 365 * 24 * 60 * 60 * 1000;
 // 既存データを読み込む
 let existing = { updatedAt: "", articles: [] };
 if (existsSync(DATA_FILE)) {
-	try {
-		existing = JSON.parse(readFileSync(DATA_FILE, "utf-8"));
-	} catch (e) {
-		console.warn("articles.json の読み込み失敗、新規作成します:", e.message);
-	}
+  try {
+    existing = JSON.parse(readFileSync(DATA_FILE, "utf-8"));
+  } catch (e) {
+    console.warn("articles.json の読み込み失敗、新規作成します:", e.message);
+  }
 }
 
 const existingByUrl = new Map(existing.articles.map((a) => [a.link, a]));
@@ -29,14 +29,14 @@ const updatedByUrl = applyUpdates(existingByUrl, fresh);
 
 // ソース別取得件数をログ
 const bySource = fresh.reduce((acc, a) => {
-	acc[a.source] = (acc[a.source] ?? 0) + 1;
-	return acc;
+  acc[a.source] = (acc[a.source] ?? 0) + 1;
+  return acc;
 }, {});
 console.log(
-	"取得件数:",
-	Object.entries(bySource)
-		.map(([k, v]) => `${k}=${v}`)
-		.join(", "),
+  "取得件数:",
+  Object.entries(bySource)
+    .map(([k, v]) => `${k}=${v}`)
+    .join(", "),
 );
 
 // 新着のみ抽出
@@ -45,11 +45,11 @@ console.log(`新着記事数: ${newArticles.length}`);
 
 // 新着のみ翻訳（既存分は再翻訳不要。DeepL無料枠の節約にもなる）
 const translatedNew =
-	newArticles.length > 0 ? await translateTitles(newArticles) : [];
+  newArticles.length > 0 ? await translateTitles(newArticles) : [];
 
 // マージ
 for (const article of translatedNew) {
-	updatedByUrl.set(article.link, article);
+  updatedByUrl.set(article.link, article);
 }
 
 // 1年以上前の記事を削除
@@ -64,12 +64,12 @@ const sorted = sortByDate(filtered);
 
 mkdirSync(join(__dirname, "../src/data"), { recursive: true });
 writeFileSync(
-	DATA_FILE,
-	JSON.stringify(
-		{ updatedAt: new Date().toISOString(), articles: sorted },
-		null,
-		2,
-	),
+  DATA_FILE,
+  JSON.stringify(
+    { updatedAt: new Date().toISOString(), articles: sorted },
+    null,
+    2,
+  ),
 );
 console.log(`更新後の記事数: ${sorted.length}`);
 process.exit(0);

@@ -1,29 +1,29 @@
 {
-	"name": "ai-tech-feeds",
-	"version": "1.0.0",
-	"type": "module",
-	"packageManager": "pnpm@9.12.0",
-	"scripts": {
-		"dev": "astro dev",
-		"build": "astro build",
-		"preview": "astro preview",
-		"update-feeds": "node scripts/update-feeds.mjs",
-		"test": "node --test 'tests/*.test.mjs'",
-		"test:e2e": "playwright test",
-		"debug:ci": "node scripts/analyze-ci.mjs",
-		"lint": "biome check",
-		"lint:fix": "biome check --write --unsafe"
-	},
-	"dependencies": {
-		"@resvg/resvg-js": "^2.6.2",
-		"astro": "^6.1.8",
-		"cheerio": "^1.0.0",
-		"rss-parser": "^3.13.0",
-		"satori": "^0.26.0"
-	},
-	"devDependencies": {
-		"@biomejs/biome": "^2.4.12",
-		"@playwright/test": "^1.59.1",
-		"@types/node": "^25.6.0"
-	}
+  "name": "ai-tech-feeds",
+  "version": "1.0.0",
+  "type": "module",
+  "packageManager": "pnpm@9.12.0",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "update-feeds": "node scripts/update-feeds.mjs",
+    "test": "node --test 'tests/*.test.mjs'",
+    "test:e2e": "playwright test",
+    "debug:ci": "node scripts/analyze-ci.mjs",
+    "lint": "biome check",
+    "lint:fix": "biome check --write --unsafe"
+  },
+  "dependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "astro": "^6.1.8",
+    "cheerio": "^1.0.0",
+    "rss-parser": "^3.13.0",
+    "satori": "^0.26.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.4.12",
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.0"
+  }
 }

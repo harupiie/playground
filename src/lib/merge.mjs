@@ -10,18 +10,18 @@
  * @returns {Map<string, object>} 更新後の新しいマップ（元の Map は変更しない）
  */
 export function applyUpdates(existingByUrl, freshArticles) {
-	const result = new Map(existingByUrl);
-	for (const a of freshArticles) {
-		const prev = result.get(a.link);
-		if (!prev) continue;
-		result.set(a.link, {
-			...prev,
-			// 新しい取得結果が空の場合は既存値を維持する
-			date: a.date ?? prev.date,
-			title: a.title || prev.title,
-		});
-	}
-	return result;
+  const result = new Map(existingByUrl);
+  for (const a of freshArticles) {
+    const prev = result.get(a.link);
+    if (!prev) continue;
+    result.set(a.link, {
+      ...prev,
+      // 新しい取得結果が空の場合は既存値を維持する
+      date: a.date ?? prev.date,
+      title: a.title || prev.title,
+    });
+  }
+  return result;
 }
 
 /**
@@ -34,10 +34,10 @@ export function applyUpdates(existingByUrl, freshArticles) {
  * @returns {object[]} フィルタ後の記事配列
  */
 export function filterExpired(articles, cutoffMs) {
-	return articles.filter((a) => {
-		if (!a.date) return true;
-		return new Date(a.date).getTime() > cutoffMs;
-	});
+  return articles.filter((a) => {
+    if (!a.date) return true;
+    return new Date(a.date).getTime() > cutoffMs;
+  });
 }
 
 /**
@@ -49,9 +49,9 @@ export function filterExpired(articles, cutoffMs) {
  * @returns {object[]} ソート済みの新しい配列（元の配列は変更しない）
  */
 export function sortByDate(articles) {
-	return [...articles].sort((a, b) => {
-		if (!a.date) return 1;
-		if (!b.date) return -1;
-		return new Date(b.date) - new Date(a.date);
-	});
+  return [...articles].sort((a, b) => {
+    if (!a.date) return 1;
+    if (!b.date) return -1;
+    return new Date(b.date) - new Date(a.date);
+  });
 }

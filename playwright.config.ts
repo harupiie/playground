@@ -13,12 +13,12 @@ import { defineConfig } from "@playwright/test";
  * 意図しない URL に解決される。オリジンのみにしてパスをテスト側で指定するのが確実。
  */
 export default defineConfig({
-	testDir: "./tests/e2e",
-	globalSetup: "./tests/e2e/global-setup.ts",
-	globalTeardown: "./tests/e2e/global-teardown.ts",
-	reporter: "list",
+  testDir: "./tests/e2e",
+  globalSetup: "./tests/e2e/global-setup.ts",
+  globalTeardown: "./tests/e2e/global-teardown.ts",
+  reporter: "list",
 
-	use: {
-		baseURL: "http://localhost:4321",
-	},
+  use: {
+    baseURL: "http://localhost:4321",
+  },
 });

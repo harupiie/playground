@@ -11,7 +11,7 @@ import { execSync } from "node:child_process";
 const WORKFLOW = "deploy.yml";
 
 function run(cmd) {
-	return execSync(cmd, { encoding: "utf-8" }).trim();
+  return execSync(cmd, { encoding: "utf-8" }).trim();
 }
 
 // 引数で runId が指定されていればそれを使い、なければ最新の失敗 run を取得する
@@ -19,21 +19,21 @@ const specifiedRunId = process.argv[2];
 let runId, displayTitle, createdAt, headBranch;
 
 if (specifiedRunId) {
-	runId = specifiedRunId;
-	const runJson = run(
-		`gh run view ${runId} --json displayTitle,createdAt,headBranch`,
-	);
-	({ displayTitle, createdAt, headBranch } = JSON.parse(runJson));
+  runId = specifiedRunId;
+  const runJson = run(
+    `gh run view ${runId} --json displayTitle,createdAt,headBranch`,
+  );
+  ({ displayTitle, createdAt, headBranch } = JSON.parse(runJson));
 } else {
-	const runsJson = run(
-		`gh run list --workflow=${WORKFLOW} --status=failure --limit=1 --json databaseId,displayTitle,createdAt,headBranch`,
-	);
-	const runs = JSON.parse(runsJson);
-	if (runs.length === 0) {
-		console.log("直近の失敗した CI/CD 実行はありません。");
-		process.exit(0);
-	}
-	({ databaseId: runId, displayTitle, createdAt, headBranch } = runs[0]);
+  const runsJson = run(
+    `gh run list --workflow=${WORKFLOW} --status=failure --limit=1 --json databaseId,displayTitle,createdAt,headBranch`,
+  );
+  const runs = JSON.parse(runsJson);
+  if (runs.length === 0) {
+    console.log("直近の失敗した CI/CD 実行はありません。");
+    process.exit(0);
+  }
+  ({ databaseId: runId, displayTitle, createdAt, headBranch } = runs[0]);
 }
 
 console.log("=== CI/CD 失敗レポート ===");
@@ -50,19 +50,19 @@ const failedJobs = jobs.filter((j) => j.conclusion === "failure");
 
 console.log("=== 失敗したジョブ・ステップ ===");
 for (const job of failedJobs) {
-	console.log(`\n[ジョブ] ${job.name}`);
-	const failedSteps = job.steps.filter((s) => s.conclusion === "failure");
-	for (const step of failedSteps) {
-		console.log(`  [ステップ] ${step.name}`);
-	}
+  console.log(`\n[ジョブ] ${job.name}`);
+  const failedSteps = job.steps.filter((s) => s.conclusion === "failure");
+  for (const step of failedSteps) {
+    console.log(`  [ステップ] ${step.name}`);
+  }
 }
 
 console.log("\n=== エラーログ ===");
 try {
-	const logs = run(`gh run view ${runId} --log-failed`);
-	console.log(logs);
+  const logs = run(`gh run view ${runId} --log-failed`);
+  console.log(logs);
 } catch {
-	console.log(
-		"ログの取得に失敗しました。gh run view コマンドで手動確認してください。",
-	);
+  console.log(
+    "ログの取得に失敗しました。gh run view コマンドで手動確認してください。",
+  );
 }

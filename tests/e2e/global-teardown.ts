@@ -14,16 +14,16 @@ const PID_FILE = join(ROOT, ".preview-pid");
  * その場合は articles.json がフィクスチャのまま残るため、git restore src/data/articles.json で手動復元すること。
  */
 export default function globalTeardown() {
-	if (existsSync(PID_FILE)) {
-		const pid = Number(readFileSync(PID_FILE, "utf-8"));
-		// detached: true で起動したプロセスグループをまとめて終了する
-		try {
-			process.kill(-pid, "SIGTERM");
-		} catch {}
-		unlinkSync(PID_FILE);
-	}
-	if (existsSync(BACKUP)) {
-		copyFileSync(BACKUP, ARTICLES);
-		unlinkSync(BACKUP);
-	}
+  if (existsSync(PID_FILE)) {
+    const pid = Number(readFileSync(PID_FILE, "utf-8"));
+    // detached: true で起動したプロセスグループをまとめて終了する
+    try {
+      process.kill(-pid, "SIGTERM");
+    } catch {}
+    unlinkSync(PID_FILE);
+  }
+  if (existsSync(BACKUP)) {
+    copyFileSync(BACKUP, ARTICLES);
+    unlinkSync(BACKUP);
+  }
 }

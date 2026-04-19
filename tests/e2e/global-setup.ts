@@ -21,32 +21,32 @@ const PID_FILE = join(ROOT, ".preview-pid");
  * コミット済み内容から確実に正しいデータを復元できるようにするため。
  */
 export default async function globalSetup() {
-	const committed = execSync("git show HEAD:src/data/articles.json", {
-		cwd: ROOT,
-	});
-	writeFileSync(BACKUP, committed);
-	copyFileSync(FIXTURE, ARTICLES);
-	execSync("pnpm build", { cwd: ROOT, stdio: "inherit" });
+  const committed = execSync("git show HEAD:src/data/articles.json", {
+    cwd: ROOT,
+  });
+  writeFileSync(BACKUP, committed);
+  copyFileSync(FIXTURE, ARTICLES);
+  execSync("pnpm build", { cwd: ROOT, stdio: "inherit" });
 
-	const preview = spawn("pnpm", ["preview"], {
-		cwd: ROOT,
-		stdio: "ignore",
-		detached: true,
-	});
-	preview.unref();
-	writeFileSync(PID_FILE, String(preview.pid));
+  const preview = spawn("pnpm", ["preview"], {
+    cwd: ROOT,
+    stdio: "ignore",
+    detached: true,
+  });
+  preview.unref();
+  writeFileSync(PID_FILE, String(preview.pid));
 
-	await waitFor("http://localhost:4321/playground/");
+  await waitFor("http://localhost:4321/playground/");
 }
 
 async function waitFor(url: string, timeoutMs = 30_000) {
-	const deadline = Date.now() + timeoutMs;
-	while (Date.now() < deadline) {
-		try {
-			const res = await fetch(url);
-			if (res.ok || res.status < 500) return;
-		} catch {}
-		await new Promise((r) => setTimeout(r, 500));
-	}
-	throw new Error(`Server at ${url} not ready after ${timeoutMs}ms`);
+  const deadline = Date.now() + timeoutMs;
+  while (Date.now() < deadline) {
+    try {
+      const res = await fetch(url);
+      if (res.ok || res.status < 500) return;
+    } catch {}
+    await new Promise((r) => setTimeout(r, 500));
+  }
+  throw new Error(`Server at ${url} not ready after ${timeoutMs}ms`);
 }
