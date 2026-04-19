@@ -8,7 +8,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "update-feeds": "node scripts/update-feeds.mjs",
-    "test": "node --test tests/search.test.mjs"
+    "test": "node --test 'tests/*.test.mjs'"
   },
   "dependencies": {
     "@resvg/resvg-js": "^2.6.2",
