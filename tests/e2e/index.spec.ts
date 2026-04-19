@@ -1,7 +1,6 @@
 import { test } from '@playwright/test';
 
-// フェーズ1: アウトライン（test.todo のみ）
-// Playwright では it ではなく test を使う
+// フェーズ1: アウトライン（test.skip のみ）
 
 test.describe('初期表示', () => {
   test.describe('ページを開いた直後から全ソースの最新50件が閲覧できること', () => {
