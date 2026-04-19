@@ -16,6 +16,7 @@ export default defineConfig({
   testDir: './tests/e2e',
   globalSetup:    './tests/e2e/global-setup.ts',
   globalTeardown: './tests/e2e/global-teardown.ts',
+  reporter: 'list',
 
   use: {
     baseURL: 'http://localhost:4321',
