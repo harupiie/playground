@@ -126,3 +126,18 @@ pnpm debug:ci <runId>   # 特定の実行を指定（過去の失敗を分析す
 
 - `pnpm install` 実行後は必ず `pnpm audit` を実行し、脆弱性がないことを確認してから作業を進める。
 - `pnpm audit` で WARN 以上（非推奨の間接依存、moderate/high/critical の脆弱性）が出た場合は、詳細をユーザに報告し、対応が必要かどうか確認してから進める。
+
+### Dependabot PR の対応
+
+Dependabot PR のトリアージ・調査を求められたら、以下のコマンドで情報を取得してから回答すること。
+
+```
+pnpm debug:dependabot              # オープン PR を一覧取得してトリアージ
+pnpm debug:dependabot-pr <PR番号>  # 特定 PR を詳細調査（マージ可否・対応手順を提案）
+```
+
+取得した情報をもとに以下を行う：
+1. バンプ種別（MAJOR / MINOR / PATCH）と依存種別（直接 / 間接）の確認
+2. リリースノート・CHANGELOG を参照し、破壊的変更の有無を確認
+3. 脆弱性との照合結果を確認
+4. ✅ マージ可 / ⚠️ 要調査 / ❌ 保留 の判定と対応手順の提案
