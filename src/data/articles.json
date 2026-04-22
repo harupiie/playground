@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-04-21T09:17:40.648Z",
+  "updatedAt": "2026-04-22T09:11:53.570Z",
   "articles": [
+    {
+      "title": "Keeping the Cursor app stable",
+      "link": "https://cursor.com/blog/app-stability",
+      "date": "2026-04-21T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Research",
+      "titleJa": "Cursorアプリの安定性を保つ"
+    },
     {
       "title": "Meet the winners of our Built with Opus 4.6 Claude Code hackathon",
       "link": "https://claude.com/blog/meet-the-winners-of-our-built-with-opus-4-6-claude-code-hackathon",
