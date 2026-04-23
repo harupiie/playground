@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-04-22T09:11:53.570Z",
+  "updatedAt": "2026-04-23T09:18:29.226Z",
   "articles": [
+    {
+      "title": "Making ChatGPT better for clinicians",
+      "link": "https://openai.com/index/making-chatgpt-better-for-clinicians",
+      "date": "Wed, 22 Apr 2026 15:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "ChatGPTを臨床医にとってより良いものに"
+    },
+    {
+      "title": "Introducing workspace agents in ChatGPT",
+      "link": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
+      "date": "Wed, 22 Apr 2026 10:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "ChatGPTにワークスペース・エージェントを導入"
+    },
+    {
+      "title": "Introducing OpenAI Privacy Filter",
+      "link": "https://openai.com/index/introducing-openai-privacy-filter",
+      "date": "Wed, 22 Apr 2026 00:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Research",
+      "titleJa": "OpenAIプライバシーフィルターのご紹介"
+    },
+    {
+      "title": "Building agents that reach production systems with MCP",
+      "link": "https://claude.com/blog/building-agents-that-reach-production-systems-with-mcp",
+      "source": "Claude",
+      "category": "Agents",
+      "date": "Apr 22, 2026",
+      "titleJa": "MCPで生産システムに到達するエージェントを構築する"
+    },
     {
       "title": "Keeping the Cursor app stable",
       "link": "https://cursor.com/blog/app-stability",
@@ -8,6 +40,14 @@
       "source": "Cursor",
       "category": "Research",
       "titleJa": "Cursorアプリの安定性を保つ"
+    },
+    {
+      "title": "Introducing ChatGPT Images 2.0",
+      "link": "https://openai.com/index/introducing-chatgpt-images-2-0",
+      "date": "Tue, 21 Apr 2026 12:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "ChatGPT Images 2.0のご紹介"
     },
     {
       "title": "Meet the winners of our Built with Opus 4.6 Claude Code hackathon",
