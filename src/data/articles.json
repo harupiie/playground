@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-04-23T09:18:29.226Z",
+  "updatedAt": "2026-04-24T09:23:00.172Z",
   "articles": [
+    {
+      "title": "Introducing GPT-5.5",
+      "link": "https://openai.com/index/introducing-gpt-5-5",
+      "date": "Thu, 23 Apr 2026 11:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "GPT-5.5のご紹介"
+    },
+    {
+      "title": "New connectors in Claude for everyday life",
+      "link": "https://claude.com/blog/connectors-for-everyday-life",
+      "source": "Claude",
+      "category": "Product Announcements",
+      "date": "Apr 23, 2026",
+      "titleJa": "日常生活のためのクロードの新しいコネクター"
+    },
+    {
+      "title": "Built-in memory for Claude Managed Agents",
+      "link": "https://claude.com/blog/claude-managed-agents-memory",
+      "source": "Claude",
+      "category": "Product Announcements",
+      "date": "Apr 23, 2026",
+      "titleJa": "クロード・マネージド・エージェント用内蔵メモリ"
+    },
     {
       "title": "Making ChatGPT better for clinicians",
       "link": "https://openai.com/index/making-chatgpt-better-for-clinicians",
@@ -1560,14 +1584,6 @@
       "source": "Cursor",
       "category": "Company",
       "titleJa": "初期チーム"
-    },
-    {
-      "title": "Introducing our latest image generation model in the API",
-      "link": "https://openai.com/index/image-generation-api",
-      "date": "Wed, 23 Apr 2025 10:00:00 GMT",
-      "source": "OpenAI",
-      "category": "Product",
-      "titleJa": "APIに最新の画像生成モデルを導入"
     }
   ]
 }
