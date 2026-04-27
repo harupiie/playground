@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-26T08:49:47.112Z",
+  "updatedAt": "2026-04-27T10:06:56.861Z",
   "articles": [
     {
       "title": "Introducing GPT-5.5",
@@ -1576,14 +1576,6 @@
       "source": "OpenAI",
       "category": "Product",
       "titleJa": "GPT-4Oでのおべっか使い：何が起こり、どう対処しているか"
-    },
-    {
-      "title": "Early team",
-      "link": "https://cursor.com/blog/team",
-      "date": "2025-04-26T20:08:00.000Z",
-      "source": "Cursor",
-      "category": "Company",
-      "titleJa": "初期チーム"
     }
   ]
 }
