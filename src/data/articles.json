@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-04-28T10:06:20.181Z",
+  "updatedAt": "2026-04-29T09:57:39.568Z",
   "articles": [
+    {
+      "title": "OpenAI models, Codex, and Managed Agents come to AWS",
+      "link": "https://openai.com/index/openai-on-aws",
+      "date": "Tue, 28 Apr 2026 00:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "OpenAIモデル、Codex、マネージド・エージェントがAWSに登場"
+    },
+    {
+      "title": "Onboarding Claude Code like a new developer: Lessons from 17 years of development",
+      "link": "https://claude.com/blog/onboarding-claude-code-like-a-new-developer-lessons-from-17-years-of-development",
+      "source": "Claude",
+      "category": "Claude Code",
+      "date": "Apr 28, 2026",
+      "titleJa": "新人開発者のようなクロード・コードのオンボーディング：17年間の開発経験からの教訓"
+    },
     {
       "title": "Introducing GPT-5.5",
       "link": "https://openai.com/index/introducing-gpt-5-5",
