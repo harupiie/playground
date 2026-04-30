@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-04-29T09:57:39.568Z",
+  "updatedAt": "2026-04-30T09:58:33.768Z",
   "articles": [
+    {
+      "title": "Build programmatic agents with the Cursor SDK",
+      "link": "https://cursor.com/blog/typescript-sdk",
+      "date": "2026-04-29T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Product",
+      "titleJa": "Cursor SDKを使用したプログラムエージェントの構築"
+    },
+    {
+      "title": "Claude API skill now in CodeRabbit, JetBrains, Resolve AI, and Warp",
+      "link": "https://claude.com/blog/claude-api-skill",
+      "source": "Claude",
+      "category": "Claude Code",
+      "date": "Apr 29, 2026",
+      "titleJa": "CodeRabbit、JetBrains、Resolve AI、WarpにクロードAPIスキルが登場"
+    },
+    {
+      "title": "Product development in the agentic era",
+      "link": "https://claude.com/blog/product-development-in-the-agentic-era",
+      "source": "Claude",
+      "category": "Agents",
+      "date": "Apr 29, 2026",
+      "titleJa": "エージェント時代の製品開発"
+    },
     {
       "title": "OpenAI models, Codex, and Managed Agents come to AWS",
       "link": "https://openai.com/index/openai-on-aws",
@@ -1584,14 +1608,6 @@
       "source": "OpenAI",
       "category": "Product",
       "titleJa": "お人好しで逃したものを拡大する"
-    },
-    {
-      "title": "Sycophancy in GPT-4o: what happened and what we’re doing about it",
-      "link": "https://openai.com/index/sycophancy-in-gpt-4o",
-      "date": "Tue, 29 Apr 2025 18:00:00 GMT",
-      "source": "OpenAI",
-      "category": "Product",
-      "titleJa": "GPT-4Oでのおべっか使い：何が起こり、どう対処しているか"
     }
   ]
 }
