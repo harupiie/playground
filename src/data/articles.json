@@ -1,6 +1,54 @@
 {
-  "updatedAt": "2026-04-30T09:58:33.768Z",
+  "updatedAt": "2026-05-01T09:25:33.871Z",
   "articles": [
+    {
+      "title": "Continually improving our agent harness",
+      "link": "https://cursor.com/blog/continually-improving-agent-harness",
+      "date": "2026-04-30T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Research",
+      "titleJa": "エージェント・ハーネスの継続的改善"
+    },
+    {
+      "title": "Introducing Advanced Account Security",
+      "link": "https://openai.com/index/advanced-account-security",
+      "date": "Thu, 30 Apr 2026 00:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "高度なアカウント・セキュリティの導入"
+    },
+    {
+      "title": "Lessons from building Claude Code: Prompt caching is everything",
+      "link": "https://claude.com/blog/lessons-from-building-claude-code-prompt-caching-is-everything",
+      "source": "Claude",
+      "category": "Claude Code",
+      "date": "Apr 30, 2026",
+      "titleJa": "クロード・コード構築の教訓：プロンプト・キャッシュがすべて"
+    },
+    {
+      "title": "Building AI agents for the enterprise",
+      "link": "https://claude.com/blog/building-ai-agents-for-the-enterprise",
+      "source": "Claude",
+      "category": "Agents",
+      "date": "Apr 30, 2026",
+      "titleJa": "企業向けAIエージェントの構築"
+    },
+    {
+      "title": "Claude Security is now in public beta",
+      "link": "https://claude.com/blog/claude-security-public-beta",
+      "source": "Claude",
+      "category": "Product Announcements",
+      "date": "Apr 30, 2026",
+      "titleJa": "クロード・セキュリティがパブリック・ベータに"
+    },
+    {
+      "title": "How Kepler built verifiable AI for financial services with Claude",
+      "link": "https://claude.com/blog/how-kepler-built-verifiable-ai-for-financial-services-with-claude",
+      "source": "Claude",
+      "category": "Enterprise AI",
+      "date": "Apr 30, 2026",
+      "titleJa": "ケプラーがクロードとともに金融サービス向けの検証可能なAIを構築した方法"
+    },
     {
       "title": "Build programmatic agents with the Cursor SDK",
       "link": "https://cursor.com/blog/typescript-sdk",
