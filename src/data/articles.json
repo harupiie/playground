@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-05-01T09:25:33.871Z",
+  "updatedAt": "2026-05-02T08:57:19.392Z",
   "articles": [
+    {
+      "title": "How a non-technical project manager built and shipped a stress management app with Claude Code in six weeks",
+      "link": "https://claude.com/blog/how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-with-claude-code-in-six-weeks",
+      "source": "Claude",
+      "category": "Claude Code",
+      "date": "May 01, 2026",
+      "titleJa": "技術者でないプロジェクトマネージャーが、クロードコードでストレス管理アプリを6週間で構築し出荷した方法"
+    },
     {
       "title": "Continually improving our agent harness",
       "link": "https://cursor.com/blog/continually-improving-agent-harness",
@@ -1648,14 +1656,6 @@
       "source": "OpenAI",
       "category": "Product",
       "titleJa": "アジアにおけるデータレジデンシーの導入"
-    },
-    {
-      "title": "Expanding on what we missed with sycophancy",
-      "link": "https://openai.com/index/expanding-on-sycophancy",
-      "date": "Fri, 02 May 2025 08:00:00 GMT",
-      "source": "OpenAI",
-      "category": "Product",
-      "titleJa": "お人好しで逃したものを拡大する"
     }
   ]
 }
