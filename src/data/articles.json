@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-05-05T09:53:07.478Z",
+  "updatedAt": "2026-05-06T10:09:19.240Z",
   "articles": [
+    {
+      "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
+      "link": "https://openai.com/index/gpt-5-5-instant",
+      "date": "Tue, 05 May 2026 10:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "GPT-5.5インスタント：よりスマートに、よりクリアに、よりパーソナライズされる"
+    },
+    {
+      "title": "New ways to buy ChatGPT ads",
+      "link": "https://openai.com/index/new-ways-to-buy-chatgpt-ads",
+      "date": "Tue, 05 May 2026 00:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "ChatGPT広告の新しい購入方法"
+    },
+    {
+      "title": "Deploying Claude across financial services",
+      "link": "https://claude.com/blog/deploying-claude-across-financial-services",
+      "source": "Claude",
+      "category": "Enterprise AI",
+      "date": "May 05, 2026",
+      "titleJa": "金融サービスにおけるクロードの展開"
+    },
     {
       "title": "How a non-technical project manager built and shipped a stress management app with Claude Code in six weeks",
       "link": "https://claude.com/blog/how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-with-claude-code-in-six-weeks",
