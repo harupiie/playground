@@ -1,6 +1,20 @@
 {
-  "updatedAt": "2026-05-06T10:09:19.240Z",
+  "updatedAt": "2026-05-07T10:13:54.342Z",
   "articles": [
+    {
+      "title": "New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration",
+      "link": "https://claude.com/blog/new-in-claude-managed-agents",
+      "source": "Claude",
+      "category": "Product Announcements",
+      "date": "May 06, 2026"
+    },
+    {
+      "title": "Bootstrapping Composer with autoinstall",
+      "link": "https://cursor.com/blog/bootstrapping-composer-with-autoinstall",
+      "date": "2026-05-06T00:00:00.000Z",
+      "source": "Cursor",
+      "category": "Research"
+    },
     {
       "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
       "link": "https://openai.com/index/gpt-5-5-instant",
