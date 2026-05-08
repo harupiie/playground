@@ -1,6 +1,20 @@
 {
-  "updatedAt": "2026-05-07T10:13:54.342Z",
+  "updatedAt": "2026-05-08T09:05:04.136Z",
   "articles": [
+    {
+      "title": "Advancing voice intelligence with new models in the API",
+      "link": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
+      "date": "Thu, 07 May 2026 10:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product"
+    },
+    {
+      "title": "Collaborate with Claude across Excel, PowerPoint, Word and Outlook",
+      "link": "https://claude.com/blog/collaborate-with-claude-across-excel-powerpoint-word-and-outlook",
+      "source": "Claude",
+      "category": "Product Announcements",
+      "date": "May 07, 2026"
+    },
     {
       "title": "New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration",
       "link": "https://claude.com/blog/new-in-claude-managed-agents",
@@ -1686,14 +1700,6 @@
       "source": "OpenAI",
       "category": "Product",
       "titleJa": "Responses API の新しいツールと機能"
-    },
-    {
-      "title": "Introducing data residency in Asia",
-      "link": "https://openai.com/index/introducing-data-residency-in-asia",
-      "date": "Wed, 07 May 2025 18:00:00 GMT",
-      "source": "OpenAI",
-      "category": "Product",
-      "titleJa": "アジアにおけるデータレジデンシーの導入"
     }
   ]
 }
