@@ -1,6 +1,27 @@
 {
-  "updatedAt": "2026-05-11T10:53:05.988Z",
+  "updatedAt": "2026-05-12T10:23:41.879Z",
   "articles": [
+    {
+      "title": "Updates to Bugbot for Teams and Individuals",
+      "link": "https://cursor.com/blog/may-2026-bugbot-changes",
+      "date": "2026-05-11T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Product"
+    },
+    {
+      "title": "Agent view in Claude Code",
+      "link": "https://claude.com/blog/agent-view-in-claude-code",
+      "source": "Claude",
+      "category": "Product Announcements",
+      "date": "May 11, 2026"
+    },
+    {
+      "title": "Introducing the Claude Platform on AWS",
+      "link": "https://claude.com/blog/claude-platform-on-aws",
+      "source": "Claude",
+      "category": "Product Announcements",
+      "date": "May 11, 2026"
+    },
     {
       "title": "Advancing voice intelligence with new models in the API",
       "link": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
