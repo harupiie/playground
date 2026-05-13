@@ -1,6 +1,27 @@
 {
-  "updatedAt": "2026-05-12T10:23:41.879Z",
+  "updatedAt": "2026-05-13T10:13:23.594Z",
   "articles": [
+    {
+      "title": "What Parameter Golf taught us about AI-assisted research",
+      "link": "https://openai.com/index/what-parameter-golf-taught-us",
+      "date": "Tue, 12 May 2026 00:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Research"
+    },
+    {
+      "title": "How Anthropic's cybersecurity team built a threat detection platform with Claude Code",
+      "link": "https://claude.com/blog/how-anthropic-uses-claude-cybersecurity",
+      "source": "Claude",
+      "category": "Claude Code",
+      "date": "May 12, 2026"
+    },
+    {
+      "title": "Claude for the legal industry",
+      "link": "https://claude.com/blog/claude-for-the-legal-industry",
+      "source": "Claude",
+      "category": "Product Announcements",
+      "date": "May 12, 2026"
+    },
     {
       "title": "Updates to Bugbot for Teams and Individuals",
       "link": "https://cursor.com/blog/may-2026-bugbot-changes",
