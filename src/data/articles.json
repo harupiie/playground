@@ -1,6 +1,20 @@
 {
-  "updatedAt": "2026-05-13T10:13:23.594Z",
+  "updatedAt": "2026-05-14T10:06:26.623Z",
   "articles": [
+    {
+      "title": "Development environments for your agents",
+      "link": "https://cursor.com/blog/cloud-agent-development-environments",
+      "date": "2026-05-13T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Product"
+    },
+    {
+      "title": "Best practices for computer and browser use with Claude",
+      "link": "https://claude.com/blog/best-practices-for-computer-and-browser-use-with-claude",
+      "source": "Claude",
+      "category": "Agents",
+      "date": "May 13, 2026"
+    },
     {
       "title": "What Parameter Golf taught us about AI-assisted research",
       "link": "https://openai.com/index/what-parameter-golf-taught-us",
