@@ -1,8 +1,29 @@
 {
-  "updatedAt": "2026-05-14T10:06:26.623Z",
+  "updatedAt": "2026-05-15T10:12:22.906Z",
   "articles": [
     {
-      "title": "Development environments for your agents",
+      "title": "Work with Codex from anywhere",
+      "link": "https://openai.com/index/work-with-codex-from-anywhere",
+      "date": "Thu, 14 May 2026 13:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product"
+    },
+    {
+      "title": "The founder's playbook: Building an AI-native startup",
+      "link": "https://claude.com/blog/the-founders-playbook",
+      "source": "Claude",
+      "category": "Claude Code",
+      "date": "May 14, 2026"
+    },
+    {
+      "title": "How Claude Code works in large codebases: Best practices and where to start",
+      "link": "https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start",
+      "source": "Claude",
+      "category": "Enterprise AI",
+      "date": "May 14, 2026"
+    },
+    {
+      "title": "Development environments for your cloud agents",
       "link": "https://cursor.com/blog/cloud-agent-development-environments",
       "date": "2026-05-13T12:00:00.000Z",
       "source": "Cursor",
