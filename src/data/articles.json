@@ -1,6 +1,20 @@
 {
-  "updatedAt": "2026-05-15T10:12:22.906Z",
+  "updatedAt": "2026-05-16T09:21:23.888Z",
   "articles": [
+    {
+      "title": "A new personal finance experience in ChatGPT",
+      "link": "https://openai.com/index/personal-finance-chatgpt",
+      "date": "Fri, 15 May 2026 00:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product"
+    },
+    {
+      "title": "Deploying Claude across the legal industry",
+      "link": "https://claude.com/blog/deploying-claude-across-the-legal-industry",
+      "source": "Claude",
+      "category": "Enterprise AI",
+      "date": "May 15, 2026"
+    },
     {
       "title": "Work with Codex from anywhere",
       "link": "https://openai.com/index/work-with-codex-from-anywhere",
