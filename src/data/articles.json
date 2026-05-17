@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-16T09:21:23.888Z",
+  "updatedAt": "2026-05-17T09:27:19.060Z",
   "articles": [
     {
       "title": "A new personal finance experience in ChatGPT",
@@ -67,6 +67,13 @@
     {
       "title": "Claude for the legal industry",
       "link": "https://claude.com/blog/claude-for-the-legal-industry",
+      "source": "Claude",
+      "category": "Product Announcements",
+      "date": "May 12, 2026"
+    },
+    {
+      "title": "Code w/ Claude SF 2026 recap: Building on the AI exponential",
+      "link": "https://claude.com/blog/code-w-claude-sf-2026-sf",
       "source": "Claude",
       "category": "Product Announcements",
       "date": "May 12, 2026"
