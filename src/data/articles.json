@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-05-18T11:37:05.970Z",
+  "updatedAt": "2026-05-19T10:53:54.987Z",
   "articles": [
+    {
+      "title": "New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels",
+      "link": "https://claude.com/blog/claude-managed-agents-updates",
+      "source": "Claude",
+      "category": "Product Announcements",
+      "date": "May 19, 2026",
+      "titleJa": "クロード・マネージド・エージェントの新機能：セルフホスト型サンドボックスとMCPトンネル"
+    },
+    {
+      "title": "Introducing Composer 2.5",
+      "link": "https://cursor.com/blog/composer-2-5",
+      "date": "2026-05-18T00:00:00.000Z",
+      "source": "Cursor",
+      "category": "Research",
+      "titleJa": "コンポーザー2.5のご紹介"
+    },
     {
       "title": "A new personal finance experience in ChatGPT",
       "link": "https://openai.com/index/personal-finance-chatgpt",
