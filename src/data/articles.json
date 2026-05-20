@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-05-19T10:53:54.987Z",
+  "updatedAt": "2026-05-20T10:41:45.512Z",
   "articles": [
+    {
+      "title": "Using Claude Code: The unreasonable effectiveness of HTML",
+      "link": "https://claude.com/blog/using-claude-code-the-unreasonable-effectiveness-of-html",
+      "source": "Claude",
+      "category": "Claude Code",
+      "date": "May 20, 2026",
+      "titleJa": "クロード・コードを使うHTMLの理不尽な有効性"
+    },
     {
       "title": "New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels",
       "link": "https://claude.com/blog/claude-managed-agents-updates",
