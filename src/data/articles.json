@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-20T10:41:45.512Z",
+  "updatedAt": "2026-05-21T10:58:31.076Z",
   "articles": [
     {
       "title": "Using Claude Code: The unreasonable effectiveness of HTML",
@@ -8,6 +8,22 @@
       "category": "Claude Code",
       "date": "May 20, 2026",
       "titleJa": "クロード・コードを使うHTMLの理不尽な有効性"
+    },
+    {
+      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
+      "link": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
+      "date": "Wed, 20 May 2026 00:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Research",
+      "titleJa": "OpenAIのモデルが離散幾何学の中心的な推測を覆した"
+    },
+    {
+      "title": "How an Anthropic sales leader uses Claude Cowork to run a 4,000-account book",
+      "link": "https://claude.com/blog/how-an-anthropic-sales-leader-uses-claude-cowork-to-run-a-4-000-account-book",
+      "source": "Claude",
+      "category": "Enterprise AI",
+      "date": "May 20, 2026",
+      "titleJa": "Anthropicの営業リーダーがClaude Coworkを利用して4,000アカウントの帳簿を管理する方法"
     },
     {
       "title": "New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels",
@@ -1814,14 +1830,6 @@
       "source": "Cursor",
       "category": "Company",
       "titleJa": "シリーズCとスケール"
-    },
-    {
-      "title": "New tools and features in the Responses API",
-      "link": "https://openai.com/index/new-tools-and-features-in-the-responses-api",
-      "date": "Wed, 21 May 2025 08:00:00 GMT",
-      "source": "OpenAI",
-      "category": "Product",
-      "titleJa": "Responses API の新しいツールと機能"
     }
   ]
 }
