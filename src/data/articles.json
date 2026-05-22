@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-05-21T10:58:31.076Z",
+  "updatedAt": "2026-05-22T10:41:57.458Z",
   "articles": [
+    {
+      "title": "What we’ve learned building cloud agents",
+      "link": "https://cursor.com/blog/cloud-agent-lessons",
+      "date": "2026-05-21T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Research",
+      "titleJa": "クラウドエージェントの構築で学んだこと"
+    },
+    {
+      "title": "Claude now works with more security and compliance tools",
+      "link": "https://claude.com/blog/compliance-api-security-partners",
+      "source": "Claude",
+      "category": "Enterprise AI",
+      "date": "May 21, 2026",
+      "titleJa": "クロードは現在、より多くのセキュリティおよびコンプライアンス・ツールと連携しています。"
+    },
+    {
+      "title": "How our partners are putting Opus to work for cybersecurity",
+      "link": "https://claude.com/blog/how-our-partners-are-putting-opus-to-work-for-cybersecurity",
+      "source": "Claude",
+      "category": "Enterprise AI",
+      "date": "May 21, 2026",
+      "titleJa": "Opusをサイバーセキュリティのためにどのように活用しているか"
+    },
     {
       "title": "Using Claude Code: The unreasonable effectiveness of HTML",
       "link": "https://claude.com/blog/using-claude-code-the-unreasonable-effectiveness-of-html",
