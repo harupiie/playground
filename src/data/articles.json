@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-05-22T10:41:57.458Z",
+  "updatedAt": "2026-05-23T09:43:11.184Z",
   "articles": [
+    {
+      "title": "How Anthropic's finance team uses Claude to shape the narrative behind the numbers",
+      "link": "https://claude.com/blog/how-anthropics-finance-team-uses-claude-to-shape-the-narrative-behind-the-numbers",
+      "source": "Claude",
+      "category": "Enterprise AI",
+      "date": "May 22, 2026",
+      "titleJa": "Anthropicの財務チームがClaudeを使って数字の背後にある物語をどのように形成しているか"
+    },
     {
       "title": "What we’ve learned building cloud agents",
       "link": "https://cursor.com/blog/cloud-agent-lessons",
