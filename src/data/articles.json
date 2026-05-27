@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-05-25T11:43:11.452Z",
+  "updatedAt": "2026-05-27T11:29:51.052Z",
   "articles": [
+    {
+      "title": "Code w/ Claude London 2026: Rethinking how we build",
+      "link": "https://claude.com/blog/code-w-claude-london-2026-rethinking-how-we-build",
+      "source": "Claude",
+      "category": "Product Announcements",
+      "date": "May 26, 2026",
+      "titleJa": "コード・ウィズ・クロード・ロンドン2026：建築方法の再考"
+    },
     {
       "title": "How Anthropic's finance team uses Claude to shape the narrative behind the numbers",
       "link": "https://claude.com/blog/how-anthropics-finance-team-uses-claude-to-shape-the-narrative-behind-the-numbers",
