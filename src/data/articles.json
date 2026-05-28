@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-05-27T11:29:51.052Z",
+  "updatedAt": "2026-05-28T11:29:24.544Z",
   "articles": [
+    {
+      "title": "How CodeRabbit used Claude to build an agent orchestration system",
+      "link": "https://claude.com/blog/how-coderabbit-used-claude-to-build-an-agent-orchestration-system",
+      "source": "Claude",
+      "category": "Claude Code",
+      "date": "May 27, 2026",
+      "titleJa": "CodeRabbitがClaudeを使ってエージェント・オーケストレーション・システムを構築した方法"
+    },
+    {
+      "title": "Zero Trust for AI agents",
+      "link": "https://claude.com/blog/zero-trust-for-ai-agents",
+      "source": "Claude",
+      "category": "Agents",
+      "date": "May 27, 2026",
+      "titleJa": "AIエージェントのゼロ・トラスト"
+    },
+    {
+      "title": "Using LLMs to secure source code",
+      "link": "https://claude.com/blog/using-llms-to-secure-source-code",
+      "source": "Claude",
+      "category": "Enterprise AI",
+      "date": "May 27, 2026",
+      "titleJa": "LLMを使ってソースコードを保護する"
+    },
     {
       "title": "Code w/ Claude London 2026: Rethinking how we build",
       "link": "https://claude.com/blog/code-w-claude-london-2026-rethinking-how-we-build",
