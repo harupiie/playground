@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-05-28T11:29:24.544Z",
+  "updatedAt": "2026-05-29T11:19:43.585Z",
   "articles": [
+    {
+      "title": "Strengthening societal resilience with Rosalind Biodefense",
+      "link": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
+      "date": "Fri, 29 May 2026 03:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "ロザリンド・バイオディフェンスで社会のレジリエンスを強化する"
+    },
+    {
+      "title": "Introducing dynamic workflows in Claude Code",
+      "link": "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code",
+      "source": "Claude",
+      "category": "Product Announcements",
+      "date": "May 28, 2026",
+      "titleJa": "クロード・コードに動的ワークフローを導入"
+    },
     {
       "title": "How CodeRabbit used Claude to build an agent orchestration system",
       "link": "https://claude.com/blog/how-coderabbit-used-claude-to-build-an-agent-orchestration-system",
