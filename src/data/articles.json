@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-06-01T13:27:58.506Z",
+  "updatedAt": "2026-06-02T11:57:41.640Z",
   "articles": [
+    {
+      "title": "OpenAI frontier models and Codex are now available on AWS",
+      "link": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
+      "date": "Mon, 01 Jun 2026 10:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "OpenAIのフロンティアモデルとCodexがAWSで利用可能に"
+    },
+    {
+      "title": "Improvements to Teams Pricing",
+      "link": "https://cursor.com/blog/teams-pricing-june-2026",
+      "date": "2026-06-01T07:00:00.000Z",
+      "source": "Cursor",
+      "category": "Product",
+      "titleJa": "チーム価格の改善"
+    },
     {
       "title": "Strengthening societal resilience with Rosalind Biodefense",
       "link": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
