@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-06-02T11:57:41.640Z",
+  "updatedAt": "2026-06-03T12:30:27.296Z",
   "articles": [
+    {
+      "title": "Running an AI-native engineering org",
+      "link": "https://claude.com/blog/running-an-ai-native-engineering-org",
+      "source": "Claude",
+      "category": "Claude Code",
+      "date": "Jun 03, 2026",
+      "titleJa": "AIネイティブ・エンジニアリング組織の運営"
+    },
+    {
+      "title": "What we’ve learned building cloud agents",
+      "link": "https://cursor.com/blog/cloud-agent-lessons",
+      "date": "2026-06-02T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Research",
+      "titleJa": "クラウドエージェントの構築で学んだこと"
+    },
+    {
+      "title": "Codex for every role, tool, and workflow",
+      "link": "https://openai.com/index/codex-for-every-role-tool-workflow",
+      "date": "Tue, 02 Jun 2026 09:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "あらゆる役割、ツール、ワークフローに対応するコーデックス"
+    },
+    {
+      "title": "A harness for every task: dynamic workflows in Claude Code",
+      "link": "https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code",
+      "source": "Claude",
+      "category": "Claude Code",
+      "date": "Jun 02, 2026",
+      "titleJa": "あらゆるタスクに対応するハーネス：クロード・コードにおける動的ワークフロー"
+    },
     {
       "title": "OpenAI frontier models and Codex are now available on AWS",
       "link": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
@@ -72,14 +104,6 @@
       "category": "Enterprise AI",
       "date": "May 22, 2026",
       "titleJa": "Anthropicの財務チームがClaudeを使って数字の背後にある物語をどのように形成しているか"
-    },
-    {
-      "title": "What we’ve learned building cloud agents",
-      "link": "https://cursor.com/blog/cloud-agent-lessons",
-      "date": "2026-05-21T12:00:00.000Z",
-      "source": "Cursor",
-      "category": "Research",
-      "titleJa": "クラウドエージェントの構築で学んだこと"
     },
     {
       "title": "Claude now works with more security and compliance tools",
