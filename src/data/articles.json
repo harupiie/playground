@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-06-03T12:30:27.296Z",
+  "updatedAt": "2026-06-04T10:54:39.514Z",
   "articles": [
+    {
+      "title": "Introducing new capabilities to GPT-Rosalind",
+      "link": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
+      "date": "Wed, 03 Jun 2026 13:15:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "GPT-ロザリンドに新機能を導入"
+    },
+    {
+      "title": "Introducing organizations for Cursor Enterprise",
+      "link": "https://cursor.com/blog/organizations",
+      "date": "2026-06-03T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Product",
+      "titleJa": "カーソル・エンタープライズの組織紹介"
+    },
     {
       "title": "Running an AI-native engineering org",
       "link": "https://claude.com/blog/running-an-ai-native-engineering-org",
@@ -8,6 +24,30 @@
       "category": "Claude Code",
       "date": "Jun 03, 2026",
       "titleJa": "AIネイティブ・エンジニアリング組織の運営"
+    },
+    {
+      "title": "Lessons from building Claude Code: How we use skills",
+      "link": "https://claude.com/blog/lessons-from-building-claude-code-how-we-use-skills",
+      "source": "Claude",
+      "category": "Claude Code",
+      "date": "Jun 03, 2026",
+      "titleJa": "クロード・コード作りの教訓：スキルの使い方"
+    },
+    {
+      "title": "How Anthropic enables self-service data analytics with Claude",
+      "link": "https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude",
+      "source": "Claude",
+      "category": "Enterprise AI",
+      "date": "Jun 03, 2026",
+      "titleJa": "AnthropicがClaudeでセルフサービスデータ分析を可能にした方法"
+    },
+    {
+      "title": "Best practices for getting started with Claude Cowork",
+      "link": "https://claude.com/blog/best-practices-for-getting-started-with-claude-cowork",
+      "source": "Claude",
+      "category": "Enterprise AI",
+      "date": "Jun 03, 2026",
+      "titleJa": "クロード・コワークを始めるためのベストプラクティス"
     },
     {
       "title": "What we’ve learned building cloud agents",
