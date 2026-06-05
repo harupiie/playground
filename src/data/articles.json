@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-06-04T10:54:39.514Z",
+  "updatedAt": "2026-06-05T11:17:49.761Z",
   "articles": [
+    {
+      "title": "Dreaming: Better memory for a more helpful ChatGPT",
+      "link": "https://openai.com/index/chatgpt-memory-dreaming",
+      "date": "Thu, 04 Jun 2026 09:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Research",
+      "titleJa": "夢を見ることより役立つChatGPTのためのより良い記憶"
+    },
     {
       "title": "Introducing new capabilities to GPT-Rosalind",
       "link": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
@@ -130,12 +138,28 @@
       "titleJa": "LLMを使ってソースコードを保護する"
     },
     {
+      "title": "Faire doubles PR throughput with Cursor Cloud Agents",
+      "link": "https://cursor.com/blog/faire",
+      "date": "2026-05-26T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Customers",
+      "titleJa": "CursorのクラウドエージェントでPRのスループットが2倍に"
+    },
+    {
       "title": "Code w/ Claude London 2026: Rethinking how we build",
       "link": "https://claude.com/blog/code-w-claude-london-2026-rethinking-how-we-build",
       "source": "Claude",
       "category": "Product Announcements",
       "date": "May 26, 2026",
       "titleJa": "コード・ウィズ・クロード・ロンドン2026：建築方法の再考"
+    },
+    {
+      "title": "Cursor named a Leader in the 2026 Gartner® Magic Quadrant™ for Enterprise AI Coding Agents",
+      "link": "https://cursor.com/blog/cursor-leads-gartner-mq-2026",
+      "date": "2026-05-22T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Company",
+      "titleJa": "カーソル、2026年ガートナー®マジック・クアドラント™のエンタープライズAIコーディング・エージェントのリーダーに選出"
     },
     {
       "title": "How Anthropic's finance team uses Claude to shape the narrative behind the numbers",
@@ -284,6 +308,14 @@
       "date": "2026-05-11T12:00:00.000Z",
       "source": "Cursor",
       "category": "Product"
+    },
+    {
+      "title": "Beyond efficiency: PayPal expands what's possible to build with AI",
+      "link": "https://cursor.com/blog/paypal",
+      "date": "2026-05-11T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Customers",
+      "titleJa": "効率を超える：ペイパル、AIで構築可能なものを拡大"
     },
     {
       "title": "Agent view in Claude Code",
@@ -448,6 +480,14 @@
       "titleJa": "新人開発者のようなクロード・コードのオンボーディング：17年間の開発経験からの教訓"
     },
     {
+      "title": "National Australia Bank accelerates legacy migrations with Cursor",
+      "link": "https://cursor.com/blog/nab",
+      "date": "2026-04-23T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Customers",
+      "titleJa": "ナショナルオーストラリア銀行、Cursorでレガシーマイグレーションを加速"
+    },
+    {
       "title": "Introducing GPT-5.5",
       "link": "https://openai.com/index/introducing-gpt-5-5",
       "date": "Thu, 23 Apr 2026 11:00:00 GMT",
@@ -504,6 +544,14 @@
       "titleJa": "MCPで生産システムに到達するエージェントを構築する"
     },
     {
+      "title": "Cursor partners with SpaceX on model training",
+      "link": "https://cursor.com/blog/spacex-model-training",
+      "date": "2026-04-21T22:17:00.000Z",
+      "source": "Cursor",
+      "category": "Company",
+      "titleJa": "カーソルがSpaceXとモデルトレーニングで提携"
+    },
+    {
       "title": "Keeping the Cursor app stable",
       "link": "https://cursor.com/blog/app-stability",
       "date": "2026-04-21T12:00:00.000Z",
@@ -558,6 +606,14 @@
       "source": "Cursor",
       "category": "Research",
       "titleJa": "より優れたAIモデルが、より野心的な仕事を可能にする"
+    },
+    {
+      "title": "Amplitude ships 3x more production code with Cursor",
+      "link": "https://cursor.com/blog/amplitude",
+      "date": "2026-04-15T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Customers",
+      "titleJa": "Amplitude、Cursorで3倍の量産コードを出荷"
     },
     {
       "title": "The next evolution of the Agents SDK",
