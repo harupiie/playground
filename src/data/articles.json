@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-06-05T11:17:49.761Z",
+  "updatedAt": "2026-06-06T09:53:42.512Z",
   "articles": [
+    {
+      "title": "How one Anthropic seller rebuilt his team's workflows with Claude Code",
+      "link": "https://claude.com/blog/how-anthropic-uses-claude-gtm-engineering",
+      "source": "Claude",
+      "category": "Claude Code",
+      "date": "Jun 05, 2026",
+      "titleJa": "あるAnthropicの販売担当者が、Claude Codeを活用してチームのワークフローを再構築した方法"
+    },
+    {
+      "title": "The Claude Cowork product guide",
+      "link": "https://claude.com/blog/the-claude-cowork-product-guide",
+      "source": "Claude",
+      "category": "Enterprise AI",
+      "date": "Jun 05, 2026",
+      "titleJa": "「Claude Cowork」製品ガイド"
+    },
+    {
+      "title": "Direct agents with visual prompts in Design Mode",
+      "link": "https://cursor.com/blog/design-mode",
+      "date": "2026-06-05T00:00:00.000Z",
+      "source": "Cursor",
+      "category": "Product",
+      "titleJa": "デザインモードで視覚的なプロンプトを使用してエージェントを直接操作する"
+    },
     {
       "title": "Dreaming: Better memory for a more helpful ChatGPT",
       "link": "https://openai.com/index/chatgpt-memory-dreaming",
