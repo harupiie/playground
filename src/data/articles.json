@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-06T09:53:42.512Z",
+  "updatedAt": "2026-06-07T10:21:22.887Z",
   "articles": [
     {
       "title": "How one Anthropic seller rebuilt his team's workflows with Claude Code",
@@ -2062,14 +2062,6 @@
       "source": "Cursor",
       "category": "Product",
       "titleJa": "ウルトラとプロへのアップデート"
-    },
-    {
-      "title": "Series C and Scale",
-      "link": "https://cursor.com/blog/series-c",
-      "date": "2025-06-06T20:08:00.000Z",
-      "source": "Cursor",
-      "category": "Company",
-      "titleJa": "シリーズCとスケール"
     }
   ]
 }
