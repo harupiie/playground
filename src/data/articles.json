@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-06-08T12:21:41.329Z",
+  "updatedAt": "2026-06-09T10:51:38.326Z",
   "articles": [
+    {
+      "title": "Building intelligent apps for Apple platforms with Claude in the Foundation Models framework",
+      "link": "https://claude.com/blog/claude-for-foundation-models",
+      "source": "Claude",
+      "category": "Product Announcements",
+      "date": "Jun 08, 2026",
+      "titleJa": "Foundation ModelsフレームワークのClaudeを活用して、Appleプラットフォーム向けのインテリジェントアプリを構築する"
+    },
     {
       "title": "How one Anthropic seller rebuilt his team's workflows with Claude Code",
       "link": "https://claude.com/blog/how-anthropic-uses-claude-gtm-engineering",
