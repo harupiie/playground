@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-06-09T10:51:38.326Z",
+  "updatedAt": "2026-06-10T11:30:20.736Z",
   "articles": [
+    {
+      "title": "New in Claude Managed Agents: run agents on a schedule and store environment variables in vaults",
+      "link": "https://claude.com/blog/whats-new-in-claude-managed-agents",
+      "source": "Claude",
+      "category": "Product Announcements",
+      "date": "Jun 09, 2026",
+      "titleJa": "「Claude Managed Agents」の新機能：エージェントをスケジュールに従って実行し、環境変数をVaultに保存"
+    },
     {
       "title": "Building intelligent apps for Apple platforms with Claude in the Foundation Models framework",
       "link": "https://claude.com/blog/claude-for-foundation-models",
@@ -8,6 +16,14 @@
       "category": "Product Announcements",
       "date": "Jun 08, 2026",
       "titleJa": "Foundation ModelsフレームワークのClaudeを活用して、Appleプラットフォーム向けのインテリジェントアプリを構築する"
+    },
+    {
+      "title": "Observability for developers building connectors",
+      "link": "https://claude.com/blog/observability-for-developers-building-connectors",
+      "source": "Claude",
+      "category": "Product Announcements",
+      "date": "Jun 08, 2026",
+      "titleJa": "コネクタを開発する開発者のための可観測性"
     },
     {
       "title": "How one Anthropic seller rebuilt his team's workflows with Claude Code",
