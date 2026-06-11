@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-06-10T11:30:20.736Z",
+  "updatedAt": "2026-06-11T12:02:53.719Z",
   "articles": [
+    {
+      "title": "Bugbot is now over 3x faster, 22% cheaper, and finds 10% more bugs",
+      "link": "https://cursor.com/blog/bugbot-updates-june-2026",
+      "date": "2026-06-10T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Product",
+      "titleJa": "Bugbotは、処理速度が3倍以上向上し、コストが22％削減され、検出できるバグの数が10％増加しました"
+    },
+    {
+      "title": "The evolution of agentic surfaces: building with Claude Managed Agents",
+      "link": "https://claude.com/blog/building-with-claude-managed-agents",
+      "source": "Claude",
+      "category": "Agents",
+      "date": "Jun 10, 2026",
+      "titleJa": "能動的サーフェスの進化：Claudeマネージドエージェントを用いた構築"
+    },
     {
       "title": "New in Claude Managed Agents: run agents on a schedule and store environment variables in vaults",
       "link": "https://claude.com/blog/whats-new-in-claude-managed-agents",
