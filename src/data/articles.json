@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-06-11T12:02:53.719Z",
+  "updatedAt": "2026-06-12T11:35:16.029Z",
   "articles": [
+    {
+      "title": "Governing agent autonomy with Auto-review",
+      "link": "https://cursor.com/blog/agent-autonomy-auto-review",
+      "date": "2026-06-11T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Research",
+      "titleJa": "Auto-reviewによる管理エージェントの自律性の制御"
+    },
     {
       "title": "Bugbot is now over 3x faster, 22% cheaper, and finds 10% more bugs",
       "link": "https://cursor.com/blog/bugbot-updates-june-2026",
