@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-06-14T10:44:04.308Z",
+  "updatedAt": "2026-06-15T13:47:04.744Z",
   "articles": [
+    {
+      "title": "Introducing the OpenAI Partner Network",
+      "link": "https://openai.com/index/introducing-openai-partner-network",
+      "date": "Sun, 14 Jun 2026 17:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "OpenAIパートナーネットワークのご紹介"
+    },
     {
       "title": "Governing agent autonomy with Auto-review",
       "link": "https://cursor.com/blog/agent-autonomy-auto-review",
