@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-06-15T13:47:04.744Z",
+  "updatedAt": "2026-06-16T12:45:31.698Z",
   "articles": [
+    {
+      "title": "Meet the winners of the Built with Opus 4.7 Claude Code hackathon",
+      "link": "https://claude.com/blog/meet-the-winners-of-built-with-opus-4-7-claude-code-hackathon",
+      "source": "Claude",
+      "category": "Claude Code",
+      "date": "Jun 15, 2026",
+      "titleJa": "「Built with Opus 4.7 Claude Code」ハッカソンの受賞者をご紹介します"
+    },
     {
       "title": "Introducing the OpenAI Partner Network",
       "link": "https://openai.com/index/introducing-openai-partner-network",
