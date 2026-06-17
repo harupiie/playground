@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-06-16T12:45:31.698Z",
+  "updatedAt": "2026-06-17T12:10:11.727Z",
   "articles": [
+    {
+      "title": "Predicting model behavior before release by simulating deployment",
+      "link": "https://openai.com/index/deployment-simulation",
+      "date": "Tue, 16 Jun 2026 00:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Research",
+      "titleJa": "デプロイメントのシミュレーションにより、リリース前のモデルの挙動を予測する"
+    },
     {
       "title": "Meet the winners of the Built with Opus 4.7 Claude Code hackathon",
       "link": "https://claude.com/blog/meet-the-winners-of-built-with-opus-4-7-claude-code-hackathon",
@@ -2118,14 +2126,6 @@
       "source": "Cursor",
       "category": "Product",
       "titleJa": "ウェブとモバイルのカーソル"
-    },
-    {
-      "title": "Updates to Ultra and Pro",
-      "link": "https://cursor.com/blog/new-tier",
-      "date": "2025-06-16T20:08:00.000Z",
-      "source": "Cursor",
-      "category": "Product",
-      "titleJa": "ウルトラとプロへのアップデート"
     }
   ]
 }
