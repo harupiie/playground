@@ -1,6 +1,46 @@
 {
-  "updatedAt": "2026-06-17T12:10:11.727Z",
+  "updatedAt": "2026-06-18T11:44:51.600Z",
   "articles": [
+    {
+      "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
+      "link": "https://openai.com/index/ai-chemist-improves-reaction",
+      "date": "Wed, 17 Jun 2026 10:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Research",
+      "titleJa": "準自律型のAI化学者が、医薬化学における困難な反応の改善に成功した"
+    },
+    {
+      "title": "Introducing LifeSciBench",
+      "link": "https://openai.com/index/introducing-life-sci-bench",
+      "date": "Wed, 17 Jun 2026 00:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Research",
+      "titleJa": "LifeSciBenchのご紹介"
+    },
+    {
+      "title": "Meet the winners of our Claude Opus 4.8 Build Day hackathon",
+      "link": "https://claude.com/blog/meet-the-winners-of-our-claude-opus-4-8-build-day-hackathon",
+      "source": "Claude",
+      "category": "Claude Code",
+      "date": "Jun 17, 2026",
+      "titleJa": "「Claude Opus 4.8 Build Day」ハッカソンの受賞者をご紹介します"
+    },
+    {
+      "title": "Claude Design now stays on brand for daily work",
+      "link": "https://claude.com/blog/claude-design-stays-on-brand-for-daily-work",
+      "source": "Claude",
+      "category": "Product Announcements",
+      "date": "Jun 17, 2026",
+      "titleJa": "Claude Designは、日々の業務においてもブランドイメージを貫いています"
+    },
+    {
+      "title": "Secure access to the Claude Platform with Workload Identity Federation",
+      "link": "https://claude.com/blog/workload-identity-federation",
+      "source": "Claude",
+      "category": "Product Announcements",
+      "date": "Jun 17, 2026",
+      "titleJa": "ワークロードIDフェデレーションによるClaudeプラットフォームへの安全なアクセス"
+    },
     {
       "title": "Predicting model behavior before release by simulating deployment",
       "link": "https://openai.com/index/deployment-simulation",
