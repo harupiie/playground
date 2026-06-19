@@ -1,6 +1,46 @@
 {
-  "updatedAt": "2026-06-18T11:44:51.600Z",
+  "updatedAt": "2026-06-19T11:58:33.343Z",
   "articles": [
+    {
+      "title": "New usage analytics and updated spend controls for enterprises",
+      "link": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+      "date": "Thu, 18 Jun 2026 17:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "企業向けの新機能「利用状況分析」と更新された支出管理機能"
+    },
+    {
+      "title": "Improving health intelligence in ChatGPT",
+      "link": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+      "date": "Thu, 18 Jun 2026 11:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "ChatGPTにおける健康情報の精度向上"
+    },
+    {
+      "title": "Steering Claude Code: CLAUDE.md files, skills, hooks, rules, subagents and more",
+      "link": "https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more",
+      "source": "Claude",
+      "category": "Claude Code",
+      "date": "Jun 18, 2026",
+      "titleJa": "Claudeの制御：CLAUDE.mdファイル、スキル、フック、ルール、サブエージェントなど"
+    },
+    {
+      "title": "Centrally manage authorization for MCP connectors",
+      "link": "https://claude.com/blog/enterprise-managed-auth",
+      "source": "Claude",
+      "category": "Product Announcements",
+      "date": "Jun 18, 2026",
+      "titleJa": "MCPコネクタの認証を一元管理する"
+    },
+    {
+      "title": "Claude Code now supports artifacts",
+      "link": "https://claude.com/blog/artifacts-in-claude-code",
+      "source": "Claude",
+      "category": "Product Announcements",
+      "date": "Jun 18, 2026",
+      "titleJa": "Claude Codeがアーティファクトに対応しました"
+    },
     {
       "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
       "link": "https://openai.com/index/ai-chemist-improves-reaction",
