@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-06-22T13:26:33.785Z",
+  "updatedAt": "2026-06-23T10:54:23.043Z",
   "articles": [
+    {
+      "title": "The full Claude Desktop experience on AWS, Google Cloud, and Microsoft Foundry",
+      "link": "https://claude.com/blog/the-full-claude-desktop-experience-on-aws-google-cloud-and-microsoft-foundry",
+      "source": "Claude",
+      "category": "Enterprise AI",
+      "date": "Jun 22, 2026",
+      "titleJa": "AWS、Google Cloud、およびMicrosoft Foundryで、Claude Desktopの全機能を体験"
+    },
     {
       "title": "New usage analytics and updated spend controls for enterprises",
       "link": "https://openai.com/index/chatgpt-enterprise-spend-controls",
