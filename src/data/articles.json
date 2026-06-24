@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-06-23T10:54:23.043Z",
+  "updatedAt": "2026-06-24T10:40:14.148Z",
   "articles": [
+    {
+      "title": "Agent identity in Claude Tag: a new access model for autonomous, team-wide AI",
+      "link": "https://claude.com/blog/agent-identity-access-model",
+      "source": "Claude",
+      "category": "Claude Code",
+      "date": "Jun 24, 2026",
+      "titleJa": "Claude Tagにおけるエージェントのアイデンティティ：自律的でチーム全体を対象としたAIのための新しいアクセスモデル"
+    },
     {
       "title": "The full Claude Desktop experience on AWS, Google Cloud, and Microsoft Foundry",
       "link": "https://claude.com/blog/the-full-claude-desktop-experience-on-aws-google-cloud-and-microsoft-foundry",
