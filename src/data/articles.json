@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-06-24T10:40:14.148Z",
+  "updatedAt": "2026-06-25T10:33:19.162Z",
   "articles": [
+    {
+      "title": "How Notion used the Cursor SDK to embed coding agents",
+      "link": "https://cursor.com/blog/notion",
+      "date": "2026-06-25T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Product",
+      "titleJa": "NotionがCursor SDKを活用してコーディングエージェントを組み込んだ方法"
+    },
     {
       "title": "Agent identity in Claude Tag: a new access model for autonomous, team-wide AI",
       "link": "https://claude.com/blog/agent-identity-access-model",
@@ -8,6 +16,14 @@
       "category": "Claude Code",
       "date": "Jun 24, 2026",
       "titleJa": "Claude Tagにおけるエージェントのアイデンティティ：自律的でチーム全体を対象としたAIのための新しいアクセスモデル"
+    },
+    {
+      "title": "Building effective human-agent teams",
+      "link": "https://claude.com/blog/building-effective-human-agent-teams",
+      "source": "Claude",
+      "category": "Enterprise AI",
+      "date": "Jun 24, 2026",
+      "titleJa": "効果的な人間とエージェントのチームを構築する"
     },
     {
       "title": "The full Claude Desktop experience on AWS, Google Cloud, and Microsoft Foundry",
