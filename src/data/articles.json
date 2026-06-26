@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T10:33:19.162Z",
+  "updatedAt": "2026-06-26T10:43:29.598Z",
   "articles": [
     {
       "title": "How Notion used the Cursor SDK to embed coding agents",
@@ -8,6 +8,14 @@
       "source": "Cursor",
       "category": "Product",
       "titleJa": "NotionがCursor SDKを活用してコーディングエージェントを組み込んだ方法"
+    },
+    {
+      "title": "Reward hacking is swamping model intelligence gains",
+      "link": "https://cursor.com/blog/reward-hacking-coding-benchmarks",
+      "date": "2026-06-25T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Research",
+      "titleJa": "報酬ハッキングが、モデルの学習成果を台無しにしている"
     },
     {
       "title": "Agent identity in Claude Tag: a new access model for autonomous, team-wide AI",
