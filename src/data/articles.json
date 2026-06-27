@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-06-26T10:43:29.598Z",
+  "updatedAt": "2026-06-27T09:55:49.604Z",
   "articles": [
+    {
+      "title": "Previewing GPT-5.6 Sol: a next-generation model",
+      "link": "https://openai.com/index/previewing-gpt-5-6-sol",
+      "date": "Fri, 26 Jun 2026 10:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "次世代モデル「GPT-5.6 Sol」のプレビュー"
+    },
     {
       "title": "How Notion used the Cursor SDK to embed coding agents",
       "link": "https://cursor.com/blog/notion",
