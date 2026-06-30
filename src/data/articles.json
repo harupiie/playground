@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-06-29T12:22:47.602Z",
+  "updatedAt": "2026-06-30T10:48:18.060Z",
   "articles": [
+    {
+      "title": "Build from anywhere with Cursor for iOS",
+      "link": "https://cursor.com/blog/ios-mobile-app",
+      "date": "2026-06-29T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Product",
+      "titleJa": "iOS版「Cursor」を使えば、どこからでも開発が可能"
+    },
+    {
+      "title": "Introducing the Claude apps gateway for Amazon Bedrock and Google Cloud",
+      "link": "https://claude.com/blog/introducing-the-claude-apps-gateway",
+      "source": "Claude",
+      "category": "Product Announcements",
+      "date": "Jun 29, 2026",
+      "titleJa": "Amazon Bedrock および Google Cloud 向け「Claude apps」ゲートウェイのご紹介"
+    },
+    {
+      "title": "Claude in Microsoft Foundry is now generally available",
+      "link": "https://claude.com/blog/claude-in-microsoft-foundry",
+      "source": "Claude",
+      "category": "Product Announcements",
+      "date": "Jun 29, 2026",
+      "titleJa": "Microsoft Foundryの「Claude」が一般提供を開始しました"
+    },
     {
       "title": "Previewing GPT-5.6 Sol: a next-generation model",
       "link": "https://openai.com/index/previewing-gpt-5-6-sol",
