@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-06-30T10:48:18.060Z",
+  "updatedAt": "2026-07-01T11:17:07.471Z",
   "articles": [
+    {
+      "title": "Introducing GeneBench-Pro",
+      "link": "https://openai.com/index/introducing-genebench-pro",
+      "date": "Tue, 30 Jun 2026 00:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Research",
+      "titleJa": "GeneBench-Proのご紹介"
+    },
+    {
+      "title": "Getting started with loops",
+      "link": "https://claude.com/blog/getting-started-with-loops",
+      "source": "Claude",
+      "category": "Claude Code",
+      "date": "Jun 30, 2026",
+      "titleJa": "ループの基礎"
+    },
     {
       "title": "Build from anywhere with Cursor for iOS",
       "link": "https://cursor.com/blog/ios-mobile-app",
@@ -2270,14 +2286,6 @@
       "source": "Cursor",
       "category": "Product",
       "titleJa": "価格設定の明確化"
-    },
-    {
-      "title": "Cursor on web and mobile",
-      "link": "https://cursor.com/blog/agent-web",
-      "date": "2025-06-30T23:09:00.000Z",
-      "source": "Cursor",
-      "category": "Product",
-      "titleJa": "ウェブとモバイルのカーソル"
     }
   ]
 }
