@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-07-02T10:28:25.331Z",
+  "updatedAt": "2026-07-03T10:26:08.874Z",
   "articles": [
+    {
+      "title": "Giving admins more visibility and control over Claude spend",
+      "link": "https://claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend",
+      "source": "Claude",
+      "category": "Product Announcements",
+      "date": "Jul 02, 2026",
+      "titleJa": "管理者がClaudeの支出状況をより明確に把握し、管理できるようになる"
+    },
     {
       "title": "Introducing GeneBench-Pro",
       "link": "https://openai.com/index/introducing-genebench-pro",
