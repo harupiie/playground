@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T09:59:32.542Z",
+  "updatedAt": "2026-07-05T10:02:41.936Z",
   "articles": [
     {
       "title": "Giving admins more visibility and control over Claude spend",
@@ -2286,14 +2286,6 @@
       "source": "OpenAI",
       "category": "Product",
       "titleJa": "ChatGPTエージェントのご紹介"
-    },
-    {
-      "title": "Clarifying our pricing",
-      "link": "https://cursor.com/blog/june-2025-pricing",
-      "date": "2025-07-04T20:08:00.000Z",
-      "source": "Cursor",
-      "category": "Product",
-      "titleJa": "価格設定の明確化"
     }
   ]
 }
