@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-07-06T11:55:12.158Z",
+  "updatedAt": "2026-07-07T10:44:54.963Z",
   "articles": [
+    {
+      "title": "A field guide to Claude Fable 5: Finding your unknowns",
+      "link": "https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns",
+      "source": "Claude",
+      "category": "Claude Code",
+      "date": "Jul 06, 2026",
+      "titleJa": "『クロード・フェイブル』第5巻 フィールドガイド：未知のものを発見する"
+    },
     {
       "title": "Giving admins more visibility and control over Claude spend",
       "link": "https://claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend",
@@ -1024,7 +1032,7 @@
       "titleJa": "Codexがチームにより柔軟な価格設定を提供"
     },
     {
-      "title": "Harnessing Claude’s intelligence",
+      "title": "Agent Harness Design: 3 Patterns for Harnessing Claude's Intelligence",
       "link": "https://claude.com/blog/harnessing-claudes-intelligence",
       "source": "Claude",
       "category": "Agents",
