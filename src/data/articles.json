@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-07-07T10:44:54.963Z",
+  "updatedAt": "2026-07-08T10:07:04.816Z",
   "articles": [
+    {
+      "title": "Bringing Claude Code and Claude Cowork to government",
+      "link": "https://claude.com/blog/bringing-claude-code-and-claude-cowork-to-government",
+      "source": "Claude",
+      "category": "Claude Code",
+      "date": "Jul 07, 2026",
+      "titleJa": "「Claude Code」と「Claude Cowork」を政府機関に導入"
+    },
+    {
+      "title": "Choosing a Claude model and effort level in Claude Code",
+      "link": "https://claude.com/blog/claude-model-and-effort-level-in-claude-code",
+      "source": "Claude",
+      "category": "Claude Code",
+      "date": "Jul 07, 2026",
+      "titleJa": "Claude CodeでのClaudeモデルの選択と処理レベルの選択"
+    },
+    {
+      "title": "Claude Cowork is coming to mobile and web",
+      "link": "https://claude.com/blog/cowork-web-mobile",
+      "source": "Claude",
+      "category": "Product Announcements",
+      "date": "Jul 07, 2026",
+      "titleJa": "「Claude Cowork」がモバイル版とWeb版に登場します"
+    },
+    {
+      "title": "How people are using Claude Cowork",
+      "link": "https://claude.com/blog/how-people-are-using-claude-cowork",
+      "source": "Claude",
+      "category": "Enterprise AI",
+      "date": "Jul 07, 2026",
+      "titleJa": "Claude Coworkの活用事例"
+    },
     {
       "title": "A field guide to Claude Fable 5: Finding your unknowns",
       "link": "https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns",
