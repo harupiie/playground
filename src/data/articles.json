@@ -1,6 +1,46 @@
 {
-  "updatedAt": "2026-07-08T10:07:04.816Z",
+  "updatedAt": "2026-07-09T10:45:10.939Z",
   "articles": [
+    {
+      "title": "Separating signal from noise in coding evaluations",
+      "link": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+      "date": "Wed, 08 Jul 2026 13:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Research",
+      "titleJa": "コーディング評価における信号とノイズの分離"
+    },
+    {
+      "title": "Introducing GPT-Live",
+      "link": "https://openai.com/index/introducing-gpt-live",
+      "date": "Wed, 08 Jul 2026 00:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "GPT-Liveのご紹介"
+    },
+    {
+      "title": "Working at the frontier: How Thomson Reuters builds AI for high-stakes professional work",
+      "link": "https://claude.com/blog/working-at-the-frontier-how-thomson-reuters-builds-ai-for-high--stakes-professional-work",
+      "source": "Claude",
+      "category": "Enterprise AI",
+      "date": "Jul 08, 2026",
+      "titleJa": "最前線での取り組み：トムソン・ロイターが、リスクの高い専門業務向けにAIを構築する方法"
+    },
+    {
+      "title": "How Anthropic's marketing operations team uses Claude Cowork to automate reporting and campaign builds",
+      "link": "https://claude.com/blog/how-anthropics-marketing-operations-team-uses-claude-cowork-to-automate-reporting-and-campaign-builds",
+      "source": "Claude",
+      "category": "Enterprise AI",
+      "date": "Jul 08, 2026",
+      "titleJa": "Anthropicのマーケティング運用チームが、Claude Coworkを活用してレポート作成とキャンペーン構築を自動化する方法"
+    },
+    {
+      "title": "Introducing Grok 4.5",
+      "link": "https://cursor.com/blog/grok-4-5",
+      "date": "2026-07-08T00:00:00.000Z",
+      "source": "Cursor",
+      "category": "Research",
+      "titleJa": "Grok 4.5のご紹介"
+    },
     {
       "title": "Bringing Claude Code and Claude Cowork to government",
       "link": "https://claude.com/blog/bringing-claude-code-and-claude-cowork-to-government",
@@ -154,7 +194,7 @@
       "titleJa": "ChatGPTにおける健康情報の精度向上"
     },
     {
-      "title": "Steering Claude Code: CLAUDE.md files, skills, hooks, rules, subagents and more",
+      "title": "Steering Claude Code: when to use CLAUDE.md, skills, hooks, and subagents",
       "link": "https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more",
       "source": "Claude",
       "category": "Claude Code",
