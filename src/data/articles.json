@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-07-09T10:45:10.939Z",
+  "updatedAt": "2026-07-10T10:44:05.817Z",
   "articles": [
+    {
+      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+      "link": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+      "date": "Thu, 09 Jul 2026 13:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "GPT-5.6は現在、Microsoft 365 Copilotにおいて推奨モデルとなっています"
+    },
+    {
+      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+      "link": "https://openai.com/index/gpt-5-6",
+      "date": "Thu, 09 Jul 2026 10:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "GPT-5.6：あなたの野心に比例して進化する最先端の知能"
+    },
+    {
+      "title": "ChatGPT is now a partner for your most ambitious work",
+      "link": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+      "date": "Thu, 09 Jul 2026 10:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "ChatGPTは、あなたの最も野心的なプロジェクトのパートナーとなりました"
+    },
     {
       "title": "Separating signal from noise in coding evaluations",
       "link": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
