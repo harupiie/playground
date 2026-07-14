@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-07-13T10:49:39.635Z",
+  "updatedAt": "2026-07-14T09:46:05.041Z",
   "articles": [
+    {
+      "title": "Working at the frontier: How Hebbia builds AI for financial diligence that can't miss a detail",
+      "link": "https://claude.com/blog/working-at-the-frontier-how-hebbia-builds-ai-for-financial-diligence-that-cant-miss-a-detail",
+      "source": "Claude",
+      "category": "Enterprise AI",
+      "date": "Jul 13, 2026",
+      "titleJa": "最前線での取り組み：ヘビアが、細部まで見逃さない金融デューデリジェンス向けAIをどのように構築しているか"
+    },
     {
       "title": "Working at the frontier: How Cognition trusts Claude Fable 5 to work through the night",
       "link": "https://claude.com/blog/working-at-the-frontier-how-cognition-trusts-claude-fable-5-to-work-through-the-night",
