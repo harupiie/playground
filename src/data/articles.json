@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-07-17T09:46:41.167Z",
+  "updatedAt": "2026-07-18T09:15:09.249Z",
   "articles": [
+    {
+      "title": "Working at the frontier: How Cursor knew Claude Fable 5 was ready for the hardest 1% of problems",
+      "link": "https://claude.com/blog/working-at-the-frontier-cursor",
+      "source": "Claude",
+      "category": "Enterprise AI",
+      "date": "Jul 17, 2026",
+      "titleJa": "最前線での取り組み：Cursorが『Claude Fable 5』が最も困難な1％の問題に取り組む準備が整っていると判断した理由"
+    },
+    {
+      "title": "Zero risk isn't the job: a CISO's guide to agentic AI",
+      "link": "https://claude.com/blog/ciso-guide-to-agentic-ai",
+      "source": "Claude",
+      "category": "Enterprise AI",
+      "date": "Jul 17, 2026",
+      "titleJa": "リスクゼロは現実的ではない：CISOのための自律型AIガイド"
+    },
     {
       "title": "How Anthropic runs large-scale code migrations with Claude Code",
       "link": "https://claude.com/blog/ai-code-migration",
@@ -2422,14 +2438,6 @@
       "source": "Cursor",
       "category": "Product",
       "titleJa": "バグボット、ベータ版終了"
-    },
-    {
-      "title": "Introducing ChatGPT agent",
-      "link": "https://openai.com/index/introducing-chatgpt-agent",
-      "date": "Thu, 17 Jul 2025 10:00:00 GMT",
-      "source": "OpenAI",
-      "category": "Product",
-      "titleJa": "ChatGPTエージェントのご紹介"
     }
   ]
 }
