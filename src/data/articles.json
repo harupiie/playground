@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-07-20T10:40:20.899Z",
+  "updatedAt": "2026-07-21T10:14:42.865Z",
   "articles": [
+    {
+      "title": "Agent swarms and the new model economics",
+      "link": "https://cursor.com/blog/agent-swarm-model-economics",
+      "date": "2026-07-20T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Research",
+      "titleJa": "エージェント・スウォームと新しい経済モデル"
+    },
+    {
+      "title": "Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5",
+      "link": "https://claude.com/blog/working-at-the-frontier-rakuten",
+      "source": "Claude",
+      "category": "Enterprise AI",
+      "date": "Jul 20, 2026",
+      "titleJa": "最前線での取り組み：楽天が「Claude Fable 5」を活用して一夜にしてエージェントを構築する方法"
+    },
     {
       "title": "Working at the frontier: How Cursor knew Claude Fable 5 was ready for the hardest 1% of problems",
       "link": "https://claude.com/blog/working-at-the-frontier-cursor",
