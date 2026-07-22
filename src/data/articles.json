@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-07-21T10:14:42.865Z",
+  "updatedAt": "2026-07-22T10:14:23.708Z",
   "articles": [
+    {
+      "title": "How Anthropic secures its AI-native software development lifecycle",
+      "link": "https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle",
+      "source": "Claude",
+      "category": "Claude Code",
+      "date": "Jul 21, 2026",
+      "titleJa": "AnthropicがAIネイティブなソフトウェア開発ライフサイクルをどのように確保しているか"
+    },
+    {
+      "title": "How Datadog built a “universal machine tool” for Claude Code",
+      "link": "https://claude.com/blog/how-datadog-built-a-universal-machine-tool-for-claude-code",
+      "source": "Claude",
+      "category": "Claude Code",
+      "date": "Jul 21, 2026",
+      "titleJa": "DatadogがClaude Code向けの「万能工作機械」をどのように構築したか"
+    },
     {
       "title": "Agent swarms and the new model economics",
       "link": "https://cursor.com/blog/agent-swarm-model-economics",
