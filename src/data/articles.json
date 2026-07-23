@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-07-22T10:14:23.708Z",
+  "updatedAt": "2026-07-23T10:11:04.649Z",
   "articles": [
+    {
+      "title": "Introducing OpenAI Presence",
+      "link": "https://openai.com/index/introducing-openai-presence",
+      "date": "Wed, 22 Jul 2026 05:30:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "OpenAI Presenceのご紹介"
+    },
+    {
+      "title": "Building verification loops in Claude Code with skills",
+      "link": "https://claude.com/blog/building-verification-loops-in-claude-code-with-skills",
+      "source": "Claude",
+      "category": "Claude Code",
+      "date": "Jul 22, 2026",
+      "titleJa": "スキルを使用したClaude Codeでの検証ループの構築"
+    },
+    {
+      "title": "How Outtake built a cyber investigator on Claude",
+      "link": "https://claude.com/blog/how-outtake-built-a-cyber-investigator-on-claude",
+      "source": "Claude",
+      "category": "Claude Code",
+      "date": "Jul 22, 2026",
+      "titleJa": "OuttakeがClaudeを用いてサイバー調査員をどのように構築したか"
+    },
+    {
+      "title": "Introducing Cursor Router",
+      "link": "https://cursor.com/blog/router",
+      "date": "2026-07-22T00:00:00.000Z",
+      "source": "Cursor",
+      "category": "Product",
+      "titleJa": "「Cursor Router」のご紹介"
+    },
     {
       "title": "How Anthropic secures its AI-native software development lifecycle",
       "link": "https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle",
