@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-07-23T10:11:04.649Z",
+  "updatedAt": "2026-07-24T10:07:17.598Z",
   "articles": [
+    {
+      "title": "Launching Health in ChatGPT ",
+      "link": "https://openai.com/index/health-in-chatgpt",
+      "date": "Thu, 23 Jul 2026 00:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "ChatGPTでの「Health」機能の開始"
+    },
+    {
+      "title": "Think through hard problems in voice mode",
+      "link": "https://claude.com/blog/think-through-hard-problems-in-voice-mode",
+      "source": "Claude",
+      "category": "Product Announcements",
+      "date": "Jul 23, 2026",
+      "titleJa": "音声モードで難しい問題をじっくり考えてみる"
+    },
+    {
+      "title": "Four role-based certifications for the people who put Claude to work for customers",
+      "link": "https://claude.com/blog/four-role-based-claude-certifications",
+      "source": "Claude",
+      "category": "Enterprise AI",
+      "date": "Jul 23, 2026",
+      "titleJa": "顧客のためにクロードを活用する方々を対象とした、4つの役割別認定資格"
+    },
     {
       "title": "Introducing OpenAI Presence",
       "link": "https://openai.com/index/introducing-openai-presence",
@@ -2494,14 +2518,6 @@
       "source": "OpenAI",
       "category": "Product",
       "titleJa": "ChatGPTにスタディモードを導入"
-    },
-    {
-      "title": "Bugbot is out of beta",
-      "link": "https://cursor.com/blog/bugbot-out-of-beta",
-      "date": "2025-07-24T07:00:00.000Z",
-      "source": "Cursor",
-      "category": "Product",
-      "titleJa": "バグボット、ベータ版終了"
     }
   ]
 }
