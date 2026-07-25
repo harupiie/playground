@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-07-24T10:07:17.598Z",
+  "updatedAt": "2026-07-25T09:27:30.594Z",
   "articles": [
+    {
+      "title": "The new rules of context engineering for Claude 5 generation models",
+      "link": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
+      "source": "Claude",
+      "category": "Claude Code",
+      "date": "Jul 24, 2026",
+      "titleJa": "Claude第5世代モデルにおけるコンテキストエンジニアリングの新たなルール"
+    },
+    {
+      "title": "Claude models explained: choosing the best model for your use case",
+      "link": "https://claude.com/blog/claude-models-explained-choosing-the-best-model-for-your-use-case",
+      "source": "Claude",
+      "category": "Claude Code",
+      "date": "Jul 24, 2026",
+      "titleJa": "Claudeモデルの解説：ユースケースに最適なモデルの選び方"
+    },
+    {
+      "title": "How the product designer who built Claude Design uses it to explore ideas before building them",
+      "link": "https://claude.com/blog/how-the-product-designer-who-built-claude-design-uses-it-to-explore-ideas-before-building-them",
+      "source": "Claude",
+      "category": "Enterprise AI",
+      "date": "Jul 24, 2026",
+      "titleJa": "「Claude Design」を開発したプロダクトデザイナーが、実際にそれを活用して、アイデアを形にする前にどのように検討しているか"
+    },
     {
       "title": "Launching Health in ChatGPT ",
       "link": "https://openai.com/index/health-in-chatgpt",
@@ -128,6 +152,14 @@
       "category": "Enterprise AI",
       "date": "Jul 15, 2026",
       "titleJa": "最前線での仕事：Base44が、最も困難なエンジニアリング業務を『Claude Fable 5』に託す理由"
+    },
+    {
+      "title": "Grok 4.5 Model Card",
+      "link": "https://cursor.com/blog/grok-4-5-model-card",
+      "date": "2026-07-14T00:00:00.000Z",
+      "source": "Cursor",
+      "category": "Research",
+      "titleJa": "Grok 4.5 モデルカード"
     },
     {
       "title": "Working at the frontier: How Hebbia builds AI for financial diligence that can't miss a detail",
