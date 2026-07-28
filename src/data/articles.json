@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-07-27T11:09:46.482Z",
+  "updatedAt": "2026-07-28T10:23:43.438Z",
   "articles": [
+    {
+      "title": "Introducing Cursor Start",
+      "link": "https://cursor.com/blog/cursor-start-india",
+      "date": "2026-07-28T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Product",
+      "titleJa": "「Cursor Start」のご紹介"
+    },
     {
       "title": "The new rules of context engineering for Claude 5 generation models",
       "link": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
