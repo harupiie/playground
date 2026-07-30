@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-07-29T10:29:37.608Z",
+  "updatedAt": "2026-07-30T10:12:22.071Z",
   "articles": [
+    {
+      "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
+      "link": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+      "date": "Wed, 29 Jul 2026 15:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Research",
+      "titleJa": "2つの設定を有効にしただけで、ARC-AGI-3ベンチマークのスコアが3倍になった理由"
+    },
     {
       "title": "Introducing Cursor Start",
       "link": "https://cursor.com/blog/cursor-start-india",
