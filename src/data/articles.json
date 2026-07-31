@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-07-30T10:12:22.071Z",
+  "updatedAt": "2026-07-31T10:28:14.915Z",
   "articles": [
+    {
+      "title": "How we set up our cloud agent environment",
+      "link": "https://cursor.com/blog/cloud-agent-environment",
+      "date": "2026-07-30T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Research",
+      "titleJa": "クラウドエージェント環境の構築方法"
+    },
+    {
+      "title": "Advancing the price-performance frontier with GPT-5.6",
+      "link": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+      "date": "Thu, 30 Jul 2026 10:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "GPT-5.6でコストパフォーマンスの限界を押し広げる"
+    },
     {
       "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
       "link": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
