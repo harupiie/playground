@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-08-04T10:26:42.230Z",
+  "updatedAt": "2026-08-05T10:25:24.878Z",
   "articles": [
+    {
+      "title": "Mixture-of-Kittens: our open-source MoE megakernel for NVL72s",
+      "link": "https://cursor.com/blog/mixture-of-kittens",
+      "date": "2026-08-04T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Research",
+      "titleJa": "Mixture-of-Kittens：NVL72向けオープンソースのMoEメガカーネル"
+    },
+    {
+      "title": "New ways to learn and teach with ChatGPT Work and Codex",
+      "link": "https://openai.com/index/learn-teach-chatgpt-work-codex",
+      "date": "Tue, 04 Aug 2026 00:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "ChatGPT WorkとCodexを活用した、学習と指導の新しい方法"
+    },
+    {
+      "title": "A guide to cost visibility and control in Claude",
+      "link": "https://claude.com/blog/a-guide-to-cost-visibility-and-control-in-claude",
+      "source": "Claude",
+      "category": "Enterprise AI",
+      "date": "Aug 04, 2026",
+      "titleJa": "Claudeにおけるコストの可視化と管理に関するガイド"
+    },
     {
       "title": "How we set up our cloud agent environment",
       "link": "https://cursor.com/blog/cloud-agent-environment",
