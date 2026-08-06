@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-08-05T10:25:24.878Z",
+  "updatedAt": "2026-08-06T10:27:26.688Z",
   "articles": [
+    {
+      "title": "Inference hooks: inline data loss prevention for Claude Enterprise",
+      "link": "https://claude.com/blog/claude-enterprise-inference-hooks",
+      "source": "Claude",
+      "category": "Product Announcements",
+      "date": "Aug 05, 2026",
+      "titleJa": "推論フック：Claude Enterprise向けのインラインデータ損失防止機能"
+    },
     {
       "title": "Mixture-of-Kittens: our open-source MoE megakernel for NVL72s",
       "link": "https://cursor.com/blog/mixture-of-kittens",
