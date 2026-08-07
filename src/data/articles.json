@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-08-06T10:27:26.688Z",
+  "updatedAt": "2026-08-07T08:46:01.707Z",
   "articles": [
+    {
+      "title": "How Cursor Router chooses the right model for the task",
+      "link": "https://cursor.com/blog/how-cursor-router-works",
+      "date": "2026-08-06T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Research",
+      "titleJa": "Cursor Router がタスクに適したモデルをどのように選択するか"
+    },
+    {
+      "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
+      "link": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+      "date": "Thu, 06 Aug 2026 10:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "ChatGPTにおけるGPT-5.6 Solの機能向上――および無料ユーザー向けのGPT-5.6 Lunaの利用拡大"
+    },
+    {
+      "title": "Millennium and Anthropic are building a digital risk analyst with Claude",
+      "link": "https://claude.com/blog/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude",
+      "source": "Claude",
+      "category": "Claude Code",
+      "date": "Aug 06, 2026",
+      "titleJa": "MillenniumとAnthropicは、Claudeを活用したデジタルリスクアナリストの開発を進めている"
+    },
+    {
+      "title": "Run Claude Code sessions on your own compute",
+      "link": "https://claude.com/blog/run-claude-code-sessions-on-your-own-compute",
+      "source": "Claude",
+      "category": "Product Announcements",
+      "date": "Aug 06, 2026",
+      "titleJa": "自分のコンピューティング環境で「Claude Code」セッションを実行する"
+    },
     {
       "title": "Inference hooks: inline data loss prevention for Claude Enterprise",
       "link": "https://claude.com/blog/claude-enterprise-inference-hooks",
@@ -2598,22 +2630,6 @@
       "source": "OpenAI",
       "category": "Product",
       "titleJa": "開発者向けGPT-5のご紹介"
-    },
-    {
-      "title": "Cursor Agent CLI",
-      "link": "https://cursor.com/blog/cli",
-      "date": "2025-08-07T07:10:00.000Z",
-      "source": "Cursor",
-      "category": "Product",
-      "titleJa": "カーソルエージェントCLI"
-    },
-    {
-      "title": "GPT-5 is now available in Cursor",
-      "link": "https://cursor.com/blog/gpt-5",
-      "date": "2025-08-07T07:00:00.000Z",
-      "source": "Cursor",
-      "category": "Product",
-      "titleJa": "カーソルにGPT-5が登場"
     }
   ]
 }
