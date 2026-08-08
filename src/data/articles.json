@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-08-07T08:46:01.707Z",
+  "updatedAt": "2026-08-08T08:27:38.517Z",
   "articles": [
+    {
+      "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
+      "link": "https://claude.com/blog/auto-mode-default-in-claude-code",
+      "source": "Claude",
+      "category": "Claude Code",
+      "date": "Aug 07, 2026",
+      "titleJa": "「Claude Code」のPro、Max、Teamプランにおいて、オートモードがデフォルト設定となりました"
+    },
+    {
+      "title": "Running auto mode in production",
+      "link": "https://claude.com/blog/auto-mode-in-production",
+      "source": "Claude",
+      "category": "Claude Code",
+      "date": "Aug 07, 2026",
+      "titleJa": "本番環境で自動モードを実行する"
+    },
     {
       "title": "How Cursor Router chooses the right model for the task",
       "link": "https://cursor.com/blog/how-cursor-router-works",
@@ -2614,22 +2630,6 @@
       "source": "Cursor",
       "category": "Product",
       "titleJa": "チームとオートのアップデート"
-    },
-    {
-      "title": "GPT-5 and the new era of work",
-      "link": "https://openai.com/index/gpt-5-new-era-of-work",
-      "date": "Thu, 07 Aug 2025 10:00:00 GMT",
-      "source": "OpenAI",
-      "category": "Product",
-      "titleJa": "GPT-5と仕事の新時代"
-    },
-    {
-      "title": "Introducing GPT-5 for developers",
-      "link": "https://openai.com/index/introducing-gpt-5-for-developers",
-      "date": "Thu, 07 Aug 2025 10:00:00 GMT",
-      "source": "OpenAI",
-      "category": "Product",
-      "titleJa": "開発者向けGPT-5のご紹介"
     }
   ]
 }
