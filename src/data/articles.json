@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-08-10T09:06:47.736Z",
+  "updatedAt": "2026-08-11T08:43:12.693Z",
   "articles": [
+    {
+      "title": "Premium seats are coming to ChatGPT Business",
+      "link": "https://openai.com/index/premium-seats-chatgpt-business",
+      "date": "Mon, 10 Aug 2026 00:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "ChatGPT Businessにプレミアムシートが登場します"
+    },
     {
       "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
       "link": "https://claude.com/blog/auto-mode-default-in-claude-code",
@@ -16,6 +24,14 @@
       "category": "Claude Code",
       "date": "Aug 07, 2026",
       "titleJa": "本番環境で自動モードを実行する"
+    },
+    {
+      "title": "How Anthropic's business development team uses Claude to run inbound and outbound at scale",
+      "link": "https://claude.com/blog/how-anthropics-business-development-team-uses-claude-to-run-inbound-and-outbound-at-scale",
+      "source": "Claude",
+      "category": "Enterprise AI",
+      "date": "Aug 07, 2026",
+      "titleJa": "Anthropicの事業開発チームが、Claudeを活用してインバウンドおよびアウトバウンドの業務を大規模に展開する方法"
     },
     {
       "title": "How Cursor Router chooses the right model for the task",
