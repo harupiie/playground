@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-08-11T08:43:12.693Z",
+  "updatedAt": "2026-08-12T09:00:56.200Z",
   "articles": [
+    {
+      "title": "Daybreak models are now available on AWS",
+      "link": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
+      "date": "Tue, 11 Aug 2026 10:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "DaybreakのモデルがAWSで利用可能になりました"
+    },
+    {
+      "title": "Compliance API coverage extends to Claude Cowork and Claude Code",
+      "link": "https://claude.com/blog/compliance-api-cowork-and-claude-code",
+      "source": "Claude",
+      "category": "Product Announcements",
+      "date": "Aug 11, 2026",
+      "titleJa": "コンプライアンスAPIの対応範囲は、Claude CoworkおよびClaude Codeにも拡大されました"
+    },
     {
       "title": "Premium seats are coming to ChatGPT Business",
       "link": "https://openai.com/index/premium-seats-chatgpt-business",
@@ -2638,14 +2654,6 @@
       "source": "Cursor",
       "category": "Product",
       "titleJa": "カーソルエージェントをリニアへ"
-    },
-    {
-      "title": "Updates to Teams and Auto",
-      "link": "https://cursor.com/blog/aug-2025-pricing",
-      "date": "2025-08-12T07:00:00.000Z",
-      "source": "Cursor",
-      "category": "Product",
-      "titleJa": "チームとオートのアップデート"
     }
   ]
 }
