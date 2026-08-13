@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-08-12T09:00:56.200Z",
+  "updatedAt": "2026-08-13T09:02:17.915Z",
   "articles": [
+    {
+      "title": "The Claude in Chrome side panel is now Claude Cowork",
+      "link": "https://claude.com/blog/cowork-chrome-side-panel",
+      "source": "Claude",
+      "category": "Product Announcements",
+      "date": "Aug 12, 2026",
+      "titleJa": "「Claude in Chrome」のサイドパネルは、現在「Claude Cowork」となっています。"
+    },
+    {
+      "title": "Introducing Grok 4.6",
+      "link": "https://cursor.com/blog/grok-4-6",
+      "date": "2026-08-12T00:00:00.000Z",
+      "source": "Cursor",
+      "category": "Research",
+      "titleJa": "Grok 4.6のご紹介"
+    },
     {
       "title": "Daybreak models are now available on AWS",
       "link": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
