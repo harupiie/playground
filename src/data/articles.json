@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-08-13T09:02:17.915Z",
+  "updatedAt": "2026-08-14T08:57:57.283Z",
   "articles": [
+    {
+      "title": "Cloud agents start 3x faster with builds",
+      "link": "https://cursor.com/blog/builds",
+      "date": "2026-08-13T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Product",
+      "titleJa": "ビルドを使用すると、クラウドエージェントの起動が3倍速くなります"
+    },
+    {
+      "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+      "link": "https://openai.com/index/previewing-ultrafast",
+      "date": "Thu, 13 Aug 2026 10:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "「Ultrafast」モードのプレビュー：GPT-5.6 Solが最大14倍の速度で動作"
+    },
+    {
+      "title": "Claude Tag now reads even more of the room",
+      "link": "https://claude.com/blog/claude-tag-now-reads-even-more-of-the-room",
+      "source": "Claude",
+      "category": "Product Announcements",
+      "date": "Aug 13, 2026",
+      "titleJa": "クロード・タグは、以前よりもさらに場の空気を読み取るようになった"
+    },
+    {
+      "title": "Securing the frontier: How JetBrains evaluates and deploys Claude Fable 5",
+      "link": "https://claude.com/blog/how-jetbrains-evaluates-and-deploys-claude-fable-5",
+      "source": "Claude",
+      "category": "Enterprise AI",
+      "date": "Aug 13, 2026",
+      "titleJa": "フロンティアの確保：JetBrainsによる『Claude Fable 5』の評価と導入"
+    },
     {
       "title": "The Claude in Chrome side panel is now Claude Cowork",
       "link": "https://claude.com/blog/cowork-chrome-side-panel",
