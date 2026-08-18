@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-08-17T08:31:19.675Z",
+  "updatedAt": "2026-08-18T08:23:07.456Z",
   "articles": [
+    {
+      "title": "How ABC Legal turned every employee into a builder with Claude Managed Agents",
+      "link": "https://claude.com/blog/how-abc-legal-turned-every-employee-into-a-builder-with-claude-managed-agents",
+      "source": "Claude",
+      "category": "Enterprise AI",
+      "date": "Aug 17, 2026",
+      "titleJa": "ABC Legalが、Claude Managed Agentsを活用して、全従業員を「ビルダー」へと変えた経緯"
+    },
+    {
+      "title": "Cursor is now a part of SpaceX",
+      "link": "https://cursor.com/blog/joining-spacex",
+      "date": "2026-08-14T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Company",
+      "titleJa": "Cursorは現在、SpaceXの一員となっています"
+    },
     {
       "title": "Maximizing the value of your Claude Code sessions",
       "link": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
@@ -10,12 +26,28 @@
       "titleJa": "「Claude Code」セッションの価値を最大限に引き出す"
     },
     {
+      "title": "Firetiger joins Cursor",
+      "link": "https://cursor.com/blog/firetiger",
+      "date": "2026-08-13T19:00:00.000Z",
+      "source": "Cursor",
+      "category": "Company",
+      "titleJa": "FiretigerがCursorに参画"
+    },
+    {
       "title": "Cloud agents start 3x faster with builds",
       "link": "https://cursor.com/blog/builds",
       "date": "2026-08-13T12:00:00.000Z",
       "source": "Cursor",
       "category": "Product",
       "titleJa": "ビルドを使用すると、クラウドエージェントの起動が3倍速くなります"
+    },
+    {
+      "title": "Cursor earns AIUC-1 certification for agent security and reliability",
+      "link": "https://cursor.com/blog/aiuc-1",
+      "date": "2026-08-13T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Company",
+      "titleJa": "Cursor、エージェントのセキュリティと信頼性においてAIUC-1認証を取得"
     },
     {
       "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
@@ -200,6 +232,14 @@
       "source": "Cursor",
       "category": "Product",
       "titleJa": "「Cursor Start」のご紹介"
+    },
+    {
+      "title": "How Vercel used Cursor to build Queues",
+      "link": "https://cursor.com/blog/vercel",
+      "date": "2026-07-28T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Customers",
+      "titleJa": "VercelがCursorを活用してQueuesを構築した方法"
     },
     {
       "title": "Bringing MCP 2026-07-28 to Claude",
@@ -482,6 +522,14 @@
       "titleJa": "Claude Coworkの活用事例"
     },
     {
+      "title": "CFOs and the new economics of AI",
+      "link": "https://cursor.com/blog/cfo-council",
+      "date": "2026-07-06T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Company",
+      "titleJa": "CFOとAIの新たな経済学"
+    },
+    {
       "title": "A field guide to Claude Fable 5: Finding your unknowns",
       "link": "https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns",
       "source": "Claude",
@@ -578,6 +626,14 @@
       "titleJa": "効果的な人間とエージェントのチームを構築する"
     },
     {
+      "title": "Coinbase reduces time from idea to production by 90% with Cursor",
+      "link": "https://cursor.com/blog/coinbase",
+      "date": "2026-06-23T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Customers",
+      "titleJa": "CoinbaseはCursorを活用し、アイデアから本番環境への移行にかかる時間を90％短縮した"
+    },
+    {
       "title": "The full Claude Desktop experience on AWS, Google Cloud, and Microsoft Foundry",
       "link": "https://claude.com/blog/the-full-claude-desktop-experience-on-aws-google-cloud-and-microsoft-foundry",
       "source": "Claude",
@@ -672,6 +728,14 @@
       "source": "OpenAI",
       "category": "Research",
       "titleJa": "デプロイメントのシミュレーションにより、リリース前のモデルの挙動を予測する"
+    },
+    {
+      "title": "How Wayfair cut ML model costs by 90% (twice!) with Cursor",
+      "link": "https://cursor.com/blog/wayfair",
+      "date": "2026-06-15T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Customers",
+      "titleJa": "WayfairがCursorを活用してMLモデルのコストを90％削減した方法（なんと2回も！）"
     },
     {
       "title": "Meet the winners of the Built with Opus 4.7 Claude Code hackathon",
