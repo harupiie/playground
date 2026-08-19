@@ -1,6 +1,46 @@
 {
-  "updatedAt": "2026-08-18T08:23:07.456Z",
+  "updatedAt": "2026-08-19T08:23:59.602Z",
   "articles": [
+    {
+      "title": "ChatGPT Ads expands across Europe",
+      "link": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+      "date": "Tue, 18 Aug 2026 22:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "ChatGPT Adsが欧州全域に拡大"
+    },
+    {
+      "title": "Git at any scale",
+      "link": "https://cursor.com/blog/git-at-any-scale",
+      "date": "2026-08-18T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Research",
+      "titleJa": "あらゆる規模でのGit"
+    },
+    {
+      "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
+      "link": "https://openai.com/index/chatgpt-for-teens",
+      "date": "Tue, 18 Aug 2026 11:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "「ChatGPT for Teens」のご紹介：学習のために設計され、安全対策が施されています"
+    },
+    {
+      "title": "Claude on call: How Claude Tag serves as Anthropic’s first responder for CI/CD failures",
+      "link": "https://claude.com/blog/ai-ci-cd-on-call",
+      "source": "Claude",
+      "category": "Claude Code",
+      "date": "Aug 18, 2026",
+      "titleJa": "オンコールのクロード：クロード・タグが、CI/CDの障害発生時にAnthropicの第一対応者としての役割を果たす仕組み"
+    },
+    {
+      "title": "The Claude Science product guide",
+      "link": "https://claude.com/blog/the-claude-science-product-guide",
+      "source": "Claude",
+      "category": "Enterprise AI",
+      "date": "Aug 18, 2026",
+      "titleJa": "「クロード・サイエンス」製品ガイド"
+    },
     {
       "title": "How ABC Legal turned every employee into a builder with Claude Managed Agents",
       "link": "https://claude.com/blog/how-abc-legal-turned-every-employee-into-a-builder-with-claude-managed-agents",
