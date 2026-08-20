@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-08-19T08:23:59.602Z",
+  "updatedAt": "2026-08-20T08:24:58.999Z",
   "articles": [
+    {
+      "title": "Turning conversation into knowledge: how Slack builds human-agent teams",
+      "link": "https://claude.com/blog/turning-conversation-into-knowledge-how-slack-builds-human-agent-teams",
+      "source": "Claude",
+      "category": "Enterprise AI",
+      "date": "Aug 19, 2026",
+      "titleJa": "会話を知識に変える：Slackが人間とエージェントのチームを構築する方法"
+    },
     {
       "title": "ChatGPT Ads expands across Europe",
       "link": "https://openai.com/index/chatgpt-ads-expands-across-europe",
