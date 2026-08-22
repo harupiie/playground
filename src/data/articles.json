@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-08-21T08:26:42.793Z",
+  "updatedAt": "2026-08-22T08:17:13.111Z",
   "articles": [
+    {
+      "title": "The AI-Native SDLC playbook",
+      "link": "https://claude.com/blog/the-ai-native-sdlc-playbook",
+      "source": "Claude",
+      "category": "Claude Code",
+      "date": "Aug 21, 2026",
+      "titleJa": "AIネイティブSDLCプレイブック"
+    },
+    {
+      "title": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
+      "link": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
+      "source": "Claude",
+      "category": "Product Announcements",
+      "date": "Aug 21, 2026",
+      "titleJa": "「Claude Mythos 5」のサイバーセキュリティ機能を、より多くの防御担当者に提供"
+    },
     {
       "title": "The Claude Code guide for startups",
       "link": "https://claude.com/blog/claude-code-guide-for-startups",
@@ -152,6 +168,14 @@
       "category": "Enterprise AI",
       "date": "Aug 13, 2026",
       "titleJa": "フロンティアの確保：JetBrainsによる『Claude Fable 5』の評価と導入"
+    },
+    {
+      "title": "Self-service data analytics in Slack: how Anthropic deploys Claude Tag for ad-hoc questions",
+      "link": "https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions",
+      "source": "Claude",
+      "category": "Claude Code",
+      "date": "Aug 13, 2026",
+      "titleJa": "Slackでのセルフサービス型データ分析：Anthropicがアドホックな質問に対応するためにClaude Tagをどのように活用しているか"
     },
     {
       "title": "The Claude in Chrome side panel is now Claude Cowork",
