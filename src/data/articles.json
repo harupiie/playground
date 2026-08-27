@@ -1,6 +1,46 @@
 {
-  "updatedAt": "2026-08-26T08:30:26.475Z",
+  "updatedAt": "2026-08-27T18:37:26.470Z",
   "articles": [
+    {
+      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+      "link": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+      "date": "Wed, 26 Aug 2026 10:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "「ChatGPT for Teachers」を米国のより多くの学区に導入する"
+    },
+    {
+      "title": "Learning never stops: How AI makes learning continuous",
+      "link": "https://openai.com/index/learning-never-stops",
+      "date": "Wed, 26 Aug 2026 10:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "学びに終わりはない：AIがどのようにして学びを継続的なものにするのか"
+    },
+    {
+      "title": "How Warp builds self-improving agents on Claude",
+      "link": "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude",
+      "source": "Claude",
+      "category": "Agents",
+      "date": "Aug 26, 2026",
+      "titleJa": "WarpがClaudeを用いて自己改善型エージェントを構築する方法"
+    },
+    {
+      "title": "Claude in Chrome is generally available",
+      "link": "https://claude.com/blog/claude-in-chrome-generally-available",
+      "source": "Claude",
+      "category": "Product Announcements",
+      "date": "Aug 26, 2026",
+      "titleJa": "「Claude in Chrome」が一般提供開始されました"
+    },
+    {
+      "title": "Claude gets its own browser in Cowork",
+      "link": "https://claude.com/blog/cowork-built-in-browser",
+      "source": "Claude",
+      "category": "Product Announcements",
+      "date": "Aug 26, 2026",
+      "titleJa": "Coworkで、Claude専用のブラウザが登場しました"
+    },
     {
       "title": "Claude's memory works everywhere, and you decide what's in it",
       "link": "https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it",
