@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-08-27T18:37:26.470Z",
+  "updatedAt": "2026-08-28T19:46:14.780Z",
   "articles": [
+    {
+      "title": "Claude for Teachers, now available for schools and districts",
+      "link": "https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts",
+      "source": "Claude",
+      "category": "Product Announcements",
+      "date": "Aug 28, 2026",
+      "titleJa": "「Claude for Teachers」が、学校および学区向けに提供開始されました"
+    },
     {
       "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
       "link": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
@@ -2934,14 +2942,6 @@
       "source": "Cursor",
       "category": "Research",
       "titleJa": "カスタムMXFP8カーネルでMoEトレーニングを1.5倍高速化"
-    },
-    {
-      "title": "Introducing gpt-realtime and Realtime API updates",
-      "link": "https://openai.com/index/introducing-gpt-realtime",
-      "date": "Thu, 28 Aug 2025 10:00:00 GMT",
-      "source": "OpenAI",
-      "category": "Product",
-      "titleJa": "gpt-realtimeとリアルタイムAPIアップデートの紹介"
     }
   ]
 }
