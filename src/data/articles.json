@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-08-30T13:24:49.033Z",
+  "updatedAt": "2026-08-31T15:39:48.332Z",
   "articles": [
+    {
+      "title": "A milestone in expanding access to AI",
+      "link": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
+      "date": "Mon, 31 Aug 2026 04:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "AIへのアクセス拡大における画期的な出来事"
+    },
     {
       "title": "Claude for Teachers, now available for U.S. K-12 schools and districts",
       "link": "https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts",
