@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-09-01T12:52:47.450Z",
+  "updatedAt": "2026-09-02T12:22:53.557Z",
   "articles": [
+    {
+      "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+      "link": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+      "date": "Tue, 01 Sep 2026 12:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "医療機関は、EHRやその他の業界データをChatGPTと連携できるようになりました"
+    },
     {
       "title": "A milestone in expanding access to AI",
       "link": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
