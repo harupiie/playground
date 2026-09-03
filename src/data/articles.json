@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-09-02T12:22:53.557Z",
+  "updatedAt": "2026-09-03T12:20:51.571Z",
   "articles": [
+    {
+      "title": "Run cloud agents on machines you manage",
+      "link": "https://cursor.com/blog/self-hosted-machines",
+      "date": "2026-09-02T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Product",
+      "titleJa": "管理対象のマシンでクラウドエージェントを実行する"
+    },
+    {
+      "title": "A guide to the anatomy of effective commerce agents",
+      "link": "https://claude.com/blog/the-anatomy-of-effective-commerce-agents",
+      "source": "Claude",
+      "category": "Agents",
+      "date": "Sep 02, 2026",
+      "titleJa": "効果的なコマースエージェントの仕組みに関するガイド"
+    },
+    {
+      "title": "Building commerce agents with Claude",
+      "link": "https://claude.com/blog/claude-for-commerce-agents",
+      "source": "Claude",
+      "category": "Agents",
+      "date": "Sep 02, 2026",
+      "titleJa": "Claude を使ったコマースエージェントの構築"
+    },
     {
       "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
       "link": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
