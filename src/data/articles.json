@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-09-04T12:21:18.472Z",
+  "updatedAt": "2026-09-05T11:28:37.969Z",
   "articles": [
+    {
+      "title": "GPT-6 Astra: A new generation of intelligence",
+      "link": "https://openai.com/index/gpt-6-astra",
+      "date": "Thu, 03 Sep 2026 11:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Research",
+      "titleJa": "GPT-6 Astra：新世代の知能"
+    },
     {
       "title": "Run cloud agents on machines you manage",
       "link": "https://cursor.com/blog/self-hosted-machines",
@@ -2974,14 +2982,6 @@
       "source": "Cursor",
       "category": "Research",
       "titleJa": "オンラインRLによるカーソルタブの改善"
-    },
-    {
-      "title": "Why language models hallucinate",
-      "link": "https://openai.com/index/why-language-models-hallucinate",
-      "date": "Fri, 05 Sep 2025 10:00:00 GMT",
-      "source": "OpenAI",
-      "category": "Research",
-      "titleJa": "言語モデルはなぜ幻覚を見るのか"
     }
   ]
 }
