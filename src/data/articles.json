@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-09-06T11:49:36.489Z",
+  "updatedAt": "2026-09-07T13:47:14.246Z",
   "articles": [
+    {
+      "title": "Research acceleration: The view inside OpenAI",
+      "link": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "date": "Sun, 06 Sep 2026 08:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Research",
+      "titleJa": "研究の加速：OpenAIの内部に迫る"
+    },
     {
       "title": "GPT-6 Astra: A new generation of intelligence",
       "link": "https://openai.com/index/gpt-6-astra",
