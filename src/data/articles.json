@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-09-09T12:34:11.335Z",
+  "updatedAt": "2026-09-10T12:28:49.797Z",
   "articles": [
+    {
+      "title": "GPT-6 Astra: The next generation in intelligence for work",
+      "link": "https://openai.com/index/gpt-6-astra-next-generation-work",
+      "date": "Wed, 09 Sep 2026 11:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "GPT-6 Astra：仕事のための次世代AI"
+    },
     {
       "title": "Introducing ChatGPT Images 2.5",
       "link": "https://openai.com/index/introducing-chatgpt-images-2-5",
