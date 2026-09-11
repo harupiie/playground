@@ -1,6 +1,54 @@
 {
-  "updatedAt": "2026-09-10T12:28:49.797Z",
+  "updatedAt": "2026-09-11T12:26:16.089Z",
   "articles": [
+    {
+      "title": "Now everyone can put data to work",
+      "link": "https://openai.com/index/put-data-to-work",
+      "date": "Thu, 10 Sep 2026 15:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "これで、誰もがデータを有効活用できるようになりました"
+    },
+    {
+      "title": "Introducing Projects",
+      "link": "https://cursor.com/blog/projects",
+      "date": "2026-09-10T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Product",
+      "titleJa": "プロジェクトのご紹介"
+    },
+    {
+      "title": "Introducing ChatGPT for Financial Services",
+      "link": "https://openai.com/index/introducing-chatgpt-financial-services",
+      "date": "Thu, 10 Sep 2026 07:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "金融サービス向けChatGPTのご紹介"
+    },
+    {
+      "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+      "link": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+      "date": "Thu, 10 Sep 2026 00:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "APIのGPT-Live-1を活用して、より自然な音声体験を構築しましょう"
+    },
+    {
+      "title": "Introducing the Agents API",
+      "link": "https://openai.com/index/introducing-the-agents-api",
+      "date": "Thu, 10 Sep 2026 00:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "Agents APIのご紹介"
+    },
+    {
+      "title": "What 1,000 small business owners taught us about AI",
+      "link": "https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai",
+      "source": "Claude",
+      "category": "Enterprise AI",
+      "date": "Sep 10, 2026",
+      "titleJa": "1,000人の中小企業経営者から学んだAIに関する教訓"
+    },
     {
       "title": "GPT-6 Astra: The next generation in intelligence for work",
       "link": "https://openai.com/index/gpt-6-astra-next-generation-work",
