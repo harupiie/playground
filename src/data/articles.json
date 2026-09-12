@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T12:26:16.089Z",
+  "updatedAt": "2026-09-12T11:47:31.787Z",
   "articles": [
     {
       "title": "Now everyone can put data to work",
@@ -2688,7 +2688,7 @@
       "titleJa": "生物学研究を加速させるAIの能力を測る"
     },
     {
-      "title": "The new ChatGPT Images is here",
+      "title": "Introducing ChatGPT Images and GPT‑Image‑1.5",
       "link": "https://openai.com/index/new-chatgpt-images-is-here",
       "date": "Tue, 16 Dec 2025 00:00:00 GMT",
       "source": "OpenAI",
@@ -3062,14 +3062,6 @@
       "source": "OpenAI",
       "category": "Research",
       "titleJa": "ChatGPTの利用状況"
-    },
-    {
-      "title": "Improving Cursor Tab with online RL",
-      "link": "https://cursor.com/blog/tab-rl",
-      "date": "2025-09-12T01:16:00.000Z",
-      "source": "Cursor",
-      "category": "Research",
-      "titleJa": "オンラインRLによるカーソルタブの改善"
     }
   ]
 }
