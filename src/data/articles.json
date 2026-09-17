@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-09-16T12:56:00.865Z",
+  "updatedAt": "2026-09-17T12:52:51.648Z",
   "articles": [
+    {
+      "title": "Our framework for reporting model misalignment",
+      "link": "https://openai.com/index/model-misalignment-reporting-framework",
+      "date": "Wed, 16 Sep 2026 17:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Research",
+      "titleJa": "モデルの不整合を報告するための当社のフレームワーク"
+    },
+    {
+      "title": "Reimagining advertising with AI",
+      "link": "https://openai.com/index/reimagining-advertising-with-ai",
+      "date": "Wed, 16 Sep 2026 13:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "AIで広告のあり方を再構築する"
+    },
+    {
+      "title": "How to connect AI usage to business value",
+      "link": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+      "date": "Wed, 16 Sep 2026 12:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "AIの活用をビジネス価値に結びつける方法"
+    },
+    {
+      "title": "Claude Cowork and chat are now one Claude",
+      "link": "https://claude.com/blog/cowork-is-now-claude",
+      "source": "Claude",
+      "category": "Product Announcements",
+      "date": "Sep 16, 2026",
+      "titleJa": "「Claude Cowork」と「chat」が統合され、「Claude」となりました"
+    },
     {
       "title": "Claude for Small Business launches new workflows, integrations, and training programs",
       "link": "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs",
