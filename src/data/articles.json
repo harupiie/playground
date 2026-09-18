@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-09-17T12:52:51.648Z",
+  "updatedAt": "2026-09-18T12:28:44.825Z",
   "articles": [
+    {
+      "title": "Projects redesigned: from folder to conversation",
+      "link": "https://claude.com/blog/projects-redesigned",
+      "source": "Claude",
+      "category": "Claude Code",
+      "date": "Sep 17, 2026",
+      "titleJa": "プロジェクトの再設計：フォルダから会話形式へ"
+    },
+    {
+      "title": "Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5",
+      "link": "https://claude.com/blog/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5",
+      "source": "Claude",
+      "category": "Enterprise AI",
+      "date": "Sep 17, 2026",
+      "titleJa": "最前線での仕事：バリアスニー・アセット・マネジメントが『クロード・フェイブル5』をどのように評価し、ガバナンスを行っているか"
+    },
     {
       "title": "Our framework for reporting model misalignment",
       "link": "https://openai.com/index/model-misalignment-reporting-framework",
