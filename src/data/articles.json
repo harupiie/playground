@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-09-22T12:55:42.327Z",
+  "updatedAt": "2026-09-23T13:07:03.047Z",
   "articles": [
+    {
+      "title": "Better prompt caching for GPT-6",
+      "link": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+      "date": "Tue, 22 Sep 2026 21:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "GPT-6のプロンプトキャッシュ機能の改善"
+    },
+    {
+      "title": "Introducing GPT-6 Sol and Luna",
+      "link": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+      "date": "Tue, 22 Sep 2026 18:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "GPT-6の「Sol」と「Luna」をご紹介します"
+    },
+    {
+      "title": "What a task costs on Opus 5.5",
+      "link": "https://claude.com/blog/what-a-task-costs-on-opus-5-5",
+      "source": "Claude",
+      "category": "Claude Code",
+      "date": "Sep 22, 2026",
+      "titleJa": "Opus 5.5 でのタスクの費用"
+    },
     {
       "title": "Projects redesigned: from folder to conversation",
       "link": "https://claude.com/blog/projects-redesigned",
