@@ -1,6 +1,54 @@
 {
-  "updatedAt": "2026-09-23T13:07:03.047Z",
+  "updatedAt": "2026-09-24T13:01:11.109Z",
   "articles": [
+    {
+      "title": "Bots for the last mile: Rollouts, Security Review",
+      "link": "https://cursor.com/blog/rollouts-and-security-reviewer",
+      "date": "2026-09-23T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Product",
+      "titleJa": "ラストマイル向けボット：導入状況、セキュリティレビュー"
+    },
+    {
+      "title": "Improved token efficiency for longer agent runs",
+      "link": "https://cursor.com/blog/improved-token-efficiency",
+      "date": "2026-09-23T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Research",
+      "titleJa": "エージェントの実行時間を延長するためのトークン効率の改善"
+    },
+    {
+      "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
+      "link": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
+      "date": "Wed, 23 Sep 2026 02:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "ChatGPT Adsが東南アジアおよび台湾に進出"
+    },
+    {
+      "title": "How to prepare for AI-driven code modernization projects",
+      "link": "https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects",
+      "source": "Claude",
+      "category": "Claude Code",
+      "date": "Sep 23, 2026",
+      "titleJa": "AIを活用したコード近代化プロジェクトへの準備方法"
+    },
+    {
+      "title": "Claude Marketplace: one place to discover plugins, agents, and services from our partners",
+      "link": "https://claude.com/blog/claude-marketplace",
+      "source": "Claude",
+      "category": "Product Announcements",
+      "date": "Sep 23, 2026",
+      "titleJa": "Claude Marketplace：パートナー各社が提供するプラグイン、エージェント、サービスを一堂に集めたプラットフォーム"
+    },
+    {
+      "title": "How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace",
+      "link": "https://claude.com/blog/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace",
+      "source": "Claude",
+      "category": "Enterprise AI",
+      "date": "Sep 23, 2026",
+      "titleJa": "CodeRabbit、Power Digital、ThoughtSpotが、Claude Marketplace上のSnowflakeとVercelを活用してどのようにスケールを実現しているか"
+    },
     {
       "title": "Better prompt caching for GPT-6",
       "link": "https://openai.com/index/better-prompt-caching-for-gpt-6",
