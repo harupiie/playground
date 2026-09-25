@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-09-24T13:01:11.109Z",
+  "updatedAt": "2026-09-25T13:06:18.098Z",
   "articles": [
+    {
+      "title": "Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.",
+      "link": "https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context",
+      "source": "Claude",
+      "category": "Claude Code",
+      "date": "Sep 24, 2026",
+      "titleJa": "コーディングセッションはより長時間に及び、より多くの文脈が用いられます。Claude Opus 5.5は、その点を念頭に置いて構築されています。"
+    },
+    {
+      "title": "Claude Tag now supports personal connectors in channels",
+      "link": "https://claude.com/blog/claude-tag-now-supports-personal-connectors-in-channels",
+      "source": "Claude",
+      "category": "Product Announcements",
+      "date": "Sep 24, 2026",
+      "titleJa": "Claude Tagは、チャンネルでのパーソナルコネクタに対応するようになりました"
+    },
     {
       "title": "Bots for the last mile: Rollouts, Security Review",
       "link": "https://cursor.com/blog/rollouts-and-security-reviewer",
@@ -3214,22 +3230,6 @@
       "source": "OpenAI",
       "category": "Product",
       "titleJa": "ChatGPTで購入：インスタント・チェックアウトとエージェント・コマース・プロトコル"
-    },
-    {
-      "title": "More ways to work with your team and tools in ChatGPT",
-      "link": "https://openai.com/index/more-ways-to-work-with-your-team",
-      "date": "Thu, 25 Sep 2025 11:00:00 GMT",
-      "source": "OpenAI",
-      "category": "Product",
-      "titleJa": "ChatGPTでチームとツールで作業する方法が増えました"
-    },
-    {
-      "title": "Introducing ChatGPT Pulse",
-      "link": "https://openai.com/index/introducing-chatgpt-pulse",
-      "date": "Thu, 25 Sep 2025 00:00:00 GMT",
-      "source": "OpenAI",
-      "category": "Product",
-      "titleJa": "ChatGPT パルスのご紹介"
     }
   ]
 }
