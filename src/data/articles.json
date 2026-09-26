@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-09-25T13:06:18.098Z",
+  "updatedAt": "2026-09-26T12:33:32.132Z",
   "articles": [
+    {
+      "title": "Build plugins for Claude",
+      "link": "https://claude.com/blog/build-plugins-for-claude",
+      "source": "Claude",
+      "category": "Product Announcements",
+      "date": "Sep 25, 2026",
+      "titleJa": "Claude用のプラグインを作成する"
+    },
     {
       "title": "Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.",
       "link": "https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context",
