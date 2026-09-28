@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T13:24:06.921Z",
+  "updatedAt": "2026-09-28T16:14:44.154Z",
   "articles": [
     {
       "title": "Build plugins for Claude",
@@ -426,7 +426,7 @@
       "titleJa": "Anthropicのフィールドマーケティング担当者が、Claude Codeを活用して、すべての営業担当者に毎週パーソナライズされた最新情報を送信する方法"
     },
     {
-      "title": "The AI-Native SDLC playbook",
+      "title": "The AI-native SDLC playbook",
       "link": "https://claude.com/blog/the-ai-native-sdlc-playbook",
       "source": "Claude",
       "category": "Claude Code",
