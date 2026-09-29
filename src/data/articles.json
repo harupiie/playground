@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-09-28T16:14:44.154Z",
+  "updatedAt": "2026-09-29T14:27:09.358Z",
   "articles": [
+    {
+      "title": "Giving companies more control over their AI agents, with NVIDIA",
+      "link": "https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia",
+      "source": "Claude",
+      "category": "Agents",
+      "date": "Sep 28, 2026",
+      "titleJa": "NVIDIAを活用し、企業がAIエージェントをより細かく制御できるようにする"
+    },
     {
       "title": "Build plugins for Claude",
       "link": "https://claude.com/blog/build-plugins-for-claude",
@@ -3222,22 +3230,6 @@
       "source": "OpenAI",
       "category": "Research",
       "titleJa": "そら2がやってきた"
-    },
-    {
-      "title": "Introducing parental controls",
-      "link": "https://openai.com/index/introducing-parental-controls",
-      "date": "Mon, 29 Sep 2025 03:00:00 GMT",
-      "source": "OpenAI",
-      "category": "Product",
-      "titleJa": "ペアレンタル・コントロールの導入"
-    },
-    {
-      "title": "Buy it in ChatGPT: Instant Checkout and the Agentic Commerce Protocol",
-      "link": "https://openai.com/index/buy-it-in-chatgpt",
-      "date": "Mon, 29 Sep 2025 00:00:00 GMT",
-      "source": "OpenAI",
-      "category": "Product",
-      "titleJa": "ChatGPTで購入：インスタント・チェックアウトとエージェント・コマース・プロトコル"
     }
   ]
 }
