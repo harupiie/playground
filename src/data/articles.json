@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-09-29T14:27:09.358Z",
+  "updatedAt": "2026-09-30T14:24:32.440Z",
   "articles": [
+    {
+      "title": "How Anthropic's sales team rebuilt inbound with Claude Managed Agents",
+      "link": "https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents",
+      "source": "Claude",
+      "category": "Enterprise AI",
+      "date": "Sep 30, 2026",
+      "titleJa": "Anthropicの営業チームが、Claude Managed Agentsを活用してインバウンド営業を再構築した方法"
+    },
+    {
+      "title": "Introducing GPT-6.1 Sol",
+      "link": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "date": "Tue, 29 Sep 2026 10:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "GPT-6.1 Solのご紹介"
+    },
+    {
+      "title": "Introducing dots",
+      "link": "https://openai.com/index/introducing-dots",
+      "date": "Tue, 29 Sep 2026 00:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "ドットの紹介"
+    },
+    {
+      "title": "Agents you can coach: how Asana builds human-agent teams with Claude",
+      "link": "https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude",
+      "source": "Claude",
+      "category": "Agents",
+      "date": "Sep 29, 2026",
+      "titleJa": "指導できるエージェント：AsanaがClaudeを活用して人間とエージェントのチームを構築する方法"
+    },
     {
       "title": "Giving companies more control over their AI agents, with NVIDIA",
       "link": "https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia",
@@ -3222,14 +3254,6 @@
       "source": "Cursor",
       "category": "Product",
       "titleJa": "カーソルにおけるJavaサポートの改善"
-    },
-    {
-      "title": "Sora 2 is here ",
-      "link": "https://openai.com/index/sora-2",
-      "date": "Tue, 30 Sep 2025 00:00:00 GMT",
-      "source": "OpenAI",
-      "category": "Research",
-      "titleJa": "そら2がやってきた"
     }
   ]
 }
