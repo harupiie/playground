@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T14:24:32.440Z",
+  "updatedAt": "2026-10-01T14:56:09.437Z",
   "articles": [
     {
       "title": "How Anthropic's sales team rebuilt inbound with Claude Managed Agents",
@@ -8,6 +8,14 @@
       "category": "Enterprise AI",
       "date": "Sep 30, 2026",
       "titleJa": "Anthropicの営業チームが、Claude Managed Agentsを活用してインバウンド営業を再構築した方法"
+    },
+    {
+      "title": "Claude for Government is now generally available",
+      "link": "https://claude.com/blog/claude-for-government-is-now-generally-available",
+      "source": "Claude",
+      "category": "Product Announcements",
+      "date": "Sep 30, 2026",
+      "titleJa": "「Claude for Government」が一般提供開始となりました"
     },
     {
       "title": "Introducing GPT-6.1 Sol",
