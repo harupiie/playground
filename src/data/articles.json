@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-10-01T14:56:09.437Z",
+  "updatedAt": "2026-10-02T14:18:37.356Z",
   "articles": [
+    {
+      "title": "Customize Claude Code with mods",
+      "link": "https://claude.com/blog/claude-code-mods",
+      "source": "Claude",
+      "category": "Product Announcements",
+      "date": "Oct 01, 2026",
+      "titleJa": "MODを使って「Claude Code」をカスタマイズする"
+    },
     {
       "title": "How Anthropic's sales team rebuilt inbound with Claude Managed Agents",
       "link": "https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents",
@@ -3254,14 +3262,6 @@
       "source": "OpenAI",
       "category": "Product",
       "titleJa": "AgentKit、新しいEvals、エージェント向けRFTの紹介"
-    },
-    {
-      "title": "Improving Java support in Cursor",
-      "link": "https://cursor.com/blog/java",
-      "date": "2025-10-01T17:20:00.000Z",
-      "source": "Cursor",
-      "category": "Product",
-      "titleJa": "カーソルにおけるJavaサポートの改善"
     }
   ]
 }
