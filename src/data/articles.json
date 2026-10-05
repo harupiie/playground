@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-10-04T13:33:37.539Z",
+  "updatedAt": "2026-10-05T16:35:46.514Z",
   "articles": [
+    {
+      "title": "Building advertising for the way people use AI",
+      "link": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+      "date": "Mon, 05 Oct 2026 10:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "AIの活用方法に合わせた広告の構築"
+    },
     {
       "title": "A model guide for the GPT-6 family",
       "link": "https://openai.com/index/practical-guide-building-gpt-6",
