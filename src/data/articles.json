@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T16:35:46.514Z",
+  "updatedAt": "2026-10-06T14:35:19.361Z",
   "articles": [
     {
       "title": "Building advertising for the way people use AI",
@@ -3254,30 +3254,6 @@
       "source": "Cursor",
       "category": "Product",
       "titleJa": "プラン・モードの導入"
-    },
-    {
-      "title": "Codex is now generally available",
-      "link": "https://openai.com/index/codex-now-generally-available",
-      "date": "Mon, 06 Oct 2025 10:50:00 GMT",
-      "source": "OpenAI",
-      "category": "Product",
-      "titleJa": "コーデックスの一般販売が開始"
-    },
-    {
-      "title": "Introducing apps in ChatGPT and the new Apps SDK",
-      "link": "https://openai.com/index/introducing-apps-in-chatgpt",
-      "date": "Mon, 06 Oct 2025 10:00:00 GMT",
-      "source": "OpenAI",
-      "category": "Product",
-      "titleJa": "ChatGPTのアプリと新しいアプリSDKの紹介"
-    },
-    {
-      "title": "Introducing AgentKit, new Evals, and RFT for agents",
-      "link": "https://openai.com/index/introducing-agentkit",
-      "date": "Mon, 06 Oct 2025 00:00:00 GMT",
-      "source": "OpenAI",
-      "category": "Product",
-      "titleJa": "AgentKit、新しいEvals、エージェント向けRFTの紹介"
     }
   ]
 }
