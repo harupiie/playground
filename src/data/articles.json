@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-10-06T14:35:19.361Z",
+  "updatedAt": "2026-10-07T14:54:11.038Z",
   "articles": [
+    {
+      "title": "Sharing AI progress in mathematics",
+      "link": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+      "date": "Tue, 06 Oct 2026 12:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Research",
+      "titleJa": "数学分野におけるAIの進展を共有する"
+    },
     {
       "title": "Building advertising for the way people use AI",
       "link": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
