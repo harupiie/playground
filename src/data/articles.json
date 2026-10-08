@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-10-07T14:54:11.038Z",
+  "updatedAt": "2026-10-08T15:03:39.646Z",
   "articles": [
+    {
+      "title": "Helping teens learn, plan, and shape the future of AI",
+      "link": "https://openai.com/index/teens-learn-and-plan",
+      "date": "Wed, 07 Oct 2026 12:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "10代の若者がAIの未来について学び、計画を立て、形作るのを支援する"
+    },
+    {
+      "title": "GPT-6 and Intelligent UI for everyone",
+      "link": "https://openai.com/index/gpt-6-for-everyone",
+      "date": "Wed, 07 Oct 2026 00:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "GPT-6と、誰もが利用できるインテリジェントUI"
+    },
     {
       "title": "Sharing AI progress in mathematics",
       "link": "https://openai.com/index/sharing-ai-progress-in-mathematics",
@@ -52,7 +68,7 @@
     {
       "title": "Introducing GPT-6.1 Sol",
       "link": "https://openai.com/index/introducing-gpt-6-1-sol",
-      "date": "Tue, 29 Sep 2026 10:00:00 GMT",
+      "date": "Tue, 29 Sep 2026 17:00:00 GMT",
       "source": "OpenAI",
       "category": "Product",
       "titleJa": "GPT-6.1 Solのご紹介"
@@ -3254,14 +3270,6 @@
       "source": "OpenAI",
       "category": "Research",
       "titleJa": "LLMにおける政治的バイアスの定義と評価"
-    },
-    {
-      "title": "Introducing Plan Mode",
-      "link": "https://cursor.com/blog/plan-mode",
-      "date": "2025-10-07T17:00:00.000Z",
-      "source": "Cursor",
-      "category": "Product",
-      "titleJa": "プラン・モードの導入"
     }
   ]
 }
