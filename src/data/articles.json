@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T15:03:39.646Z",
+  "updatedAt": "2026-10-09T14:47:07.721Z",
   "articles": [
     {
       "title": "Helping teens learn, plan, and shape the future of AI",
@@ -68,7 +68,7 @@
     {
       "title": "Introducing GPT-6.1 Sol",
       "link": "https://openai.com/index/introducing-gpt-6-1-sol",
-      "date": "Tue, 29 Sep 2026 17:00:00 GMT",
+      "date": "Tue, 29 Sep 2026 10:00:00 GMT",
       "source": "OpenAI",
       "category": "Product",
       "titleJa": "GPT-6.1 Solのご紹介"
@@ -3262,14 +3262,6 @@
       "source": "OpenAI",
       "category": "Product",
       "titleJa": "ChatGPT Atlasを紹介します。"
-    },
-    {
-      "title": "Defining and evaluating political bias in LLMs",
-      "link": "https://openai.com/index/defining-and-evaluating-political-bias-in-llms",
-      "date": "Thu, 09 Oct 2025 13:00:00 GMT",
-      "source": "OpenAI",
-      "category": "Research",
-      "titleJa": "LLMにおける政治的バイアスの定義と評価"
     }
   ]
 }
