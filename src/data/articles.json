@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T13:08:10.440Z",
+  "updatedAt": "2026-10-21T13:18:59.331Z",
   "articles": [
     {
       "title": "Bringing GPT-Rosalind to academic research labs",
@@ -3262,14 +3262,6 @@
       "source": "OpenAI",
       "category": "Product",
       "titleJa": "WhatsApp以外でもChatGPTをお楽しみ頂けます。"
-    },
-    {
-      "title": "Introducing ChatGPT Atlas, the browser with ChatGPT built in",
-      "link": "https://openai.com/index/introducing-chatgpt-atlas",
-      "date": "Tue, 21 Oct 2025 00:00:00 GMT",
-      "source": "OpenAI",
-      "category": "Product",
-      "titleJa": "ChatGPT Atlasを紹介します。"
     }
   ]
 }
