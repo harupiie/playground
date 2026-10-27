@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-10-26T14:39:46.332Z",
+  "updatedAt": "2026-10-27T13:44:45.093Z",
   "articles": [
+    {
+      "title": "Working with academic communities to build scientific understanding",
+      "link": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+      "date": "Mon, 26 Oct 2026 14:30:00 GMT",
+      "source": "OpenAI",
+      "category": "Research",
+      "titleJa": "学術界と連携して科学的知見を構築する"
+    },
+    {
+      "title": "ChatGPT’s expanding world of work",
+      "link": "https://openai.com/index/chatgpt-expanding-world-of-work",
+      "date": "Mon, 26 Oct 2026 10:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Research",
+      "titleJa": "ChatGPTの広がる活躍の場"
+    },
+    {
+      "title": "Introducing GPT-6.1 Terra",
+      "link": "https://openai.com/index/introducing-gpt-6-1-terra",
+      "date": "Mon, 26 Oct 2026 00:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "GPT-6.1 Terraのご紹介"
+    },
     {
       "title": "Build more responsive apps with the Decisions API",
       "link": "https://openai.com/index/decisions-api",
@@ -16,6 +40,14 @@
       "source": "OpenAI",
       "category": "Product",
       "titleJa": "ChatGPT Adsは26カ国にサービス拡大、10万人以上の広告主が同プラットフォームを利用"
+    },
+    {
+      "title": "Introducing the Agent SDK",
+      "link": "https://cursor.com/blog/agent-sdk",
+      "date": "2026-10-20T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Product",
+      "titleJa": "Agent SDKのご紹介"
     },
     {
       "title": "Bringing GPT-Rosalind to academic research labs",
