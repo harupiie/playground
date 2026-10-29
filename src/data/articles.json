@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T14:41:25.992Z",
+  "updatedAt": "2026-10-29T14:45:36.121Z",
   "articles": [
     {
       "title": "Working with academic communities to build scientific understanding",
@@ -3270,30 +3270,6 @@
       "source": "Cursor",
       "category": "Product",
       "titleJa": "クラウドエージェント"
-    },
-    {
-      "title": "Composer: Building a fast frontier model with RL",
-      "link": "https://cursor.com/blog/composer",
-      "date": "2025-10-29T06:49:00.000Z",
-      "source": "Cursor",
-      "category": "Research",
-      "titleJa": "コンポーザーRLによる高速フロンティアモデルの構築"
-    },
-    {
-      "title": "Introducing Cursor 2.0 and Composer",
-      "link": "https://cursor.com/blog/2-0",
-      "date": "2025-10-29T04:54:48.600Z",
-      "source": "Cursor",
-      "category": "Product",
-      "titleJa": "カーソル2.0とコンポーザーの紹介"
-    },
-    {
-      "title": "Introducing gpt-oss-safeguard",
-      "link": "https://openai.com/index/introducing-gpt-oss-safeguard",
-      "date": "Wed, 29 Oct 2025 00:00:00 GMT",
-      "source": "OpenAI",
-      "category": "Product",
-      "titleJa": "gpt-oss-safeguardの紹介"
     }
   ]
 }
