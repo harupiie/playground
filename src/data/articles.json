@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-10-29T14:45:36.121Z",
+  "updatedAt": "2026-10-30T14:41:17.653Z",
   "articles": [
+    {
+      "title": "Security notice — malicious version of Anthropic.claude-code (2.1.313) identified in the Cursor Extension Marketplace",
+      "link": "https://cursor.com/blog/claude-code-extension-security-notice",
+      "date": "2026-10-29T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Company",
+      "titleJa": "セキュリティに関するお知らせ — Cursor Extension Marketplace で、Anthropic.claude-code (2.1.313) の悪意のあるバージョンが確認されました"
+    },
     {
       "title": "Working with academic communities to build scientific understanding",
       "link": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
