@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-30T14:41:17.653Z",
+  "updatedAt": "2026-10-31T14:01:07.167Z",
   "articles": [
     {
-      "title": "Security notice — malicious version of Anthropic.claude-code (2.1.313) identified in the Cursor Extension Marketplace",
+      "title": "Security notice — malicious version of Anthropic.claude-code (2.1.312 and 2.1.313) identified in the Cursor VS Code Extension Marketplace",
       "link": "https://cursor.com/blog/claude-code-extension-security-notice",
       "date": "2026-10-29T12:00:00.000Z",
       "source": "Cursor",
@@ -3270,14 +3270,6 @@
       "source": "Cursor",
       "category": "Product",
       "titleJa": "エンタープライズ向けカーソルのご紹介"
-    },
-    {
-      "title": "Cloud Agents",
-      "link": "https://cursor.com/blog/cloud-agents",
-      "date": "2025-10-30T15:09:14.822Z",
-      "source": "Cursor",
-      "category": "Product",
-      "titleJa": "クラウドエージェント"
     }
   ]
 }
