@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T14:01:07.167Z",
+  "updatedAt": "2026-11-01T14:36:44.654Z",
   "articles": [
     {
       "title": "Security notice — malicious version of Anthropic.claude-code (2.1.312 and 2.1.313) identified in the Cursor VS Code Extension Marketplace",
@@ -3262,14 +3262,6 @@
       "source": "OpenAI",
       "category": "Research",
       "titleJa": "IndQAの紹介"
-    },
-    {
-      "title": "Introducing Cursor for Enterprise",
-      "link": "https://cursor.com/blog/enterprise",
-      "date": "2025-10-31T19:23:00.000Z",
-      "source": "Cursor",
-      "category": "Product",
-      "titleJa": "エンタープライズ向けカーソルのご紹介"
     }
   ]
 }
