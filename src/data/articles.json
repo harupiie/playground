@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-11-02T17:33:11.365Z",
+  "updatedAt": "2026-11-03T15:36:33.626Z",
   "articles": [
+    {
+      "title": "LifeVal",
+      "link": "https://openai.com/index/lifeval",
+      "date": "Mon, 02 Nov 2026 09:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Research",
+      "titleJa": "LifeVal"
+    },
     {
       "title": "Security notice — malicious version of Anthropic.claude-code (2.1.312 and 2.1.313) identified in the Cursor VS Code Extension Marketplace",
       "link": "https://cursor.com/blog/claude-code-extension-security-notice",
