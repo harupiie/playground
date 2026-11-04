@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-11-03T15:36:33.626Z",
+  "updatedAt": "2026-11-04T16:15:13.682Z",
   "articles": [
+    {
+      "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+      "link": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "date": "Wed, 04 Nov 2026 07:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "「Daybreak Red」が AWS GovCloud (US-East) で利用可能になりました"
+    },
+    {
+      "title": "Accelerating engineering for the physical world",
+      "link": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+      "date": "Tue, 03 Nov 2026 12:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Research",
+      "titleJa": "現実世界に向けたエンジニアリングの加速"
+    },
     {
       "title": "LifeVal",
       "link": "https://openai.com/index/lifeval",
@@ -18,6 +34,14 @@
       "titleJa": "セキュリティに関するお知らせ — Cursor Extension Marketplace で、Anthropic.claude-code (2.1.313) の悪意のあるバージョンが確認されました"
     },
     {
+      "title": "Introducing GPT-6.1 Terra",
+      "link": "https://openai.com/index/introducing-gpt-6-1-terra",
+      "date": "Mon, 26 Oct 2026 18:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "GPT-6.1 Terraのご紹介"
+    },
+    {
       "title": "Working with academic communities to build scientific understanding",
       "link": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
       "date": "Mon, 26 Oct 2026 14:30:00 GMT",
@@ -32,14 +56,6 @@
       "source": "OpenAI",
       "category": "Research",
       "titleJa": "ChatGPTの広がる活躍の場"
-    },
-    {
-      "title": "Introducing GPT-6.1 Terra",
-      "link": "https://openai.com/index/introducing-gpt-6-1-terra",
-      "date": "Mon, 26 Oct 2026 00:00:00 GMT",
-      "source": "OpenAI",
-      "category": "Product",
-      "titleJa": "GPT-6.1 Terraのご紹介"
     },
     {
       "title": "Build more responsive apps with the Decisions API",
@@ -3262,14 +3278,6 @@
       "source": "Cursor",
       "category": "Research",
       "titleJa": "セマンティック検索によるエージェントの改善"
-    },
-    {
-      "title": "Introducing IndQA",
-      "link": "https://openai.com/index/introducing-indqa",
-      "date": "Mon, 03 Nov 2025 22:30:00 GMT",
-      "source": "OpenAI",
-      "category": "Research",
-      "titleJa": "IndQAの紹介"
     }
   ]
 }
