@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T16:15:13.682Z",
+  "updatedAt": "2026-11-05T15:55:21.153Z",
   "articles": [
     {
       "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
@@ -8,6 +8,14 @@
       "source": "OpenAI",
       "category": "Product",
       "titleJa": "「Daybreak Red」が AWS GovCloud (US-East) で利用可能になりました"
+    },
+    {
+      "title": "Introducing Images 2.6",
+      "link": "https://openai.com/index/introducing-images-2-6",
+      "date": "Wed, 04 Nov 2026 00:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "Images 2.6のご紹介"
     },
     {
       "title": "Accelerating engineering for the physical world",
