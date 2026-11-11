@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-11-10T15:56:17.697Z",
+  "updatedAt": "2026-11-11T15:42:18.146Z",
   "articles": [
+    {
+      "title": "Cursor Projects is now multiplayer",
+      "link": "https://cursor.com/blog/projects-multiplayer",
+      "date": "2026-11-10T12:00:00.000Z",
+      "source": "Cursor",
+      "category": "Product",
+      "titleJa": "Cursor Projectsがマルチプレイヤー対応になりました"
+    },
+    {
+      "title": "Introducing Businesses in ChatGPT",
+      "link": "https://openai.com/index/introducing-businesses-chatgpt",
+      "date": "Tue, 10 Nov 2026 10:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "ChatGPTでの企業紹介"
+    },
     {
       "title": "ChatGPT Enterprise now available in AWS Marketplace",
       "link": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
