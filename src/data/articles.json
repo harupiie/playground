@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T15:42:18.146Z",
+  "updatedAt": "2026-11-12T16:26:24.204Z",
   "articles": [
     {
       "title": "Cursor Projects is now multiplayer",
@@ -3286,22 +3286,6 @@
       "source": "OpenAI",
       "category": "Product",
       "titleJa": "開発者向けGPT-5.1のご紹介"
-    },
-    {
-      "title": "GPT-5.1: A smarter, more conversational ChatGPT",
-      "link": "https://openai.com/index/gpt-5-1",
-      "date": "Wed, 12 Nov 2025 00:00:00 GMT",
-      "source": "OpenAI",
-      "category": "Product",
-      "titleJa": "GPT-5.1：よりスマートで会話しやすいChatGPT"
-    },
-    {
-      "title": "The productivity impact of coding agents",
-      "link": "https://cursor.com/blog/productivity",
-      "date": "2025-11-11T17:37:00.000Z",
-      "source": "Cursor",
-      "category": "Research",
-      "titleJa": "コーディング・エージェントの生産性への影響"
     }
   ]
 }
