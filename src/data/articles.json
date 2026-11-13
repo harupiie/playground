@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T16:26:24.204Z",
+  "updatedAt": "2026-11-13T15:46:53.347Z",
   "articles": [
     {
       "title": "Cursor Projects is now multiplayer",
@@ -3254,38 +3254,6 @@
       "category": "Enterprise AI",
       "date": "Nov 17, 2025",
       "titleJa": "YCの新興企業3社がクロード・コードで会社を築いた方法"
-    },
-    {
-      "title": "Past, Present, and Future",
-      "link": "https://cursor.com/blog/series-d",
-      "date": "2025-11-13T11:27:11.894Z",
-      "source": "Cursor",
-      "category": "Company",
-      "titleJa": "過去、現在、そして未来"
-    },
-    {
-      "title": "Understanding neural networks through sparse circuits",
-      "link": "https://openai.com/index/understanding-neural-networks-through-sparse-circuits",
-      "date": "Thu, 13 Nov 2025 10:00:00 GMT",
-      "source": "OpenAI",
-      "category": "Research",
-      "titleJa": "スパース回路によるニューラルネットワークの理解"
-    },
-    {
-      "title": "Introducing group chats in ChatGPT",
-      "link": "https://openai.com/index/group-chats-in-chatgpt",
-      "date": "Thu, 13 Nov 2025 00:00:00 GMT",
-      "source": "OpenAI",
-      "category": "Product",
-      "titleJa": "ChatGPTにグループチャットを導入"
-    },
-    {
-      "title": "Introducing GPT-5.1 for developers",
-      "link": "https://openai.com/index/gpt-5-1-for-developers",
-      "date": "Thu, 13 Nov 2025 00:00:00 GMT",
-      "source": "OpenAI",
-      "category": "Product",
-      "titleJa": "開発者向けGPT-5.1のご紹介"
     }
   ]
 }
