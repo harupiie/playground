@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-11-13T15:46:53.347Z",
+  "updatedAt": "2026-11-14T14:37:48.392Z",
   "articles": [
+    {
+      "title": "Introducing ChatGPT Wallet",
+      "link": "https://openai.com/index/introducing-chatgpt-wallet",
+      "date": "Fri, 13 Nov 2026 15:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "ChatGPT Walletのご紹介"
+    },
     {
       "title": "Cursor Projects is now multiplayer",
       "link": "https://cursor.com/blog/projects-multiplayer",
