@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-11-15T15:05:43.485Z",
+  "updatedAt": "2026-11-16T17:39:53.930Z",
   "articles": [
+    {
+      "title": "Broadening access to AI for scientists",
+      "link": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "date": "Mon, 16 Nov 2026 17:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Research",
+      "titleJa": "科学者によるAIへのアクセス拡大"
+    },
+    {
+      "title": "Science at the Frontier: How scientists use ChatGPT",
+      "link": "https://openai.com/index/science-at-the-frontier",
+      "date": "Mon, 16 Nov 2026 12:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Research",
+      "titleJa": "最先端の科学：科学者たちはChatGPTをどのように活用しているか"
+    },
+    {
+      "title": "Advancing computer-use agents for healthcare teams",
+      "link": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+      "date": "Mon, 16 Nov 2026 06:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "医療チームのためのコンピュータ利用エージェントの進化"
+    },
+    {
+      "title": "More ways to move care forward with ChatGPT for Healthcare",
+      "link": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+      "date": "Mon, 16 Nov 2026 06:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "「ChatGPT for Healthcare」を活用して医療を前進させるさらなる方法"
+    },
     {
       "title": "Introducing ChatGPT Wallet",
       "link": "https://openai.com/index/introducing-chatgpt-wallet",
