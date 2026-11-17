@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T17:39:53.930Z",
+  "updatedAt": "2026-11-17T17:12:21.621Z",
   "articles": [
     {
       "title": "Broadening access to AI for scientists",
@@ -3286,14 +3286,6 @@
       "category": "Agents",
       "date": "Nov 19, 2025",
       "titleJa": "スキルの作り方：主なステップ、制限、例"
-    },
-    {
-      "title": "How three YC startups built their companies with Claude Code",
-      "link": "https://claude.com/blog/building-companies-with-claude-code",
-      "source": "Claude",
-      "category": "Enterprise AI",
-      "date": "Nov 17, 2025",
-      "titleJa": "YCの新興企業3社がクロード・コードで会社を築いた方法"
     }
   ]
 }
