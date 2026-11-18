@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-11-17T17:12:21.621Z",
+  "updatedAt": "2026-11-18T16:48:39.243Z",
   "articles": [
+    {
+      "title": "Introducing GPT-6.2 Astra and Sol",
+      "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "date": "Tue, 17 Nov 2026 17:45:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "GPT-6.2「Astra」と「Sol」のご紹介"
+    },
+    {
+      "title": "Introducing ChatGPT for Sales",
+      "link": "https://openai.com/index/introducing-chatgpt-for-sales",
+      "date": "Tue, 17 Nov 2026 08:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Product",
+      "titleJa": "営業向けChatGPTのご紹介"
+    },
     {
       "title": "Broadening access to AI for scientists",
       "link": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
