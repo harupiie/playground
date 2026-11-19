@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-11-18T16:48:39.243Z",
+  "updatedAt": "2026-11-19T16:55:44.505Z",
   "articles": [
+    {
+      "title": "Research acceleration: The jagged frontier",
+      "link": "https://openai.com/index/research-acceleration-jagged-frontier",
+      "date": "Wed, 18 Nov 2026 08:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Research",
+      "titleJa": "研究の加速：険しいフロンティア"
+    },
+    {
+      "title": "Advancing chip design with OpenAI models",
+      "link": "https://openai.com/index/advancing-chip-design-with-our-models",
+      "date": "Wed, 18 Nov 2026 00:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Research",
+      "titleJa": "OpenAIのモデルを活用したチップ設計の進化"
+    },
     {
       "title": "Introducing GPT-6.2 Astra and Sol",
       "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
@@ -3270,38 +3286,6 @@
       "source": "OpenAI",
       "category": "Research",
       "titleJa": "GPT-5による科学加速の初期実験"
-    },
-    {
-      "title": "How evals drive the next chapter in AI for businesses",
-      "link": "https://openai.com/index/evals-drive-next-chapter-of-ai",
-      "date": "Wed, 19 Nov 2025 11:00:00 GMT",
-      "source": "OpenAI",
-      "category": "Research",
-      "titleJa": "エバリュエーションは企業にとってAIの次の章をどのように推進するか"
-    },
-    {
-      "title": "Building more with GPT-5.1-Codex-Max",
-      "link": "https://openai.com/index/gpt-5-1-codex-max",
-      "date": "Wed, 19 Nov 2025 00:00:00 GMT",
-      "source": "OpenAI",
-      "category": "Product",
-      "titleJa": "GPT-5.1-Codex-Maxでより多くのものを作る"
-    },
-    {
-      "title": "A free version of ChatGPT built for teachers",
-      "link": "https://openai.com/index/chatgpt-for-teachers",
-      "date": "Wed, 19 Nov 2025 00:00:00 GMT",
-      "source": "OpenAI",
-      "category": "Product",
-      "titleJa": "教師のためのChatGPT無料版"
-    },
-    {
-      "title": "How to create Skills: Key steps, limitations, and examples",
-      "link": "https://claude.com/blog/how-to-create-skills-key-steps-limitations-and-examples",
-      "source": "Claude",
-      "category": "Agents",
-      "date": "Nov 19, 2025",
-      "titleJa": "スキルの作り方：主なステップ、制限、例"
     }
   ]
 }
