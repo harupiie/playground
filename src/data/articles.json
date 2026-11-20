@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T16:55:44.505Z",
+  "updatedAt": "2026-11-20T16:29:47.365Z",
   "articles": [
     {
       "title": "Research acceleration: The jagged frontier",
@@ -3278,14 +3278,6 @@
       "source": "OpenAI",
       "category": "Product",
       "titleJa": "ChatGPTでショッピングリサーチを導入"
-    },
-    {
-      "title": "Early experiments in accelerating science with GPT-5",
-      "link": "https://openai.com/index/accelerating-science-gpt-5",
-      "date": "Thu, 20 Nov 2025 00:00:00 GMT",
-      "source": "OpenAI",
-      "category": "Research",
-      "titleJa": "GPT-5による科学加速の初期実験"
     }
   ]
 }
