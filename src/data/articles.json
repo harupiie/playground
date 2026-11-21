@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-11-20T16:29:47.365Z",
+  "updatedAt": "2026-11-21T15:46:05.445Z",
   "articles": [
+    {
+      "title": "Can AI help scientists identify promising drug candidates?",
+      "link": "https://openai.com/index/introducing-medchembench",
+      "date": "Fri, 20 Nov 2026 00:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Research",
+      "titleJa": "AIは、科学者が有望な創薬候補を特定するのに役立つのでしょうか？"
+    },
     {
       "title": "Research acceleration: The jagged frontier",
       "link": "https://openai.com/index/research-acceleration-jagged-frontier",
