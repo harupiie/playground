@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-11-22T15:46:23.494Z",
+  "updatedAt": "2026-11-23T19:38:49.987Z",
   "articles": [
+    {
+      "title": "Perplexity and Intelligence",
+      "link": "https://openai.com/index/perplexity-and-intelligence",
+      "date": "Sun, 22 Nov 2026 00:00:00 GMT",
+      "source": "OpenAI",
+      "category": "Research",
+      "titleJa": "困惑と知性"
+    },
     {
       "title": "Can AI help scientists identify promising drug candidates?",
       "link": "https://openai.com/index/introducing-medchembench",
