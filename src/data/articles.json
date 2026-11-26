@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T18:16:24.866Z",
+  "updatedAt": "2026-11-26T17:58:19.876Z",
   "articles": [
     {
       "title": "Perplexity and Intelligence",
@@ -3278,14 +3278,6 @@
       "source": "OpenAI",
       "category": "Research",
       "titleJa": "告白が言語モデルをいかに正直に保つことができるか"
-    },
-    {
-      "title": "Expanding data residency access to business customers worldwide",
-      "link": "https://openai.com/index/expanding-data-residency-access-to-business-customers-worldwide",
-      "date": "Tue, 25 Nov 2025 22:00:00 GMT",
-      "source": "OpenAI",
-      "category": "Product",
-      "titleJa": "世界中のビジネス顧客へのデータレジデンシー・アクセスの拡大"
     }
   ]
 }
